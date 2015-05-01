@@ -1,0 +1,32 @@
+// Mixins
+
+@mixin box-padding{
+	padding: 30px 30px;
+}
+@mixin margin-top-l{
+	margin-top: 80px;
+}
+
+@mixin margin-top-md{
+	margin-top: 24px;
+}
+
+@mixin transform-scale-md{
+	transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+}
+@mixin transition-all-md{
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+@mixin text-overflow-ellipse{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

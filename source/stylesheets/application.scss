@@ -1,3 +1,18 @@
 @import "normalize";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+@import "foundations/colors";
+@import "foundations/typography";
+@import "foundations/base";
+
+
+@import "helpers/mixins";
+@import "helpers/functions";
+@import "helpers/animations";
+
+@import "components/product-box";
+@import "components/search-bar";
+
+@import "partials/navbar";

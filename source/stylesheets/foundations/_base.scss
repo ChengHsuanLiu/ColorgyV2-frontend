@@ -1,3 +1,5 @@
+@import 'helpers/mixins';
+
 $border-radius: 5px;
 
 *:focus{
@@ -6,5 +8,44 @@ $border-radius: 5px;
 img{
 	width: 100%;
 }
+a:hover{
+	text-decoration: none;
+	color: $black;
+	font-weight: 600;
+}
+.black-mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba( $black, .5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999;
+	opacity: 0;
+	visibility: hidden;
+	@include transition-all(0.5s);
 
-
+	&.active{
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.wrapper{
+	padding-top: 50px;
+	@media screen and (max-width: 992px) {
+		padding-top: 0 !important;
+	}
+}
+// Grid System
+@media screen and (max-width: 768px){
+	.col-xs-6{
+		padding: 2px !important;
+	}
+}
+@media screen and (min-width: 1350px){
+	.col-md-3{
+		width: 20% !important;
+	}
+}

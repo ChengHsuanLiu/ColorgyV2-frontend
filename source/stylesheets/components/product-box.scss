@@ -1,5 +1,8 @@
 .product-box{
 	position: relative;
+	> a {
+		display: block;
+	}
 
 	.product-box-inner{
 		position: relative;
@@ -7,7 +10,7 @@
 
 		.product-box-pic{
 			img{
-				@include transition-all-md;
+				@include transition-all(0.5s);
 			}
 
 		}
@@ -22,14 +25,19 @@
 			right: 0;
 			opacity: 1;
 			color: $products-info-font;
-			@include transition-all-md;
+			@include transition-all(0.5s);
+			@include translateX( 0% );
 
 			.product-box-name{
-				font-size: $title-size;
+				font-size: $second-size;
+				width: 100%;
+				max-height: 70px;
+				text-overflow: ellipsis;
+				overflow: hidden;
 			}
 			.product-box-subname{
 				font-size: $normal-size;
-				@include margin-top-l;
+				@include margin-top-s;
 				width: 100%;
 				max-height: 30px;
 				@include text-overflow-ellipse;
@@ -43,7 +51,7 @@
 			}
 			.product-box-price{
 				position: absolute;
-				bottom: 30px;
+				bottom: 15px;
 				width: 100%;
 				@include margin-top-md;
 				background-color: $black;
@@ -59,16 +67,29 @@
 					font-size: $normal-size;
 					@include margin-top-md;
 				}
+				span{
+					display: block;
+					margin-top: 6px !important;
+				}
+				@media screen and (max-width: 768px) {
+					span{
+						display: block;
+						margin-top: 6px !important;
+					}
+					&{
+						padding: 2px 30px !important;
+					}
+				}
 			}
 
 		}
 
 	}
 	&:hover .product-box-info{
-		right: 100%;
+		@include translateX( -100% );
 		opacity: 0;
 	}
 	&:hover img{
-		@include transform-scale-md;
+		@include transform-scale(1.05);
 	}
 }

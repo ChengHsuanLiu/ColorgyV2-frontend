@@ -1,6 +1,101 @@
-<div class="container-fluid">
+<div class="popup-notification group-leader-notice">
+	<div class="popup-title">
+		你是班代或學藝嗎？
+	</div>
+	<div class="popup-content">
+		<div class="row">
+			<div class="col-md-12">
+				<p>成為團長，馬上開啟新書團購，讓同堂課的同學ㄧ起訂書！
+				屆時所有的書本將寄到你指定的時間與地點！
+				最後，身為團主只需利用課堂，將書送至同學手中即可！
+				Colorgy欣賞和我們ㄧ樣服務同學的你，揪團成功後將直接獲得NT$35折扣金！
+				按下這個按鈕，開始揪團訂書去！
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="popup-footer">
+		<button class="popup-btn">了解</button>
+	</div>
+</div>
+<div class="popup-notification teaching-steps">
+	<div class="popup-title">
+		團購流程教室
+	</div>
+	<div class="popup-content">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="steps-icon">
+					<%= image_tag('teaching-step1.png') %>
+				</div>
+				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
+			</div>
+			<div class="col-md-4">
+				<div class="steps-icon">
+					<%= image_tag('teaching-step2.png') %>
+				</div>
+				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
+			</div>
+			<div class="col-md-4">
+				<div class="steps-icon">
+					<%= image_tag('teaching-step3.png') %>
+				</div>
+				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
+			</div>
+		</div>
+	</div>
+	<div class="popup-footer">
+		<button class="popup-btn">好哦</button>
+	</div>
+</div>
+<div class="container-fluid" style="padding: 0;">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-md-12" style="padding: 0;">
+			<div class="slideshow">
+				<div class="slideshow-inner">
+					<%= image_tag('slideshow1.png') %>
+					<div class="layer2"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="search-field">
+				<div class="search-bar">
+					<input type="text" name="search-bar" placeholder="搜尋書名、課名、老師名">
+					<input type="submit" value="Submit">
+				</div>
+				<div class="clear" style="clear:both;"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="product-box">
+				<a href="#">
+					<div class="product-box-inner">
+						<div class="product-box-pic">
+							<%= image_tag ('book-sample1.jpg') %>
+						</div>
+						<div class="product-box-info">
+							<div class="product-box-name">
+								Microelectronic Circuits
+							</div>
+							<div class="product-box-origin">
+								作者 ： Sedra Smith
+							</div>
+							<div class="product-box-subname">
+								版次 ： 5 / e
+							</div>
+							<div class="product-box-price">
+								<span class="product-box-originprice">定價 ： 1399</span>
+								<span class="product-box-realprice">團購價 ： 899</span>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-4 col-xs-6">
 			<div class="product-box">
 				<div class="product-box-inner">
 					<div class="product-box-pic">
@@ -10,11 +105,35 @@
 						<div class="product-box-name">
 							Microelectronic Circuits
 						</div>
+						<div class="product-box-origin">
+							作者 ： Sedra Smith
+						</div>
 						<div class="product-box-subname">
 							版次 ： 5 / e
 						</div>
+						<div class="product-box-price">
+							<span class="product-box-originprice">定價 ： 1399</span>
+							<span class="product-box-realprice">團購價 ： 899</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-4 col-xs-6">
+			<div class="product-box">
+				<div class="product-box-inner">
+					<div class="product-box-pic">
+						<%= image_tag ('book-sample1.jpg') %>
+					</div>
+					<div class="product-box-info">
+						<div class="product-box-name">
+							Microelectronic Circuits
+						</div>
 						<div class="product-box-origin">
 							作者 ： Sedra Smith
+						</div>
+						<div class="product-box-subname">
+							版次 ： 5 / e
 						</div>
 						<div class="product-box-price">
 							<span class="product-box-originprice">定價 ： 1399</span>
@@ -25,13 +144,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<div class="search-bar">
-				<input type="text" name="search-bar" placeholder="搜尋書名、課名、老師名">
-				<input type="submit" value="Submit">
-			</div>
-		</div>
-	</div>
 </div>
+<script>
+	$(document).ready(function(){
+		$('.black-mask').addClass('active');
+	})
+</script>
 

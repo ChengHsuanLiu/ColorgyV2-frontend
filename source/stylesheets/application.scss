@@ -1,6 +1,7 @@
 @import "normalize";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "materialize";
 
 
 @import "foundations/colors";
@@ -14,5 +15,7 @@
 
 @import "components/product-box";
 @import "components/search-bar";
+@import "components/popup-notification";
+@import "components/slideshow";
 
 @import "partials/navbar";

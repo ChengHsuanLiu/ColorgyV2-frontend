@@ -1,6 +1,7 @@
 nav{
 	height: auto;
 	background-color: transparent;
+	box-shadow: none;
 	.top{
 		padding: 0 !important;
 		.top-bar{
@@ -23,9 +24,15 @@ nav{
 		}
 	}
 	.nav-wrapper{
+		z-index: -1;
 		height: auto;
 		background-color: $theme;
 		padding-left: 20px;
+		border-bottom: 1px solid #F0F0F0;
+		@include transition-all(0.18s);
+		@media screen and (min-width: 992px ) {
+			@include translateY(0px);
+		}
 		.brand-logo{
 			max-width: 130px;
 			@media screen and (min-width: 992px){
@@ -52,6 +59,14 @@ nav{
 						background-position: center;
 					}
 				}
+			}
+		}
+		&.scroll-down{
+			position: absolute !important;
+			width: 100%;
+			@include translateY(-50px);
+			&:hover{
+				@include translateY(0px);
 			}
 		}
 	}

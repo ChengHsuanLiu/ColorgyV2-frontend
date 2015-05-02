@@ -8,10 +8,16 @@ $border-radius: 5px;
 img{
 	width: 100%;
 }
+label{
+	color: $font;
+}
 a:hover{
 	text-decoration: none;
 	color: $black;
 	font-weight: 600;
+}
+.clear{
+	clear: both;
 }
 .black-mask{
 	width: 100%;

@@ -1,3 +1,4 @@
+html.lock, body.lock { overflow: hidden; height: 100% }
 .popup-notification{
 	position: fixed;
 	width: 100%;
@@ -21,7 +22,7 @@
 		font-size: $title-size;
 	}
 	.popup-content{
-		max-height: 400px;
+		max-height: 300px;
 		padding: 15px 30px;
 		overflow: auto;
 	}
@@ -48,14 +49,18 @@
 		}
 	}
 	&.close{
-		opacity: 0;
-		visibility: hidden;
+		opacity: 0 !important;
+		visibility: hidden !important;
 		@include translateX(-100%);
 	}
 	&.group-leader-notice{
+		opacity: 0;
 		&:before{
-			@include before-icons("caret.png", -50px, 90px, auto, auto, 80px , 80px);
+			@include before-icons("caret.png", -50px, calc( 50% - 90px), auto, auto, 80px , 80px);
 			z-index: -1;
 		}
+	}
+	&.group-leader-notice.active{
+		opacity: 1;
 	}
 }

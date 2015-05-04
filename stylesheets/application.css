@@ -17483,14 +17483,13 @@ label {
 /* line 14, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 a:hover {
   text-decoration: none;
-  color: #000000;
-  font-weight: 600; }
+  color: #000000; }
 
-/* line 19, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .clear {
   clear: both; }
 
-/* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 21, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .black-mask {
   width: 100%;
   height: 100%;
@@ -17508,33 +17507,33 @@ a:hover {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s; }
-  /* line 36, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+  /* line 35, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
   .black-mask.active {
     opacity: 1;
     visibility: visible; }
 
-/* line 41, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .wrapper {
   padding-top: 50px; }
   @media screen and (max-width: 992px) {
-    /* line 41, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+    /* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
     .wrapper {
       padding-top: 0 !important; } }
 
-/* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 47, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .container-fluid {
   padding: 0; }
 
-/* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 50, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .row.row-inner {
   max-width: 1200px; }
 
-/* line 54, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+/* line 53, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .row.row-inner-m {
   max-width: 800px; }
 
 @media screen and (max-width: 768px) {
-  /* line 58, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+  /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
   .col-xs-6 {
     padding: 2px !important; } }
 /*

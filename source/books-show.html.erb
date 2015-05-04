@@ -1,6 +1,6 @@
 <div class="container-fluid">
-	<div class="row book-show">
-		<div class="col-md-7">
+	<div class="row row-inner-m book-show">
+		<div class="col-md-12">
 			<div class="row">
 				<div class="book-show-box">
 					<div class="col-md-6 col-sm-6">
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-5">
+		<div class="col-md-12">
 			<div class="group-field">
 				<div class="has-group-field">
 					<div class="title">
@@ -78,8 +78,8 @@
 				</div>
 				<div class="buy-field">
 					<label style="margin:0 20px;">
-						數量：
-						<input type="number" value="1" style="width:60px;">
+						<span style="font-size: 20px;">數量：</span>
+						<input type="number" value="1" style="width:60px; font-size: 20px;">
 					</label>
 					<button class="large-btn">放入購物書包</button>
 				</div>
@@ -89,12 +89,23 @@
 </div>
 <script>
 	$(window).load(function(){
+		var windowWidth = $(window).innerWidth();
 		var bookpicHeight = $('.book-pic').height();
-		$('.book-info').css({'height' : bookpicHeight + 'px'});
+		if ( windowWidth > 776 ) {
+			$('.book-info').css({'height' : bookpicHeight + 'px'});
+		}else{
+			$('.book-info').css({'height' : 'auto'});
+		}
+
 	})
 	$(window).resize(function(){
+		var windowWidth = $(window).innerWidth();
 		var bookpicHeight = $('.book-pic').height();
-		$('.book-info').css({'height' : bookpicHeight + 'px'});
+		if ( windowWidth > 776 ) {
+			$('.book-info').css({'height' : bookpicHeight + 'px'});
+		}else{
+			$('.book-info').css({'height' : 'auto'});
+		}
 	})
 	$('input[type=checkbox]').change(function(){
 		if(this.checked){

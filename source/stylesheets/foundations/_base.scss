@@ -45,13 +45,24 @@ a:hover{
 	}
 }
 // Grid System
+.container-fluid{
+	padding: 0;
+}
+.row.row-inner{
+	max-width: 1200px;
+}
+.row.row-inner-m{
+	max-width: 800px;
+}
 @media screen and (max-width: 768px){
 	.col-xs-6{
 		padding: 2px !important;
 	}
 }
+/*
 @media screen and (min-width: 1350px){
 	.col-md-3{
 		width: 20% !important;
 	}
 }
+*/

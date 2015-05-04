@@ -61,14 +61,14 @@ nav{
 				}
 			}
 		}
-		&.scroll-down{
-			position: absolute !important;
+		/*&.scroll-down{
+			position: fixed !important;
 			width: 100%;
-			@include translateY(-50px);
+			@include translateY(-45px);
 			&:hover{
 				@include translateY(0px);
 			}
-		}
+		}*/
 	}
 }
 @media screen and (max-width: 992px) {

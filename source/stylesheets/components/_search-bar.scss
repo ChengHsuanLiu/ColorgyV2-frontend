@@ -2,7 +2,7 @@
 	background-color: $gray;
 	height: 80px;
 	margin: 0 -15px;
-	padding: 15px 0;
+	padding: 15px 20px;
 	text-align: right;
 
 	.search-bar{
@@ -40,5 +40,9 @@
 			top: 5px;
 			left: 5px;
 		}
+		&.left{
+			float: left;
+		}
 	}
+
 }

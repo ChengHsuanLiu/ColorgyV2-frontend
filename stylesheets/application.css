@@ -17468,6 +17468,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 * {
   font-family: 微軟正黑體; }
 
+/* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_typography.scss */
+p {
+  font-size: 1.2em;
+  line-height: 1.7;
+  letter-spacing: 1px; }
+
 /* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 *:focus {
   outline: none; }
@@ -18035,6 +18041,65 @@ html.lock, body.lock {
 /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_rwd-table.scss */
 .responsive-table td {
   text-align: center; }
+
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+.checkout-options-field {
+  width: 100%;
+  max-width: 800px;
+  margin: auto; }
+  /* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+  .checkout-options-field > .checkout-options-field-inner {
+    padding: 24px; }
+    /* line 10, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+    .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-title {
+      background-color: #33C7AB; }
+      /* line 14, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+      .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-title > .payment-title {
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+        float: left;
+        padding: 12px 0;
+        color: #FFF; }
+      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+      .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-title > .reciept-title {
+        display: inline-block;
+        text-align: center;
+        width: 50%;
+        padding: 12px 0;
+        float: left;
+        color: #FFF; }
+    /* line 33, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+    .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-body > .payment-options {
+      display: inline-block;
+      text-align: center;
+      width: 50%;
+      float: left;
+      padding: 12px 0; }
+    /* line 41, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+    .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-body > .reciept-options {
+      display: inline-block;
+      text-align: center;
+      width: 50%;
+      float: left;
+      padding: 12px 0; }
+    /* line 49, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+    .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-body > .go-checkout {
+      text-align: center; }
+      /* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_checkout-options-field.scss */
+      .checkout-options-field > .checkout-options-field-inner > .checkout-options-field-body > .go-checkout button {
+        margin-top: 24px;
+        padding-right: 100px;
+        padding-left: 100px; }
+
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slide-field.scss */
+.slide-field-trigger {
+  padding: 0 0 12px 0;
+  display: block; }
+
+/* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slide-field.scss */
+.slide-field {
+  display: none; }
 
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 nav {

@@ -22,4 +22,9 @@ $(window).scroll(function(){
 		}
 	}
 })
+$('.slide-field-trigger').click(function(){
+	var triggerName = $(this).attr('href');
+	var targetName = triggerName.substring(1, triggerName.length);
+	$('#' + targetName).slideToggle(300);
+})
 ;

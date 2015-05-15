@@ -1,0 +1,45 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="content-strip primary">
+			<div class="content-strip-inner">
+				<h4 class="strip-title">我要揪團</h4>
+				<p class="strip-description"></p>
+			</div>
+		</div>
+	</div>
+	<div class="row row-inner-m">
+		<div class="col-md-12">
+			<div class="groupon-field">
+				<div class="groupon-field-inner">
+					<div class="groupleader-form">
+						<span class="green-bg-title">揪團細節</span>
+						<form>
+							<div class="input-field">
+								<input value="" id="leader-name" type="text" class="validate">
+								<label class="active" for="leader-name">您的大名是？</label>
+							</div>
+							<div class="input-field">
+								<input value="" id="leader-phone" type="text" class="validate">
+								<label class="active" for="leader-phone">您的手機號碼</label>
+							</div>
+							<div class="input-field">
+								<input type="date" class="datepicker" placeholder="選擇您希望送達的日期，結團日期會在您選擇日期的三天前">
+							</div>
+							<div class="input-field">
+								<input value="" id="pickup-address" type="text" class="validate">
+								<label class="active" for="pickup-address">您希望在哪裡取書呢？ ( 可為任一可送達之地址、學校系辦..等等 )</label>
+							</div>
+							<button class="large-btn submit-btn">發起揪團</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	$('.datepicker').pickadate({
+		selectMonths: true, // Creates a dropdown to control month
+		selectYears: 2 // Creates a dropdown of 15 years to control year
+	});
+</script>

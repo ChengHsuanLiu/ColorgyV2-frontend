@@ -27,3 +27,8 @@ $('.slide-field-trigger').click(function(){
 	var targetName = triggerName.substring(1, triggerName.length);
 	$('#' + targetName).slideToggle(300);
 })
+
+$('.collapse-field-with-title .title').click(function(){
+	$(this).children('.trigger').toggleClass('active');
+	$(this).siblings('.content').slideToggle(300);
+})

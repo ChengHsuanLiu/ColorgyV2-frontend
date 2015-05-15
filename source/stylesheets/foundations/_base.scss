@@ -52,6 +52,8 @@ a:hover{
 }
 .row.row-inner-m{
 	max-width: 800px;
+	padding-right: 12px;
+	padding-left: 12px;
 }
 @media screen and (max-width: 768px){
 	.col-xs-6{
@@ -65,3 +67,22 @@ a:hover{
 	}
 }
 */
+
+.green-bg-title{
+	@include green-bg-title;
+}
+.submit-btn{
+	padding-left: 80px !important;
+	padding-right: 80px !important;
+	margin-top: 36px;
+}
+.edit-btn{
+	border: 0;
+	color: #fff;
+	background-color: rgb(222, 160, 92);
+	padding: 5px 8px;
+	border-radius: 8px;
+	&:hover{
+		opacity: 0.85;
+	}
+}

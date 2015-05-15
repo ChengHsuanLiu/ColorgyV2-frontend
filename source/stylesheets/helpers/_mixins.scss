@@ -27,6 +27,13 @@
   background-size: 100%;
   background-position: center;
 }
+@mixin transform-rotate($rotate){
+	transform: rotate($rotate);
+	-webkit-transform: rotate($rotate);
+	-ms-transform: rotate($rotate);
+	-o-transform: rotate($rotate);
+	-moz-transform: rotate($rotate);
+}
 @mixin transform-scale($scale){
 	transform: scale($scale);
 	-webkit-transform: scale($scale);
@@ -59,4 +66,15 @@
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+}
+@mixin green-bg-title{
+	background-color: #33C7AB;
+	padding: 5px 20px;
+	color: #FFF;
+	display: inline-block;
+	border-bottom: 0 !important;
+	margin-left: 0px;
+	border-radius: 15px;
+	margin-bottom: 24px;
+	font-size: $second-size;
 }

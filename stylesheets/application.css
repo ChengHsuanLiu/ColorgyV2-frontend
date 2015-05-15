@@ -17536,10 +17536,12 @@ a:hover {
 
 /* line 53, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
 .row.row-inner-m {
-  max-width: 800px; }
+  max-width: 800px;
+  padding-right: 12px;
+  padding-left: 12px; }
 
 @media screen and (max-width: 768px) {
-  /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+  /* line 59, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
   .col-xs-6 {
     padding: 2px !important; } }
 /*
@@ -17549,6 +17551,35 @@ a:hover {
 	}
 }
 */
+/* line 71, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+.green-bg-title {
+  background-color: #33C7AB;
+  padding: 5px 20px;
+  color: #FFF;
+  display: inline-block;
+  border-bottom: 0 !important;
+  margin-left: 0px;
+  border-radius: 15px;
+  margin-bottom: 24px;
+  font-size: 1.6em; }
+
+/* line 74, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+.submit-btn {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+  margin-top: 36px; }
+
+/* line 79, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+.edit-btn {
+  border: 0;
+  color: #fff;
+  background-color: #dea05c;
+  padding: 5px 8px;
+  border-radius: 8px; }
+  /* line 85, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/foundations/_base.scss */
+  .edit-btn:hover {
+    opacity: 0.85; }
+
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
 .large-btn {
   background-color: #3B3A3B;
@@ -17958,73 +17989,81 @@ html.lock, body.lock {
       color: #FFF;
       display: inline-block; }
 
-/* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-.follow-group-card .inner {
-  padding: 20px;
-  border: 2px solid #717071;
-  border-radius: 10px; }
-  /* line 7, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .prof-name {
-    color: #717071;
-    font-size: 1.4em; }
-  /* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .course-name {
-    color: #717071;
-    font-size: 1.6em; }
-  /* line 15, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .book-info {
-    padding: 15px 0;
-    border-bottom: 2px solid #D8D8D8; }
-    /* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .book-info img {
-      width: 50px; }
-    /* line 21, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .book-info .book-name {
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+.follow-group-card {
+  position: relative; }
+  /* line 3, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+  .follow-group-card .inner {
+    padding: 20px;
+    border: 2px solid #717071;
+    border-radius: 10px; }
+    /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .prof-name {
       color: #717071;
-      display: inline-block;
-      margin: 15px 0 0 0; }
-  /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .book-price {
-    margin: 15px 0;
-    text-align: right; }
-    /* line 31, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .book-price .dsic-price {
-      color: #33C7AB; }
-    /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .book-price .origin-price {
-      color: #000000; }
-  /* line 38, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .group-leader {
-    background-color: #33C7AB;
-    margin: 0 -20px;
-    padding: 5px 20px;
-    text-align: center; }
-    /* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .group-leader img {
-      width: 50px;
-      border-radius: 100px;
-      border: 2px solid #D8D8D8; }
-    /* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .group-leader .group-leader-name {
-      color: #FFF;
-      font-size: 1.4em;
-      margin: 0 15px;
-      display: inline-block; }
-  /* line 55, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .inner .gorup-info {
-    color: #717071; }
-    /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-    .follow-group-card .inner .gorup-info p {
-      margin-top: 20px;
-      margin-bottom: 0;
+      font-size: 1.4em; }
+    /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .course-name {
+      color: #717071;
+      font-size: 1.6em; }
+    /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .book-info {
+      padding: 15px 0;
+      border-bottom: 2px solid #D8D8D8; }
+      /* line 19, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .book-info img {
+        width: 50px; }
+      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .book-info .book-name {
+        color: #717071;
+        display: inline-block;
+        margin: 15px 0 0 0; }
+    /* line 28, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .book-price {
+      margin: 15px 0;
+      text-align: right; }
+      /* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .book-price .dsic-price {
+        color: #33C7AB; }
+      /* line 35, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .book-price .origin-price {
+        color: #000000; }
+    /* line 39, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .group-leader {
+      background-color: #33C7AB;
+      margin: 0 -20px;
+      padding: 5px 20px;
       text-align: center; }
-/* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-.follow-group-card .follow-btn {
-  margin: 20px 0 40px 0;
-  text-align: center; }
-  /* line 68, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
-  .follow-group-card .follow-btn button {
-    width: 100%; }
+      /* line 44, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .group-leader img {
+        width: 50px;
+        border-radius: 100px;
+        border: 2px solid #D8D8D8; }
+      /* line 49, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .group-leader .group-leader-name {
+        color: #FFF;
+        font-size: 1.4em;
+        margin: 0 15px;
+        display: inline-block; }
+    /* line 56, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .inner .gorup-info {
+      color: #717071; }
+      /* line 58, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+      .follow-group-card .inner .gorup-info p {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center; }
+  /* line 65, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+  .follow-group-card .follow-btn {
+    margin: 20px 0 40px 0;
+    text-align: center; }
+    /* line 69, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+    .follow-group-card .follow-btn button {
+      width: 100%; }
+  /* line 73, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_follow-group-card.scss */
+  .follow-group-card .edit-btn-field {
+    position: absolute;
+    top: 12px;
+    right: 12px; }
 
 /* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_rwd-table.scss */
 .responsive-table img {
@@ -18100,6 +18139,56 @@ html.lock, body.lock {
 /* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slide-field.scss */
 .slide-field {
   display: none; }
+
+/* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+.groupon-field .groupon-field-inner {
+  padding: 36px 12px; }
+
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
+.collapse-field-with-title {
+  margin-bottom: 12px; }
+  /* line 4, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
+  .collapse-field-with-title .title {
+    position: relative;
+    padding: 8px 8px 8px 24px;
+    font-size: 1.4em;
+    cursor: pointer;
+    border-bottom: #33C7AB solid 3px;
+    color: #3B3A3B; }
+    /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
+    .collapse-field-with-title .title .trigger {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: calc( 50% - 7px );
+      right: 20px;
+      background-image: url("../images/cross.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: center;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      -moz-transition: all 0.5s; }
+      /* line 25, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
+      .collapse-field-with-title .title .trigger.active {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -moz-transform: rotate(180deg); }
+  /* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
+  .collapse-field-with-title .content {
+    display: none;
+    padding: 16px 32px 16px 32px;
+    font-size: 1.2em;
+    color: #717071; }
 
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 nav {

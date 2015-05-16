@@ -61,67 +61,87 @@
 			</table>
 		</div>
 	</div>
-	<div class="row">
-		<div class="checkout-options-field">
-			<div class="checkout-options-field-inner">
-				<div class="checkout-options-field-title">
-					<div class="payment-title">
-						付款方式
+	<div class="row row-inner">
+		<div class="col-md-8">
+			<div class="checkout-options-field">
+				<div class="checkout-options-field-inner">
+					<div class="checkout-options-field-title">
+						<div class="payment-title">
+							付款方式
+						</div>
+						<div class="reciept-title">
+							發票種類
+						</div>
+						<div style="clear:both;"></div>
 					</div>
-					<div class="reciept-title">
-						發票種類
+					<div class="checkout-options-field-body">
+						<div class="payment-options">
+						    <p>
+						      <input name="payment" type="radio" id="payment-convience-store" checked="checked" />
+						      <label for="payment-convience-store">超商付款</label>
+						    </p>
+						    <p>
+						      <input name="payment" type="radio" id="payment-credit-card" />
+						      <label for="payment-credit-card">線上刷卡</label>
+						    </p>
+						    <p>
+						      <input name="payment" type="radio" id="payment-atm" />
+						      <label for="payment-atm">ATM匯款</label>
+						    </p>
+						</div>
+						<div class="reciept-options">
+						    <p>
+						      <input name="reciept" type="radio" id="reciept-e-reciept" checked="checked" />
+						      <label for="reciept-e-reciept">電子發票</label>
+						    </p>
+						    <a class="slide-field-trigger" href="#reciept-more">更多..</a>
+						    <div class="slide-field" id="reciept-more">
+							    <p>
+							      <input name="reciept" type="radio" id="reciept-mobile-phone" />
+							      <label for="reciept-mobile-phone">手機條碼</label>
+							    </p>
+							    <p>
+							      <input name="reciept" type="radio" id="reciept-nature-human" />
+							      <label for="reciept-nature-human">自然憑證</label>
+							    </p>
+							    <p>
+							      <input name="reciept" type="radio" id="reciept-vat" />
+							      <label for="reciept-vat">統一編號</label>
+							    </p>
+							    <p>
+							      <input name="reciept" type="radio" id="reciept-love" />
+							      <label for="reciept-love">愛心號碼</label>
+							    </p>
+							    <p>
+							      <input name="reciept" type="radio" id="reciept-paper" />
+							      <label for="reciept-paper">紙本發票</label>
+							    </p>
+						    </div>
+						</div>
+						<div style="clear:both;"></div>
 					</div>
-					<div style="clear:both;"></div>
 				</div>
-				<div class="checkout-options-field-body">
-					<div class="payment-options">
-					    <p>
-					      <input name="payment" type="radio" id="payment-convience-store" checked="checked" />
-					      <label for="payment-convience-store">超商付款</label>
-					    </p>
-					    <p>
-					      <input name="payment" type="radio" id="payment-credit-card" />
-					      <label for="payment-credit-card">線上刷卡</label>
-					    </p>
-					    <p>
-					      <input name="payment" type="radio" id="payment-atm" />
-					      <label for="payment-atm">ATM匯款</label>
-					    </p>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="checkout-options-field">
+				<div class="checkout-options-field-inner">
+					<div class="checkout-options-field-title">
+						<div class="total-title">
+							總結
+						</div>
 					</div>
-					<div class="reciept-options">
-					    <p>
-					      <input name="reciept" type="radio" id="reciept-e-reciept" checked="checked" />
-					      <label for="reciept-e-reciept">電子發票</label>
-					    </p>
-					    <a class="slide-field-trigger" href="#reciept-more">更多..</a>
-					    <div class="slide-field" id="reciept-more">
-						    <p>
-						      <input name="reciept" type="radio" id="reciept-mobile-phone" />
-						      <label for="reciept-mobile-phone">手機條碼</label>
-						    </p>
-						    <p>
-						      <input name="reciept" type="radio" id="reciept-nature-human" />
-						      <label for="reciept-nature-human">自然憑證</label>
-						    </p>
-						    <p>
-						      <input name="reciept" type="radio" id="reciept-vat" />
-						      <label for="reciept-vat">統一編號</label>
-						    </p>
-						    <p>
-						      <input name="reciept" type="radio" id="reciept-love" />
-						      <label for="reciept-love">愛心號碼</label>
-						    </p>
-						    <p>
-						      <input name="reciept" type="radio" id="reciept-paper" />
-						      <label for="reciept-paper">紙本發票</label>
-						    </p>
-					    </div>
-					</div>
-					<div style="clear:both;"></div>
-					<div class="go-checkout">
-						<button class="large-btn">前往結帳</button>
+					<div class="checkout-options-field-body text-center">
+						<p>共買了 5 本書</p>
+						<p>總共 NT. 5000</p>
 					</div>
 				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="go-checkout">
+				<button class="large-btn"><a href="../">繼續逛</a></button>
+				<button class="process-btn"><a href="/order-confirm.html">前往結帳</a></button>
 			</div>
 		</div>
 	</div>

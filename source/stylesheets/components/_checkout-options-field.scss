@@ -27,6 +27,11 @@
 				float: left;
 				color: $white;
 			}
+			> .total-title{
+				text-align: center;
+				padding: 12px 0;
+				color: $white;
+			}
 		}
 
 		> .checkout-options-field-body{
@@ -46,14 +51,22 @@
 				padding: 12px 0;
 			}
 
-			> .go-checkout{
-				text-align: center;
-				button{
-					margin-top: 24px;
-					padding-right: 100px;
-					padding-left: 100px;
+			&.text-center{
+				p{
+					text-align: center;
+					margin-top: 10px;
+					font-size: 1.6em;
+					color: $darker-gray;
 				}
 			}
 		}
+	}
+}
+.go-checkout{
+	text-align: center;
+	button{
+		margin-top: 24px;
+		padding-right: 100px;
+		padding-left: 100px;
 	}
 }

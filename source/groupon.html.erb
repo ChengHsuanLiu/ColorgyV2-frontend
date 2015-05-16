@@ -12,6 +12,31 @@
 			<div class="groupon-field">
 				<div class="groupon-field-inner">
 					<div class="groupleader-form">
+						<span class="green-bg-title">揪團課程</span>
+						<form>
+							<div class="search-field" style="background-color: transparent;">
+								<div class="search-bar left">
+									<input type="text" name="search-bar" placeholder="搜尋課名、老師名">
+									<input type="submit" value="Submit">
+								</div>
+							</div>
+						</form>
+						<div id="course-search-results" class="course-search-results">
+							<div class="course-item">
+								<div class="course-item-checkbox">
+									<p>
+										<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+										<label for="filled-in-box"></label>
+									</p>
+								</div>
+								<div class="">
+									設計史/王大明老師
+								</div>
+								<div class="">
+									<img src="">
+								</div>
+							</div>
+						</div>
 						<span class="green-bg-title">揪團細節</span>
 						<form>
 							<div class="input-field">
@@ -29,7 +54,17 @@
 								<input value="" id="pickup-address" type="text" class="validate">
 								<label class="active" for="pickup-address">您希望在哪裡取書呢？ ( 可為任一可送達之地址、學校系辦..等等 )</label>
 							</div>
-							<button class="large-btn submit-btn">發起揪團</button>
+							<div class="input-field">
+								<select>
+								  <option value="" disabled selected>您將為同學提供的取書模式為何？</option>
+								  <option value="將書本拿至班上發送">將書本拿至班上發送</option>
+								  <option value="請同學至系辦領取">請同學至系辦領取</option>
+								  <option value="指定其他地點">指定其他地點</option>
+								</select>
+							</div>
+							<a href="groupon-confirm.html">
+								<button class="large-btn submit-btn">發起揪團</button>
+							</a>
 						</form>
 					</div>
 				</div>
@@ -41,5 +76,8 @@
 	$('.datepicker').pickadate({
 		selectMonths: true, // Creates a dropdown to control month
 		selectYears: 2 // Creates a dropdown of 15 years to control year
+	});
+	$(document).ready(function() {
+		$('select').material_select();
 	});
 </script>

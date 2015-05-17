@@ -34,7 +34,7 @@
           <ul class="right hide-on-med-and-down main-nav">
             <li class="group-up"><a href="/ColorgyV2-frontend/groupon.html">開始揪團</a></li>
             <li><a href="/ColorgyV2-frontend">書庫瀏覽</a></li>
-            <li><a href="/ColorgyV2-frontend/follow-group.html">即時跟團 (0)</a></li>
+            <li><a href="/ColorgyV2-frontend/follow-group.html">即時跟團 (<span id="group-counter">0</span>)</a></li>
             <li><a href="mobile.html">建議書單</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
@@ -92,11 +92,17 @@
 				<button class="edit-btn"><a href="/ColorgyV2-frontend/groupon.html">修改資訊</a></button>
 			</div>
 			<div class="follow-btn">
-				<button class="large-btn"><a href="/ColorgyV2-frontend/follow-group.html">確定開團</a></button>
+				<button class="large-btn" id="open-group-btn"><a href="/ColorgyV2-frontend/follow-group.html">確定開團</a></button>
 			</div>
 		</div>
 	</div>
 </div>
+<script>
+	$('#open-group-btn').click(function() {
+		alert('成功開團囉 ！')
+		$('.group-counter').html('1');
+	})
+</script>
 
     </div>
     <script src="javascripts/main.js" type="text/javascript"></script>

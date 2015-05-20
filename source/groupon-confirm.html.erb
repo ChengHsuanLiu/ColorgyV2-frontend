@@ -35,11 +35,17 @@
 				</div>
 			</div>
 			<div class="edit-btn-field">
-				<button class="edit-btn">修改資訊</button>
+				<button class="edit-btn"><a href="/ColorgyV2-frontend/groupon.html">修改資訊</a></button>
 			</div>
 			<div class="follow-btn">
-				<button class="large-btn">確定開團</button>
+				<button class="large-btn" id="open-group-btn"><a href="/ColorgyV2-frontend/follow-group.html">確定開團</a></button>
 			</div>
 		</div>
 	</div>
 </div>
+<script>
+	$('#open-group-btn').click(function() {
+		alert('成功開團囉 ！')
+		$('.group-counter').html('1');
+	})
+</script>

@@ -66,7 +66,7 @@
               </a>
             </li>
             <li>
-              <a href="/ColorgyV2-frontend" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
+              <a href="/ColorgyV2-frontend/book-browser.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
                 <i class="mdi-av-my-library-books list-icon"></i>
                 書庫瀏覽
               </a>
@@ -108,7 +108,101 @@
 			</div>
 		</div>
 	</div>
+	<div class="row row-inner">
+		<div class="orders" id="orders">
+			<div class="orders-inner">
+				<div class="order-item">
+					<div class="order-title">
+						訂單編號： BK45678123
+					</div>
+					<div class="groups">
+						<div class="group-item">
+							<div class="leader-avatar">
+								<a href="#">
+									<img src="images/avatar.jpg" />
+									<div class="group-situation">
+										已到書
+									</div>
+								</a>
+							</div>
+							<div class="leader-name">
+								劉政軒
+							</div>
+							<div class="lecturer-name">
+								彭聖裕
+							</div>
+							<div class="course-name">
+								會計學
+							</div>
+							<div class="pickup-location">
+								領書地點： 主揪/班代將在上課發書
+							</div>
+						</div>
+					</div>
+					<div class="payment-counter">
+						<div class="order-info-trigger">
+							<span class="glyphicon glyphicon-chevron-down"></span>
+							<p>訂單明細</p>
+						</div>
+					</div>
+					<div class="order-info">
+						<div class="order-confirm-table">
+							<table class="responsive-table">
+								<thead>
+									<tr>
+										<th>書名</th>
+										<th>作者</th>
+										<th>版次</th>
+										<th>課名 / 老師</th>
+										<th>價格</th>
+										<th>數量</th>
+										<th>小計</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+
+<script>
+	$('.order-info-trigger').click(function(){
+		$(this).parent('.payment-counter').toggleClass('trigger-active');
+		$(this).parent().siblings('.order-info').slideToggle(500);
+	})
+</script>
 
     </div>
     <script src="javascripts/main.js" type="text/javascript"></script>

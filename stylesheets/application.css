@@ -17713,8 +17713,12 @@ input:-moz-placeholder {
   /* line 9, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
   .large-btn:focus, .large-btn:hover {
     background-color: rgba(59, 58, 59, 0.8); }
+  /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
+  .large-btn.larger-btn {
+    padding: 15px 80px;
+    font-size: 2em; }
 
-/* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
+/* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
 .process-btn {
   background-color: #F5A623;
   color: #FFF;
@@ -17728,7 +17732,7 @@ input:-moz-placeholder {
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   -moz-transition: all 0.5s; }
-  /* line 23, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
+  /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_buttons.scss */
   .process-btn:focus, .process-btn:hover {
     background-color: rgba(245, 166, 35, 0.8); }
 
@@ -17983,11 +17987,10 @@ html.lock, body.lock {
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
 .slideshow {
   position: relative;
-  overflow: hidden;
-  max-height: 600px; }
-  /* line 7, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
-  .slideshow .slideshow-inner .layer2 {
-    background-image: url("../images/slideshow2.png");
+  overflow: hidden; }
+  /* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+  .slideshow .slideshow-inner .layer1 {
+    background-image: url("../images/layer1.png");
     background-size: 100%;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -18007,13 +18010,95 @@ html.lock, body.lock {
     -moz-transform: translateY(-100%);
     -o-transform: translateY(-100%);
     -ms-transform: translateY(-100%); }
-    /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
-    .slideshow .slideshow-inner .layer2.active {
+    /* line 21, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+    .slideshow .slideshow-inner .layer1.active {
       transform: translateY(0%);
       -webkit-transform: translateY(0%);
       -moz-transform: translateY(0%);
       -o-transform: translateY(0%);
       -ms-transform: translateY(0%); }
+  /* line 29, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+  .slideshow .slideshow-inner .layer3 {
+    background-image: url("../images/layer3.png");
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transform: translateY(300px);
+    -webkit-transform: translateY(300px);
+    -moz-transform: translateY(300px);
+    -o-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -ms-transform: translateX(-100px); }
+    /* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+    .slideshow .slideshow-inner .layer3.active {
+      opacity: 1;
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -o-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+      -ms-transform: translateX(0px); }
+  /* line 56, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+  .slideshow .slideshow-inner .layer4 {
+    background-image: url("../images/layer4.png");
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transform: translateY(300px);
+    -webkit-transform: translateY(300px);
+    -moz-transform: translateY(300px);
+    -o-transform: translateY(300px);
+    -ms-transform: translateY(300px);
+    transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    -ms-transform: translateX(-100px); }
+    /* line 73, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_slideshow.scss */
+    .slideshow .slideshow-inner .layer4.active {
+      opacity: 1;
+      transform: translateY(0%);
+      -webkit-transform: translateY(0%);
+      -moz-transform: translateY(0%);
+      -o-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateX(0px);
+      -webkit-transform: translateX(0px);
+      -moz-transform: translateX(0px);
+      -o-transform: translateX(0px);
+      -ms-transform: translateX(0px); }
 
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_book-show.scss */
 .book-show {
@@ -18345,26 +18430,27 @@ nav {
   box-shadow: none; }
   /* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   nav .top {
+    overflow: hidden;
     padding: 0 !important; }
-    /* line 7, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .top .top-bar {
       height: 35px;
       background-color: black; }
-      /* line 10, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+      /* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .top .top-bar ul {
         float: right; }
-        /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .top .top-bar ul li {
           border-left: 1px solid #D8D8D8; }
-      /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+      /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .top .top-bar a {
         padding: 0px 20px !important;
         line-height: 35px;
         color: #D8D8D8; }
-        /* line 20, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 21, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .top .top-bar a:hover {
           color: #FFF; }
-  /* line 26, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   nav .nav-wrapper {
     z-index: -1;
     height: auto;
@@ -18385,43 +18471,156 @@ nav {
     	}
     }*/ }
     @media screen and (min-width: 992px) {
-      /* line 26, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+      /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .nav-wrapper {
         transform: translateY(0px);
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
         -o-transform: translateY(0px);
         -ms-transform: translateY(0px); } }
-    /* line 36, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 37, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    nav .nav-wrapper i {
+      height: auto !important;
+      line-height: initial !important;
+      position: relative;
+      top: 8px; }
+    /* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .nav-wrapper .brand-logo {
       max-width: 130px; }
       @media screen and (min-width: 992px) {
-        /* line 36, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .nav-wrapper .brand-logo {
           padding: 8px 0; } }
-    /* line 44, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .nav-wrapper ul.main-nav li a {
       position: relative;
       color: #717071;
-      padding: 8px 50px;
-      padding-right: 20px; }
-      /* line 49, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
-      nav .nav-wrapper ul.main-nav li a:before {
-        width: 15px;
-        height: 15px;
-        top: 25px;
-        left: 10px;
-        position: absolute;
-        content: '';
-        background-image: url("../images/add-icon.png");
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center; }
+      padding: 8px 20px;
+      /*
+      &:before{
+      	width: 15px;
+      	height: 15px;
+      	top: 25px;
+      	left: 10px;
+      	position: absolute;
+      	content: '';
+      	background-image: image-url("add-icon.png");
+      	background-repeat: no-repeat;
+      	background-size: 100%;
+      	background-position: center;
+      }
+      */ }
 
 @media screen and (max-width: 992px) {
-  /* line 75, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 83, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   .top {
     display: none; } }
-/* line 79, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 87, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 .button-collapse {
   color: #717071; }
+
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.service-introduction {
+  padding: 36px 0; }
+  /* line 3, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction.odd {
+    background-color: #E8EFEF; }
+  /* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction .icon {
+    text-align: center; }
+    @media screen and (min-width: 992px) {
+      /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .icon.odd {
+        text-align: right !important; } }
+    @media screen and (min-width: 992px) {
+      /* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .icon.even {
+        text-align: left !important; } }
+    /* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .icon img {
+      max-width: 250px; }
+  /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction .text-content {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px; }
+    @media screen and (min-width: 992px) {
+      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .text-content {
+        max-width: 450px;
+        padding-left: 12px;
+        padding-right: 12px; }
+        /* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+        .service-introduction .text-content.even {
+          margin-left: auto; } }
+    /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .text-content h3 {
+      color: black;
+      font-size: 2em; }
+    /* line 38, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .text-content p {
+      color: #717071; }
+
+/* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.row.service-introduction {
+  margin-bottom: 0; }
+
+/* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.go-login {
+  background: #00d0ad;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin-top: 36px; }
+  /* line 52, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .go-login h4 {
+    color: #fff;
+    margin-bottom: 60px; }
+
+/* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.list-icon {
+  display: inline-block !important;
+  margin-right: 5px; }
+
+/* line 62, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .notice {
+  margin: 24px 0 48px 0; }
+  /* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .notice h5 {
+    text-align: center; }
+  /* line 67, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .notice i {
+    margin-right: 12px;
+    font-size: 5em;
+    display: inline-block; }
+/* line 74, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .title {
+  font-size: 1.4em;
+  text-align: center; }
+/* line 78, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .description {
+  font-size: 1.2em;
+  color: #F5A623;
+  text-align: center;
+  margin-bottom: 24px; }
+/* line 87, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .payment-info {
+  background-color: #f9f9f9;
+  padding: 24px 36px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+  /* line 96, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .payment .payment-info .inner .payment-notice {
+    background-color: #F5A623;
+    padding: 12px 24px;
+    text-align: center;
+    margin: 24px 0; }
+    /* line 101, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .order-complete .payment .payment-info .inner .payment-notice i {
+      font-size: 1.8em; }
+    /* line 104, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .order-complete .payment .payment-info .inner .payment-notice p {
+      color: #fff;
+      font-size: 1em; }
+/* line 112, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .order-info {
+  padding: 24px 24px; }

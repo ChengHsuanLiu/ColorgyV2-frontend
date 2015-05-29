@@ -1,0 +1,105 @@
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.service-introduction {
+  padding: 36px 0; }
+  /* line 3, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction.odd {
+    background-color: #E8EFEF; }
+  /* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction .icon {
+    text-align: center; }
+    @media screen and (min-width: 992px) {
+      /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .icon.odd {
+        text-align: right !important; } }
+    @media screen and (min-width: 992px) {
+      /* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .icon.even {
+        text-align: left !important; } }
+    /* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .icon img {
+      max-width: 250px; }
+  /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .service-introduction .text-content {
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px; }
+    @media screen and (min-width: 992px) {
+      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      .service-introduction .text-content {
+        max-width: 450px;
+        padding-left: 12px;
+        padding-right: 12px; }
+        /* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+        .service-introduction .text-content.even {
+          margin-left: auto; } }
+    /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .text-content h3 {
+      color: black;
+      font-size: 2em; }
+    /* line 38, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .service-introduction .text-content p {
+      color: #717071; }
+
+/* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.row.service-introduction {
+  margin-bottom: 0; }
+
+/* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.go-login {
+  background: #00d0ad;
+  padding-top: 80px;
+  padding-bottom: 150px;
+  text-align: center;
+  margin-top: 36px; }
+  /* line 52, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .go-login h4 {
+    color: #fff;
+    margin-bottom: 60px; }
+
+/* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.list-icon {
+  display: inline-block !important;
+  margin-right: 5px; }
+
+/* line 62, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .notice {
+  margin: 24px 0 48px 0; }
+  /* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .notice h5 {
+    text-align: center; }
+  /* line 67, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .notice i {
+    margin-right: 12px;
+    font-size: 5em;
+    display: inline-block; }
+/* line 74, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .title {
+  font-size: 1.4em;
+  text-align: center; }
+/* line 78, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .description {
+  font-size: 1.2em;
+  color: #F5A623;
+  text-align: center;
+  margin-bottom: 24px; }
+/* line 87, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .payment .payment-info {
+  background-color: #f9f9f9;
+  padding: 24px 36px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
+  /* line 96, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .order-complete .payment .payment-info .inner .payment-notice {
+    background-color: #F5A623;
+    padding: 12px 24px;
+    text-align: center;
+    margin: 24px 0; }
+    /* line 101, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .order-complete .payment .payment-info .inner .payment-notice i {
+      font-size: 1.8em; }
+    /* line 104, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    .order-complete .payment .payment-info .inner .payment-notice p {
+      color: #fff;
+      font-size: 1em; }
+/* line 112, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.order-complete .order-info {
+  padding: 24px 24px; }

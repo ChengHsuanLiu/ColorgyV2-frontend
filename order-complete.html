@@ -99,81 +99,96 @@
 </script>
 
     <div class="wrapper">
-      <style>
-	.wrapper{
-		padding-bottom: 0;
-	}
-</style>
-<div class="container-fluid" style="padding: 0;">
+      <div class="container-fluid">
 	<div class="row">
-		<div class="col-md-12" style="padding: 0;">
-			<div class="slideshow">
-				<div class="slideshow-inner">
-					<div class="layer1"></div>
-					<img src="images/layer2.png" />
-					<div class="layer3"></div>
-					<a href="#"><div class="layer4"></div></a>
+		<div class="content-strip primary">
+			<div class="content-strip-inner">
+				<h4 class="strip-title">完成訂購！</h4>
+				<p class="strip-description"></p>
+			</div>
+		</div>
+	</div>
+	<div class="row row-inner">
+		<div class="order-complete">
+			<div class="notice">
+				<h5><i class="mdi-action-done-all"></i>您已完成訂購程序！請在繳款期限內繳費完畢，剩下就只要等書來就可以囉！ :D</h5>
+			</div>
+			<hr>
+			<div class="payment">
+				<div class="title">付款資訊</div>
+				<div class="description">請在時間內完成付款！</div>
+				<div class="col-md-6">
+					<div class="payment-info">
+						<div class="inner">
+							<p class="">轉入銀行： 永豐銀行 代碼807</p>
+							<p class="">轉入帳號： 94655231 234567890</p>
+							<p class="">轉入金額： 新台幣 3390 元</p>
+							<div class="payment-notice">
+								<i class="mdi-alert-error"></i>
+								<p>請務必轉入和以上顯示相同之金額，若此金額和 ATM 機顯示實際繳款金額不符，將以退款處理 (退款發生時，將產生退款處理手續費)</p>
+							</div>
+							<p class="">繳款期限： 2015-09-30 00:57:20</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="payment-countdown">
+
+					</div>
+				</div>
+				<div style="clear:both;"></div>
+			</div>
+			<hr>
+			<div class="order-info">
+				<div class="title">訂單明細</div>
+				<div class="order-confirm-table">
+					<table class="responsive-table">
+						<thead>
+							<tr>
+								<th>書名</th>
+								<th>作者</th>
+								<th>版次</th>
+								<th>課名 / 老師</th>
+								<th>價格</th>
+								<th>數量</th>
+								<th>小計</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>The Management of Strategy: Concepts & Cases 10/e</td>
+								<td>Ireland/Hoskisson/Hitt</td>
+								<td>10</td>
+								<td>設計史 / 王大明</td>
+								<td>986</td>
+								<td>2</td>
+								<td>1972</td>
+							</tr>
+							<tr>
+								<td>The Management of Strategy: Concepts & Cases 10/e</td>
+								<td>Ireland/Hoskisson/Hitt</td>
+								<td>10</td>
+								<td>設計史 / 王大明</td>
+								<td>986</td>
+								<td>2</td>
+								<td>1972</td>
+							</tr>
+							<tr>
+								<td>The Management of Strategy: Concepts & Cases 10/e</td>
+								<td>Ireland/Hoskisson/Hitt</td>
+								<td>10</td>
+								<td>設計史 / 王大明</td>
+								<td>986</td>
+								<td>2</td>
+								<td>1972</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row service-introduction odd">
-		<div class="col-md-5">
-			<div class="icon odd">
-				<img src="images/man2.png" />
-			</div>
-		</div>
-		<div class="col-md-7">
-			<div class="text-content">
-				<h3>安心、快速、便利的購物流程</h3>
-				<p>全新的購物流程、更多付款的選擇、更棒尋找書籍的模式，也可認班代、主揪直接跟團，讓同學們更方便，聚集各校同學在此平台也讓這裡只要買一本書即為團購價！</p>
-			</div>
-		</div>
-	</div>
-	<div class="row service-introduction">
-		<div class="col-md-7">
-			<div class="text-content even">
-				<h3>班代、主揪更輕鬆啦！</h3>
-				<p>省去班代、主揪統計、收錢、加退訂書的麻煩，專用主揪介面讓你看到所有跟團的同學，一目瞭然，到貨地點選擇也更加自由，再也不煩惱。</p>
-			</div>
-		</div>
-		<div class="col-md-5">
-			<div class="icon even">
-				<img src="images/man1.png" />
-			</div>
-		</div>
-	</div>
-	<div class="row service-introduction odd" style="padding-bottom: 0;">
-		<div class="col-md-5">
-			<div class="icon odd">
-				<img src="images/man3.png" />
-			</div>
-		</div>
-		<div class="col-md-7">
-			<div class="text-content">
-				<h3>快速地配送模式</h3>
-				<p>成團即出貨，絕不拖延同學們拿到書的時間，保障大家有書上課的權力！</p>
-			</div>
-		</div>
-		<div class="col-md-12 go-login">
-			<div class="go-login-inner">
-				<h4>快加入這個為你們量身打造的便利購書服務吧！</h4>
-				<a href="#"><button class="large-btn larger-btn">立即登入</button></a>
-			</div>
-		</div>
-	</div>
 </div>
-<script>
-	$(document).ready(function(){
-		$('.layer1').addClass('active');
-		var delay = setTimeout(function(){
-		$('.layer3').addClass('active');
-	     }, 1100);
-		var delay = setTimeout(function(){
-		$('.layer4').addClass('active');
-	     }, 1500);
-	})
-</script>
 
     </div>
     <script src="javascripts/main.js" type="text/javascript"></script>

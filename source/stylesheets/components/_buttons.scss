@@ -9,6 +9,10 @@
 	&:focus, &:hover{
 		background-color: rgba($darker-gray, 0.8);
 	}
+	&.larger-btn{
+		padding: 15px 80px;
+		font-size: 2em;
+	}
 }
 .process-btn{
 	background-color: $orange;

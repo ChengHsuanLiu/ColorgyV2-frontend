@@ -6,7 +6,7 @@ $('.steps-intro-btn').click(function(){
 })
 $('.group-leader-notice-btn').click(function(){
 	$('.black-mask').removeClass('active');
-	$('.layer2').addClass('active');
+	$('.layer1').addClass('active');
 	$("html").removeClass('lock');
 	$("body").removeClass('lock');
 })

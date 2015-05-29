@@ -3,9 +3,36 @@
         <div class="top">
             <div class="top-bar">
                 <ul>
-                    <li><a href="/ColorgyV2-frontend/QA.html">常見問題</a></li>
-                    <li><a href="">訂單查詢</a></li>
-                    <li><a href="/ColorgyV2-frontend/cart.html">前往結帳 (<span id="cart-item-counts">0</span>)</a></li>
+                    <li>
+                      <a href="#" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="你是已經開團的主揪或是班代嗎？這裏可以幫助你管理所有已跟團的同學的購書情況及聯絡方式！">
+                        <i class="mdi-social-mood list-icon"></i>
+                        主揪介面
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="這裏可以協助我們核對課程與正確的書籍">
+                        <i class="mdi-file-file-upload list-icon"></i>
+                        我要上書！
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/ColorgyV2-frontend/QA.html">
+                        <i class="mdi-action-info-outline list-icon"></i>
+                        常見問題
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/ColorgyV2-frontend/orders.html">
+                        <i class="mdi-action-receipt list-icon"></i>
+                        訂單查詢
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/ColorgyV2-frontend/cart.html">
+                        <i class="mdi-action-shopping-cart list-icon"></i>
+                        前往結帳 (<span id="cart-item-counts">0</span>)
+                      </a>
+                    </li>
                     <li><a href="">Hi, 交大電機 :D</a></li>
                 </ul>
             </div>
@@ -14,10 +41,30 @@
           <a href="/ColorgyV2-frontend" class="brand-logo"><%= image_tag('colorgy-logo.png') %></a>
           <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
           <ul class="right hide-on-med-and-down main-nav">
-            <li class="group-up"><a href="/ColorgyV2-frontend/groupon.html">開始揪團</a></li>
-            <li><a href="/ColorgyV2-frontend">書庫瀏覽</a></li>
-            <li><a href="/ColorgyV2-frontend/follow-group.html">即時跟團 (<span id="group-counter">0</span>)</a></li>
-            <li><a href="mobile.html">建議書單</a></li>
+            <li class="group-up">
+              <a href="/ColorgyV2-frontend/groupon.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="主揪或是班代可以在這邊選擇課程&書籍開團讓同學們跟團喲！">
+                <i class="mdi-content-send list-icon"></i>
+                開始揪團
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
+                <i class="mdi-av-my-library-books list-icon"></i>
+                書庫瀏覽
+              </a>
+            </li>
+            <li>
+              <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
+                <i class="mdi-social-group-add list-icon"></i>
+                即時跟團 (<span id="group-counter">0</span>)
+              </a>
+            </li>
+            <li>
+              <a href="mobile.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="針對您的系別推薦可能會用的到的書！">
+                <i class="mdi-action-book list-icon"></i>
+                建議書單
+              </a>
+            </li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><a href="/ColorgyV2-frontend/groupon.html">開始揪團</a></li>
@@ -30,5 +77,5 @@
     </nav>
 </div>
 <script>
-   $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav();
 </script>

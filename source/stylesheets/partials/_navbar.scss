@@ -3,6 +3,7 @@ nav{
 	background-color: transparent;
 	box-shadow: none;
 	.top{
+		overflow: hidden;
 		padding: 0 !important;
 		.top-bar{
 			height: 35px;
@@ -33,6 +34,12 @@ nav{
 		@media screen and (min-width: 992px ) {
 			@include translateY(0px);
 		}
+		i{
+			height: auto !important;
+			line-height: initial !important;
+			position: relative;
+			top: 8px;
+		}
 		.brand-logo{
 			max-width: 130px;
 			@media screen and (min-width: 992px){
@@ -44,8 +51,8 @@ nav{
 				a{
 					position: relative;
 					color: $dark-gray;
-					padding: 8px 50px;
-					padding-right: 20px;
+					padding: 8px 20px;
+					/*
 					&:before{
 						width: 15px;
 						height: 15px;
@@ -58,6 +65,7 @@ nav{
 						background-size: 100%;
 						background-position: center;
 					}
+					*/
 				}
 			}
 		}

@@ -1,329 +1,75 @@
-<div class="popup-notification group-leader-notice">
-	<div class="popup-title">
-		你是班代或學藝嗎？
-	</div>
-	<div class="popup-content">
-		<div class="row">
-			<div class="col-md-12">
-				<p>成為團長，馬上開啟新書團購，讓同堂課的同學ㄧ起訂書！
-				屆時所有的書本將寄到你指定的時間與地點！
-				最後，身為團主只需利用課堂，將書送至同學手中即可！
-				Colorgy欣賞和我們ㄧ樣服務同學的你，揪團成功後將直接獲得NT$35折扣金！
-				按下這個按鈕，開始揪團訂書去！
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="popup-footer">
-		<button class="popup-btn group-leader-notice-btn">了解</button>
-	</div>
-</div>
-<div class="popup-notification teaching-steps">
-	<div class="popup-title">
-		團購流程教室
-	</div>
-	<div class="popup-content">
-		<div class="row">
-			<div class="col-md-4">
-				<div class="steps-icon">
-					<%= image_tag('teaching-step1.png') %>
-				</div>
-				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
-			</div>
-			<div class="col-md-4">
-				<div class="steps-icon">
-					<%= image_tag('teaching-step2.png') %>
-				</div>
-				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
-			</div>
-			<div class="col-md-4">
-				<div class="steps-icon">
-					<%= image_tag('teaching-step3.png') %>
-				</div>
-				<p>以課堂分類，讓您用最方便的方式選取書籍！輕鬆將書本加入購物書包～</p>
-			</div>
-		</div>
-	</div>
-	<div class="popup-footer">
-		<button class="popup-btn steps-intro-btn">好哦</button>
-	</div>
-</div>
+<style>
+	.wrapper{
+		padding-bottom: 0;
+	}
+</style>
 <div class="container-fluid" style="padding: 0;">
 	<div class="row">
 		<div class="col-md-12" style="padding: 0;">
 			<div class="slideshow">
 				<div class="slideshow-inner">
-					<%= image_tag('slideshow3.jpg') %>
-					<div class="layer2"></div>
+					<div class="layer1"></div>
+					<%= image_tag('layer2.png') %>
+					<div class="layer3"></div>
+					<a href="#"><div class="layer4"></div></a>
 				</div>
-			</div>
-		</div>
-		<div class="col-md-12">
-			<div class="search-field">
-				<div class="search-bar">
-					<input type="text" name="search-bar" placeholder="搜尋書名、課名、老師名">
-					<input type="submit" value="Submit">
-				</div>
-				<div class="clear" style="clear:both;"></div>
 			</div>
 		</div>
 	</div>
-	<div class="row row-inner">
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+	<div class="row service-introduction odd">
+		<div class="col-md-5">
+			<div class="icon odd">
+				<%= image_tag ('man2.png') %>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+		<div class="col-md-7">
+			<div class="text-content">
+				<h3>安心、快速、便利的購物流程</h3>
+				<p>全新的購物流程、更多付款的選擇、更棒尋找書籍的模式，也可認班代、主揪直接跟團，讓同學們更方便，聚集各校同學在此平台也讓這裡只要買一本書即為團購價！</p>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+	</div>
+	<div class="row service-introduction">
+		<div class="col-md-7">
+			<div class="text-content even">
+				<h3>班代、主揪更輕鬆啦！</h3>
+				<p>省去班代、主揪統計、收錢、加退訂書的麻煩，專用主揪介面讓你看到所有跟團的同學，一目瞭然，到貨地點選擇也更加自由，再也不煩惱。</p>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+		<div class="col-md-5">
+			<div class="icon even">
+				<%= image_tag ('man1.png') %>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+	</div>
+	<div class="row service-introduction odd" style="padding-bottom: 0;">
+		<div class="col-md-5">
+			<div class="icon odd">
+				<%= image_tag ('man3.png') %>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+		<div class="col-md-7">
+			<div class="text-content">
+				<h3>快速地配送模式</h3>
+				<p>成團即出貨，絕不拖延同學們拿到書的時間，保障大家有書上課的權力！</p>
 			</div>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6">
-			<div class="product-box">
-				<a href="/ColorgyV2-frontend/books-show.html">
-					<div class="product-box-inner">
-						<div class="product-box-pic">
-							<%= image_tag ('book-sample1.jpg') %>
-						</div>
-						<div class="product-box-info">
-							<div class="product-box-name">
-								Microelectronic Circuits
-							</div>
-							<div class="product-box-origin">
-								作者 ： Sedra Smith
-							</div>
-							<div class="product-box-subname">
-								版次 ： 5 / e
-							</div>
-							<div class="product-box-price">
-								<span class="product-box-originprice">定價 ： 1399</span>
-								<span class="product-box-realprice">團購價 ： 899</span>
-							</div>
-						</div>
-					</div>
-				</a>
+		<div class="col-md-12 go-login">
+			<div class="go-login-inner">
+				<h4>快加入這個為你們量身打造的便利購書服務吧！</h4>
+				<a href="#"><button class="large-btn larger-btn">立即登入</button></a>
 			</div>
 		</div>
 	</div>
 </div>
 <script>
 	$(document).ready(function(){
-		$('.black-mask').addClass('active');
-	})
-	$(window).load(function(){
-		$("html").addClass('lock');
-		$("body").addClass('lock');
-		var windowWidth = window.innerWidth;
-		if( windowWidth > 992 ){
-			var groupup_pos = $('.group-up').position().left;
-			$('.group-leader-notice').css({ 'left': groupup_pos + 'px' });
-		}
-	})
-	$(window).resize(function(){
-		var windowWidth = window.innerWidth;
-		if( windowWidth > 992 ){
-			var groupup_pos = $('.group-up').position().left;
-			$('.group-leader-notice').css({ 'left': groupup_pos + 'px' });
-		}
+		$('.layer1').addClass('active');
+		var delay = setTimeout(function(){
+		$('.layer3').addClass('active');
+	     }, 1100);
+		var delay = setTimeout(function(){
+		$('.layer4').addClass('active');
+	     }, 1500);
 	})
 </script>
-

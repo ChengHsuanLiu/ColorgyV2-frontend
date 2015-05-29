@@ -99,7 +99,15 @@
 </script>
 
     <div class="wrapper">
-      <div class="container-fluid">
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=630424637093473";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container-fluid">
 	<div class="row row-inner-m book-show">
 		<div class="col-md-12">
 			<div class="row">
@@ -139,6 +147,10 @@
 			</div>
 		</div>
 		<div class="col-md-12">
+			<div class="share-field">
+				<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-layout="button_count"></div>
+				<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend"></div>
+			</div>
 			<div class="group-field">
 				<div class="has-group-field">
 					<div class="title">
@@ -184,6 +196,7 @@
 					</label>
 					<button id="add-to-cart" class="large-btn">放入購物書包</button>
 				</div>
+				<div class="fb-comments" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-numposts="5" data-colorscheme="light"></div>
 			</div>
 		</div>
 	</div>

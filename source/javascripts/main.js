@@ -32,3 +32,5 @@ $('.collapse-field-with-title .title').click(function(){
 	$(this).children('.trigger').toggleClass('active');
 	$(this).siblings('.content').slideToggle(300);
 })
+
+

@@ -7,4 +7,204 @@
 			</div>
 		</div>
 	</div>
+	<div class="row row-inner">
+		<div class="orders" id="orders">
+			<div class="orders-inner">
+				<div class="order-item">
+					<div class="order-title">
+						訂單編號： BK45678123
+					</div>
+					<div class="groups">
+						<table class="responsive-table hoverable responsive-table-fix">
+							<thead>
+								<th>課名</th>
+								<th>老師名</th>
+								<th>聯絡主揪 (點頭貼)</th>
+								<th>到書時間</th>
+								<th>主揪發書地點</th>
+								<th>物流狀況</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>電子學</td>
+									<td>彭盛裕</td>
+									<td>
+										<a href="#">
+											<p class="leader-name">劉政軒</p>
+											<div class="leader-avatar">
+												<%= image_tag ('avatar.jpg') %>
+											</div>
+										</a>
+									</td>
+									<td>
+										<p class="arrived-time">2015-9-30</p>
+									</td>
+									<td>
+										<p>班上發書</p>
+									</td>
+									<td>
+										<div class="situation-not-send">
+											尚未發貨
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>設計史</td>
+									<td>王大明</td>
+									<td>
+										<a href="#">
+											<p class="leader-name">Manta Wu</p>
+											<div class="leader-avatar">
+												<%= image_tag ('avatar2.png') %>
+											</div>
+										</a>
+									</td>
+									<td>
+										<p class="arrived-time">2015-10-2</p>
+									</td>
+									<td>
+										<p>系辦取書</p>
+									</td>
+									<td>
+										<div class="situation-has-send">
+											已發貨
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>初級會計學</td>
+									<td>劉玉情</td>
+									<td>
+										<a href="#">
+											<p class="leader-name">陳柏翰</p>
+											<div class="leader-avatar">
+												<%= image_tag ('avatar3.png') %>
+											</div>
+										</a>
+									</td>
+									<td>
+										<p class="arrived-time">2015-10-5</p>
+									</td>
+									<td>
+										<p>聯絡主揪拿書</p>
+									</td>
+									<td>
+										<div class="situation-has-got">
+											已到貨 可聯絡主揪取書
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<!--
+						<div class="group-item">
+							<div class="leader-avatar">
+								<a href="#">
+									<%= image_tag('avatar.jpg') %>
+									<div class="group-situation">
+										已到書
+									</div>
+								</a>
+							</div>
+							<div class="leader-name">
+								劉政軒
+							</div>
+							<div class="lecturer-name">
+								彭聖裕
+							</div>
+							<div class="course-name">
+								會計學
+							</div>
+							<div class="pickup-location">
+								領書地點： 主揪/班代將在上課發書
+							</div>
+						</div>
+						-->
+					</div>
+					<div class="payment-counter">
+						<div class="order-info-trigger">
+							<span class="glyphicon glyphicon-chevron-down"></span>
+							<p>訂單明細</p>
+						</div>
+					</div>
+					<div class="order-info">
+						<div class="order-confirm-table">
+							<table class="responsive-table">
+								<thead>
+									<tr>
+										<th>書名</th>
+										<th>作者</th>
+										<th>版次</th>
+										<th>課名 / 老師</th>
+										<th>價格</th>
+										<th>數量</th>
+										<th>小計</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+									<tr>
+										<td>The Management of Strategy: Concepts & Cases 10/e</td>
+										<td>Ireland/Hoskisson/Hitt</td>
+										<td>10</td>
+										<td>設計史 / 王大明</td>
+										<td>986</td>
+										<td>2</td>
+										<td>1972</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+
+<script>
+	$('.order-info-trigger').click(function(){
+		$(this).parent('.payment-counter').toggleClass('trigger-active');
+		$(this).parent().siblings('.order-info').slideToggle(500);
+	})
+</script>
+<script>
+	function responsiveTableHeightFix(){
+		var windowWidth = window.innerWidth;
+		if( windowWidth < 992 ){
+		  $('.responsive-table-fix tbody tr:nth-child(1)').each(function(){
+		    var tdCounter = $(this).children('td').length;
+		    console.log(tdCounter);
+		    for (var i = 1 ; i <= tdCounter ; i++) {
+		      var tdHeight = $(this).children('td:nth-child('+ i +')').outerHeight();
+		      var $a = $(this).parent().siblings('thead').children('tr').children('th:nth-child('+ i +')');
+		      console.log($a);
+		      $(this).parent().siblings('thead').children('tr').children('th:nth-child('+ i +')').css({
+		        'height' : tdHeight + 'px'
+		      });
+		    };
+		  })
+		}
+		else{
+		  retrun;
+		}
+	};
+	responsiveTableHeightFix();
+</script>

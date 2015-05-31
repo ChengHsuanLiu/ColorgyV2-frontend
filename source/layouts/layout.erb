@@ -21,5 +21,24 @@
       <%= yield %>
     </div>
     <%= javascript_include_tag  "main" %>
+    <script>
+      function responsiveTableHeightFix(){
+        var windowWidth = window.innerWidth;
+        if( windowWidth < 992 ){
+          $('.responsive-table tbody tr:nth-child(1)').each(function(){
+            var tdCounter = $(this).children('td').length;
+            var tdHeight = $(this).children('td').outerHeight();
+            for (var i = 1 ; i >= tdCounter ; i++) {
+              $(this).parent().siblings('thead').children('th:nth-child('+ i +')').css({
+                height: tdHeight + 'px'
+              })
+            };
+          })
+        }
+        else{
+          retrun;
+        }
+      }
+    </script>
   </body>
 </html>

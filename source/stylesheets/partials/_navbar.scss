@@ -27,6 +27,7 @@ nav{
 	.nav-wrapper{
 		z-index: -1;
 		height: auto;
+		margin-top: -1px;
 		background-color: $theme;
 		padding-left: 20px;
 		border-bottom: 1px solid #F0F0F0;
@@ -37,8 +38,6 @@ nav{
 		i{
 			height: auto !important;
 			line-height: initial !important;
-			position: relative;
-			top: 8px;
 		}
 		.brand-logo{
 			max-width: 130px;

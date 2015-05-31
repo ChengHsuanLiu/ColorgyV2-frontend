@@ -1,3 +1,12 @@
+@import "foundations/colors";
+i{
+	vertical-align: middle;
+}
+nav .button-collapse i {
+  font-size: 2.7rem !important;
+  height: 56px !important;
+  line-height: 56px !important;
+}
 .service-introduction{
 	padding: 36px 0;
 	&.odd{
@@ -36,7 +45,7 @@
 			font-size: 2em;
 		}
 		p{
-			color: $dark-gray;
+			color: #717071;
 		}
 	}
 }
@@ -72,12 +81,12 @@
 	}
 	.payment{
 		.title{
-			font-size: 1.4em;
+			font-size: 1.6em;
 			text-align: center;
 		}
 		.description{
 			font-size: 1.2em;
-			color: $orange;
+			color: #F5A623;
 			text-align: center;
 			margin-bottom: 24px;
 		}
@@ -94,7 +103,7 @@
 
 				}
 				.payment-notice{
-					background-color: $orange;
+					background-color: #F5A623;
 					padding: 12px 24px;
 					text-align: center;
 					margin: 24px 0;
@@ -111,5 +120,334 @@
 	}
 	.order-info{
 		padding: 24px 24px;
+		.title{
+			font-size: 1.6em;
+			text-align: center;
+		}
 	}
+}
+.situation-not-send{
+	background-color: $orange;
+	color: #fff;
+	border-radius: 8px;
+	padding: 3px 0;
+	text-align: center;
+	width: 100px;
+	margin: 0 auto;
+}
+.situation-has-send{
+	background-color: $dark-gray;
+	color: #fff;
+	border-radius: 8px;
+	padding: 3px 0;
+	text-align: center;
+	width: 100px;
+	margin: 0 auto;
+}
+.situation-has-got{
+	background-color: $green;
+	color: #fff;
+	border-radius: 8px;
+	padding: 3px 0;
+	text-align: center;
+	width: 100px;
+	margin: 0 auto;
+}
+.situation-has-paid{
+	background-color: $green;
+	color: #fff;
+	border-radius: 8px;
+	padding: 3px 0;
+	text-align: center;
+	width: 100px;
+	margin: 0 auto;
+}
+.leader-name{
+	display: inline-block;
+	font-weight: 600;
+}
+.leader-avatar{
+	display: inline-block;
+	border-radius: 1000px;
+	border: 2px solid $dark-gray;
+	overflow: hidden;
+	margin: 0 8px;
+	vertical-align: middle;
+	width: 50px;
+}
+.orders{
+	.orders-inner{
+		.order-item{
+			border: 1.5px solid gray;
+			border-radius: 8px;
+			.order-title{
+				background-color: $green;
+				color: #fff;
+				font-size: 1.2em;
+				padding: 8px 12px;
+			}
+			.groups{
+
+				table{
+					thead{
+						tr{
+							background-color: #BDBDBD;
+							th{
+								padding: 8px 0;
+								border-radius: 0;
+							}
+						}
+					}
+					tbody{
+						tr{
+							td{
+								a{
+									color: $green;
+									display: block;
+								}
+								p{
+									margin: 0;
+								}
+							}
+						}
+					}
+				}
+				.group-item{
+					width: 25%;
+					max-width: 150px;
+					height: auto;
+					position: relative;
+					margin-top: 150px;
+					text-align: center;
+					border: 1px solid $dark-gray;
+					border-radius: 8px;
+
+					.leader-avatar{
+						position: absolute;
+						border-radius: 1000px;
+						overflow: hidden;
+						border: 2px solid;
+						height: 150px;
+						top: -150px;
+						a{
+							display: block;
+							img{
+
+							}
+							.group-situation{
+								background-color: $green;
+								color: #fff;
+							}
+						}
+					}
+					.leader-name{
+						background-color: $green;
+						color: #fff;
+					}
+					.lecturer-name{
+						display: inline-block;
+					}
+					.course-name{
+						display: inline-block;
+					}
+					.pickup-location{
+
+					}
+				}
+			}
+			.order-info{
+				display: none;
+				padding: 12px 24px 48px 24px;
+			}
+			.payment-counter{
+				position: relative;
+				&.trigger-active{
+					border-bottom: 1px solid;
+				}
+				.order-info-trigger{
+					cursor: pointer;
+					position: absolute;
+					background-color: $dark-gray;
+					padding: 8px 16px;
+					height: 44px;
+					border-radius: 0 0 8px 8px;
+					color: #fff;
+					left: 50%;
+					transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+					-ms-transform: translateX(-50%);
+					-webkit-transform: translateX(-50%);
+					-o-transform: translateX(-50%);
+
+					&:hover{
+						background-color: $green !important;
+					}
+					p{
+						display: inline;
+					}
+				}
+			}
+		}
+	}
+}
+.shopping-cart-mobile-btn{
+	@media screen and (max-width: 992px){
+		position: fixed;
+		top: 10px;
+		right: 18px;
+		z-index: 99999999999;
+
+		a{
+			display: block;
+			font-size: 20px;
+			color: black;
+			i{
+				color: black;
+				font-size: 24px;
+			}
+		}
+	}
+	@media screen and (min-width: 992px){
+		display: none;
+	}
+}
+.garbage-can-delete{
+	background-image: image-url('garbage-can.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 19px;
+	height: 24px;
+	background-color: transparent;
+	border: 0 !important;
+}
+.user-guide{
+	padding: 36px 0;
+	&.even{
+		background-color: rgb(247, 247, 247);
+	}
+	.icon{
+
+	}
+	.icon-title{
+		font-size: 2em;
+		text-align: center;
+	}
+	.icon-description{
+		text-align: center;
+		font-size: 1.2em;
+		color: $green;
+	}
+	.info{
+		padding: 12px 24px;
+
+		h5{
+			font-size: 1.6em;
+			color: $green;
+		}
+		p{
+			color: $dark-gray;
+		}
+	}
+	.steps{
+		padding: 12px 24px;
+
+		.step{
+			padding: 12px 0;
+			.step-title{
+				font-size: 1.2em;
+				background-color: $darker-gray;
+				color: #fff;
+				border-radius: 24px;
+				max-width: 200px;
+				text-align: center;
+				padding: 8px 0;
+			}
+			.step-description{
+				font-size: 1.1em;
+				color: $dark-gray;
+				padding: 0px 16px 24px 16px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}
+.pin-menu.fixed-menu{
+	position: fixed;
+	top: 120px;
+}
+.table-of-contents{
+	a{
+		height: 1.8em;
+		line-height: 1.8em;
+		font-size: 1.4em;
+
+		&.active{
+			border-left: 2px solid $green;
+		}
+		&:hover{
+			border-left: 1px solid $green;
+		}
+	}
+}
+.supermarket-payment-info-item{
+	a{
+		display: block;
+		text-align: center;
+		img{
+			max-width: 150px;
+			display: block;
+			margin: 0 auto;
+		}
+		button{
+			margin-top: 16px;
+			margin: 16px auto;
+		}
+	}
+}
+button.look-btn {
+	background: transparent;
+	border: 0;
+	font-size: 2em;
+	color: black;
+}
+.group-show-book-info{
+	.title{
+		font-size: 2em;
+	}
+	.book-pic{
+		width: 30px;
+		display: inline-block;
+		font-size: 1.4em;
+		margin: 0 12px;
+	}
+	.book-name{
+		display: inline-block;
+		font-size: 1.4em;
+		margin: 0 12px;
+	}
+	.book-author{
+		display: inline-block;
+		font-size: 1.4em;
+		margin: 0 12px;
+	}
+	.book-edition{
+		display: inline-block;
+		font-size: 1.4em;
+		margin: 0 12px;
+	}
+}
+.group-show-members{
+	margin-top: 36px;
+
+	.title{
+		font-size: 2em;
+	}
+}
+.books-counter{
+	.total-left{
+		color: $green;
+		font-size: 1.6em;
+	}
+	margin-bottom: 24px;
 }

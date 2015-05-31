@@ -109,52 +109,98 @@
 	<div class="row">
 		<div class="content-strip primary">
 			<div class="content-strip-inner">
-				<h4 class="strip-title">常見問題</h4>
-				<p class="strip-description"></p>
+				<h4 class="strip-title">主揪介面</h4>
+				<p class="strip-description"> - 電子學 / 彭盛裕</p>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-3">
-			<div class="collapse-field-with-title">
+	<div class="row row-inner">
+		<div class="group-show">
+			<div class="group-show-book-info">
 				<div class="title">
-					問題主題打在這邊
-					<div class="trigger"></div>
+					書本資訊
 				</div>
-				<div class="content">
-					123456789
+				<hr>
+				<div class="book-pic">
+					<img src="images/book-sample1.jpg" />
+				</div>
+				<div class="book-name">
+					Microelectronic Circuits
+				</div>
+				<div class="book-author">
+					作者 ： Sedra Smith
+				</div>
+				<div class="book-edition">
+					版次 ： 5 / e
 				</div>
 			</div>
-			<div class="collapse-field-with-title">
+			<div class="group-show-members">
 				<div class="title">
-					問題主題打在這邊
-					<div class="trigger"></div>
+					發書小幫手
 				</div>
-				<div class="content">
-					123456789
+				<hr>
+				<div class="books-counter">
+					<div class="total-left">你手上應該剩下: <span id="books-counter-total">30</span> 本書</div>
 				</div>
-			</div>
-			<div class="collapse-field-with-title">
-				<div class="title">
-					問題主題打在這邊
-					<div class="trigger"></div>
-				</div>
-				<div class="content">
-					123456789
-				</div>
-			</div>
-			<div class="collapse-field-with-title">
-				<div class="title">
-					問題主題打在這邊
-					<div class="trigger"></div>
-				</div>
-				<div class="content">
-					123456789
-				</div>
+				<table>
+					<thead>
+						<tr>
+							<th>同學</th>
+							<th>購買本數</th>
+							<th>發書給他了嗎？</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<a href="#">
+									<p class="leader-name">劉政軒</p>
+									<div class="leader-avatar">
+										<img src="images/avatar.jpg" />
+									</div>
+								</a>
+							</td>
+							<td>2</td>
+							<td>
+								<p>
+							      <input type="checkbox" id="test1" count="2" />
+							      <label for="test1">發給他了</label>
+							    </p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#">
+									<p class="leader-name">劉政軒</p>
+									<div class="leader-avatar">
+										<img src="images/avatar.jpg" />
+									</div>
+								</a>
+							</td>
+							<td>2</td>
+							<td>
+								<p>
+							      <input type="checkbox" id="test2" count="2" />
+							      <label for="test2">發給他了</label>
+							    </p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
 </div>
+<script>
+	$('input').on('change', function(){
+		var total = parseInt($('#books-counter-total').text());
+		var count = $(this).attr('count');
+
+		total = total - count;
+
+		$('#books-counter-total').html(total);
+	})
+</script>
 
     </div>
     <script src="javascripts/main.js" type="text/javascript"></script>

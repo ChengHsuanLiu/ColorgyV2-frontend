@@ -48,7 +48,7 @@
                     <li>
                       <a href="/ColorgyV2-frontend/cart.html">
                         <i class="mdi-action-shopping-cart list-icon"></i>
-                        前往結帳 (<span id="cart-item-counts">0</span>)
+                        前往結帳 (<span class="cart-item-counts">0</span>)
                       </a>
                     </li>
                     <li><a href="">Hi, 交大電機 :D</a></li>
@@ -93,6 +93,12 @@
           <div class="clear" style="clear:both;"></div>
         </div>
     </nav>
+</div>
+<div class="shopping-cart-mobile-btn">
+  <a href="#">
+    <i class="mdi-action-shopping-cart"></i>
+    (<span class="cart-item-counts">0</span>)
+  </a>
 </div>
 <script>
   $(".button-collapse").sideNav();
@@ -177,5 +183,24 @@
 
     </div>
     <script src="javascripts/main.js" type="text/javascript"></script>
+    <script>
+      function responsiveTableHeightFix(){
+        var windowWidth = window.innerWidth;
+        if( windowWidth < 992 ){
+          $('.responsive-table tbody tr:nth-child(1)').each(function(){
+            var tdCounter = $(this).children('td').length;
+            var tdHeight = $(this).children('td').outerHeight();
+            for (var i = 1 ; i >= tdCounter ; i++) {
+              $(this).parent().siblings('thead').children('th:nth-child('+ i +')').css({
+                height: tdHeight + 'px'
+              })
+            };
+          })
+        }
+        else{
+          retrun;
+        }
+      }
+    </script>
   </body>
 </html>

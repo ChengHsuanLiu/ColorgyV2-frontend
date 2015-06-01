@@ -18486,7 +18486,7 @@ nav {
         nav .top .top-bar ul li {
           border-left: 1px solid #D8D8D8; }
           /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
-          nav .top .top-bar ul li li.active a {
+          nav .top .top-bar ul li.active a {
             color: yellow !important; }
       /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .top .top-bar a {

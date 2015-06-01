@@ -85,6 +85,39 @@
             </li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
+            <li id="personal-menu"><div class="personal-avatar"><img src="images/avatar.jpg" /></div><a href="#personal-menu">個人工具列</a></li>
+            <ul class="personal-menu-collapse" style="display: none;">
+                <li>
+                  <a href="/ColorgyV2-frontend/cart.html">
+                    <i class="mdi-action-shopping-cart list-icon"></i>
+                    前往結帳 (<span class="cart-item-counts">0</span>)
+                  </a>
+                </li>
+                <li>
+                  <a href="/ColorgyV2-frontend/orders.html">
+                    <i class="mdi-action-receipt list-icon"></i>
+                    訂單查詢
+                  </a>
+                </li>
+                <li>
+                  <a href="/ColorgyV2-frontend/leader-group-index.html">
+                    <i class="mdi-social-mood list-icon"></i>
+                    主揪介面
+                  </a>
+                </li>
+                <li>
+                  <a href="/ColorgyV2-frontend/QA.html">
+                    <i class="mdi-action-info-outline list-icon"></i>
+                    常見問題
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="mdi-file-file-upload list-icon"></i>
+                    我要上書！
+                  </a>
+                </li>
+            </ul>
             <li><a href="/ColorgyV2-frontend/groupon.html">開始揪團</a></li>
             <li><a href="/ColorgyV2-frontend">書庫瀏覽</a></li>
             <li><a href="/ColorgyV2-frontend/follow-group.html">即時跟團 (0)</a></li>
@@ -94,14 +127,22 @@
         </div>
     </nav>
 </div>
-<div class="shopping-cart-mobile-btn">
+<div class="login-mobile-btn">
   <a href="#">
+    馬上登入
+  </a>
+</div>
+<div class="shopping-cart-mobile-btn">
+  <a href="/ColorgyV2-frontend/cart.html">
     <i class="mdi-action-shopping-cart"></i>
     (<span class="cart-item-counts">0</span>)
   </a>
 </div>
 <script>
   $(".button-collapse").sideNav();
+  $('#personal-menu').click(function(){
+    $('.personal-menu-collapse').slideToggle(500);
+  })
 </script>
 
     <div class="wrapper">

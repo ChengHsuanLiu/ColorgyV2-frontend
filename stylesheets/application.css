@@ -18485,15 +18485,18 @@ nav {
         /* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .top .top-bar ul li {
           border-left: 1px solid #D8D8D8; }
-      /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+          /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+          nav .top .top-bar ul li li.active a {
+            color: yellow !important; }
+      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .top .top-bar a {
         padding: 0px 20px !important;
         line-height: 35px;
         color: #D8D8D8; }
-        /* line 21, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 26, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .top .top-bar a:hover {
           color: #FFF; }
-  /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   nav .nav-wrapper {
     z-index: -1;
     height: auto;
@@ -18515,29 +18518,29 @@ nav {
     	}
     }*/ }
     @media screen and (min-width: 992px) {
-      /* line 27, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+      /* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
       nav .nav-wrapper {
         transform: translateY(0px);
         -webkit-transform: translateY(0px);
         -moz-transform: translateY(0px);
         -o-transform: translateY(0px);
         -ms-transform: translateY(0px); } }
-    /* line 38, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .nav-wrapper i {
       height: auto !important;
       line-height: initial !important; }
-    /* line 42, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 47, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .nav-wrapper .brand-logo {
       max-width: 130px; }
       @media screen and (min-width: 992px) {
-        /* line 42, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 47, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .nav-wrapper .brand-logo {
           padding: 8px 0; } }
       @media screen and (max-width: 992px) {
-        /* line 42, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+        /* line 47, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
         nav .nav-wrapper .brand-logo {
           margin-top: -2px; } }
-    /* line 53, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 58, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     nav .nav-wrapper ul.main-nav li a {
       position: relative;
       color: #717071;
@@ -18558,41 +18561,41 @@ nav {
       */ }
 
 @media screen and (max-width: 992px) {
-  /* line 85, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 90, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   .top {
     display: none; } }
-/* line 89, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 94, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 .button-collapse {
   color: #717071; }
 
-/* line 93, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 98, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 ul.personal-menu-collapse li {
   padding-left: 24px;
   border: 0; }
-  /* line 96, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 101, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   ul.personal-menu-collapse li a {
     font-size: 12px; }
-    /* line 99, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+    /* line 104, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
     ul.personal-menu-collapse li a i {
       font-size: 12px; }
 
-/* line 106, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 111, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 #personal-menu .personal-avatar {
   display: inline-block;
   width: 30px;
   height: 30px;
   padding-top: 10px;
   border-radius: 60px; }
-  /* line 112, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+  /* line 117, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
   #personal-menu .personal-avatar img {
     position: relative;
     display: block;
     border-radius: 100px; }
-/* line 119, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 124, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 #personal-menu > a {
   display: inline-block; }
 
-/* line 123, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
+/* line 128, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/partials/_navbar.scss */
 .side-nav li:hover, .side-nav li.active {
   background-color: #AFAFAF !important; }
 

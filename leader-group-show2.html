@@ -51,7 +51,7 @@
                         前往結帳 (<span class="cart-item-counts">0</span>)
                       </a>
                     </li>
-                    <li><a href="">Hi, 交大電機 :D</a></li>
+                    <li><a href="">Hi, 劉政軒 :D</a></li>
                 </ul>
             </div>
         </div>
@@ -116,7 +116,7 @@
 	</div>
 	<div class="row row-inner">
 		<div class="group-show">
-			<div class="group-show-book-info">
+			<div class="group-show-book-info" style="display: none;">
 				<div class="title">
 					書本資訊
 				</div>
@@ -142,7 +142,7 @@
 				<div class="books-counter">
 					<div class="total-left">你手上應該剩下: <span id="books-counter-total">30</span> 本書</div>
 				</div>
-				<table>
+				<table class="striped">
 					<thead>
 						<tr>
 							<th>同學</th>
@@ -164,7 +164,7 @@
 							<td>
 								<p>
 							      <input type="checkbox" id="test1" count="2" />
-							      <label for="test1">發給他了</label>
+							      <label for="test1">發了</label>
 							    </p>
 							</td>
 						</tr>
@@ -181,7 +181,7 @@
 							<td>
 								<p>
 							      <input type="checkbox" id="test2" count="2" />
-							      <label for="test2">發給他了</label>
+							      <label for="test2">發了</label>
 							    </p>
 							</td>
 						</tr>
@@ -194,10 +194,13 @@
 <script>
 	$('input').on('change', function(){
 		var total = parseInt($('#books-counter-total').text());
-		var count = $(this).attr('count');
-
-		total = total - count;
-
+		var count = parseInt($(this).attr('count'));
+		if($(this).is(':checked')){
+			total = total - count;
+		}
+		else{
+			total = total + count;
+		};
 		$('#books-counter-total').html(total);
 	})
 </script>

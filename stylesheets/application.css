@@ -18377,6 +18377,49 @@ html.lock, body.lock {
 .groupon-field .groupon-field-inner {
   padding: 36px 12px; }
 
+/* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+.course-item {
+  background-color: #f0f0f0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -moz-transition: all 0.2s; }
+  /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+  .course-item.active {
+    visibility: visible;
+    opacity: 1; }
+  /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+  .course-item:nth-child(2n-1) {
+    background-color: #fff; }
+  /* line 20, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+  .course-item .book-img {
+    width: 30px;
+    display: inline-block;
+    vertical-align: text-bottom; }
+  /* line 25, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+  .course-item .course-info {
+    display: inline-block; }
+    /* line 28, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+    .course-item .course-info span {
+      font-size: 1.1em;
+      margin: 5px 10px;
+      display: inline-block; }
+  /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+  .course-item .course-item-checkbox {
+    display: inline-block;
+    margin-left: 24px; }
+
+/* line 39, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_groupon-field.scss */
+.course-search-results {
+  margin-bottom: 36px;
+  border: 1px solid #e2e2e2;
+  padding: 12px;
+  height: 300px;
+  overflow-y: auto; }
+
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/components/_collapse-field-with-title.scss */
 .collapse-field-with-title {
   margin-bottom: 12px; }

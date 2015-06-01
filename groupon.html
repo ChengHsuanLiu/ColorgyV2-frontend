@@ -51,7 +51,7 @@
                         前往結帳 (<span class="cart-item-counts">0</span>)
                       </a>
                     </li>
-                    <li><a href="">Hi, 交大電機 :D</a></li>
+                    <li><a href="">Hi, 劉政軒 :D</a></li>
                 </ul>
             </div>
         </div>
@@ -123,24 +123,26 @@
 						<form>
 							<div class="search-field" style="background-color: transparent;">
 								<div class="search-bar left">
-									<input type="text" name="search-bar" placeholder="搜尋課名、老師名">
+									<input type="text" name="search-bar" placeholder="搜尋課名、老師名" id="course-searcher">
 									<input type="submit" value="Submit">
 								</div>
 							</div>
 						</form>
 						<div id="course-search-results" class="course-search-results">
-							<div class="course-item">
+							<div class="course-item MicroelectronicCircuits">
+								<div class="book-img">
+									<img src="images/book-sample1.jpg" />
+								</div>
+								<div class="course-info">
+									<span>電子學</span> / <span>彭盛裕 老師</span><br>
+									<span>書名: Microelectronic Circuits 5/e</span>
+									<span>isbn: 123456789</span>
+								</div>
 								<div class="course-item-checkbox">
 									<p>
-										<input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+										<input type="checkbox" class="filled-in" id="filled-in-box" />
 										<label for="filled-in-box"></label>
 									</p>
-								</div>
-								<div class="">
-									設計史/王大明老師
-								</div>
-								<div class="">
-									<img src="">
 								</div>
 							</div>
 						</div>
@@ -187,6 +189,15 @@
 	$(document).ready(function() {
 		$('select').material_select();
 	});
+	$('#course-searcher').keydown(function(){
+		console.log('hi');
+		if (this.value == '電子學') {
+			$('.MicroelectronicCircuits').addClass('active');
+		}
+		else{
+			$('.MicroelectronicCircuits').removeClass('active');
+		}
+	})
 </script>
 
     </div>

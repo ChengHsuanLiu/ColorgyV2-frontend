@@ -12,6 +12,11 @@ nav{
 				float: right;
 				li{
 					border-left: 1px solid $gray;
+					&.active{
+						a{
+							color: yellow !important;
+						}
+					}
 				}
 			}
 			a{
@@ -43,6 +48,9 @@ nav{
 			max-width: 130px;
 			@media screen and (min-width: 992px){
 				padding: 8px 0;
+			}
+			@media screen and (max-width: 992px){
+				margin-top: -2px;
 			}
 		}
 		ul.main-nav{
@@ -85,4 +93,38 @@ nav{
 }
 .button-collapse{
 	color: $dark-gray;
+}
+ul.personal-menu-collapse{
+	li{
+		padding-left: 24px;
+		border: 0;
+		a{
+			font-size: 14px;
+
+			i{
+				font-size: 12px
+			}
+		}
+	}
+}
+#personal-menu{
+	.personal-avatar{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		padding-top: 10px;
+		border-radius: 60px;
+		img{
+			position: relative;
+			display: block;
+			border-radius: 100px;
+		}
+
+	}
+	> a{
+		display: inline-block;
+	}
+}
+.side-nav li:hover, .side-nav li.active {
+  background-color: #AFAFAF !important;
 }

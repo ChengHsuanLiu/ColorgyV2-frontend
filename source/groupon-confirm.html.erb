@@ -11,14 +11,14 @@
 		<div class="follow-group-card">
 			<div class="inner">
 				<div class="prof-name">
-					王大明
+					彭盛裕
 				</div>
 				<div class="course-name">
-					設計史
+					電子學
 				</div>
 				<div class="book-info">
 					<%= image_tag('book-sample1.jpg') %>
-					<span class="book-name">The Management of Strategy: Concepts & Cases 10/e</span>
+					<span class="book-name">Microelectronic Circuits 5/e</span>
 				</div>
 				<div class="book-price">
 					<h5 class="dsic-price">NT 986</h5>
@@ -38,14 +38,15 @@
 				<button class="edit-btn"><a href="/ColorgyV2-frontend/groupon.html">修改資訊</a></button>
 			</div>
 			<div class="follow-btn">
-				<button class="large-btn" id="open-group-btn"><a href="/ColorgyV2-frontend/follow-group.html">確定開團</a></button>
+				<button class="large-btn" id="open-group-btn"><a href="#">確定開團</a></button>
 			</div>
 		</div>
 	</div>
 </div>
 <script>
 	$('#open-group-btn').click(function() {
-		alert('成功開團囉 ！')
+		alert('成功開團囉 ！ 將導入至跟團頁面！ 請確認您的團有出現在跟團頁面上！')
 		$('.group-counter').html('1');
+		window.location.replace("/ColorgyV2-frontend/follow-group.html");
 	})
 </script>

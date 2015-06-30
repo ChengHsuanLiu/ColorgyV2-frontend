@@ -9,7 +9,7 @@
 	</div>
 	<div class="row row-inner">
 		<div class="group-show">
-			<div class="group-show-book-info">
+			<div class="group-show-book-info" style="display: none;">
 				<div class="title">
 					書本資訊
 				</div>
@@ -30,12 +30,16 @@
 			<div class="group-show-members">
 				<div class="title">
 					發書小幫手
+					<a class="typeform-share link" href="https://lucas51.typeform.com/to/ZO427w" data-mode="2" target="_blank"><button style="background-color: transparent;border: 0;font-size: 16px !important;"><i class="mdi-action-help"></i>有問題嗎？回報給我們！</button></a>
+					<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+
 				</div>
 				<hr>
 				<div class="books-counter">
 					<div class="total-left">你手上應該剩下: <span id="books-counter-total">30</span> 本書</div>
 				</div>
-				<table>
+				<table class="striped">
 					<thead>
 						<tr>
 							<th>同學</th>
@@ -46,7 +50,7 @@
 					<tbody>
 						<tr>
 							<td>
-								<a href="#">
+								<a href="https://www.facebook.com/lucasliu1219?fref=ts" target="_blank">
 									<p class="leader-name">劉政軒</p>
 									<div class="leader-avatar">
 										<%= image_tag ('avatar.jpg') %>
@@ -57,16 +61,16 @@
 							<td>
 								<p>
 							      <input type="checkbox" id="test1" count="2" />
-							      <label for="test1">發給他了</label>
+							      <label for="test1">發了</label>
 							    </p>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<a href="#">
-									<p class="leader-name">劉政軒</p>
+								<a href="https://www.facebook.com/manta.wu.7?fref=ts" target="_blank">
+									<p class="leader-name">Manta Wu</p>
 									<div class="leader-avatar">
-										<%= image_tag ('avatar.jpg') %>
+										<%= image_tag ('avatar2.png') %>
 									</div>
 								</a>
 							</td>
@@ -74,7 +78,7 @@
 							<td>
 								<p>
 							      <input type="checkbox" id="test2" count="2" />
-							      <label for="test2">發給他了</label>
+							      <label for="test2">發了</label>
 							    </p>
 							</td>
 						</tr>
@@ -87,10 +91,13 @@
 <script>
 	$('input').on('change', function(){
 		var total = parseInt($('#books-counter-total').text());
-		var count = $(this).attr('count');
-
-		total = total - count;
-
+		var count = parseInt($(this).attr('count'));
+		if($(this).is(':checked')){
+			total = total - count;
+		}
+		else{
+			total = total + count;
+		};
 		$('#books-counter-total').html(total);
 	})
 </script>

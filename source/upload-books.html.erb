@@ -1,0 +1,192 @@
+<div class="container-fluid upload-books">
+	<div class="row">
+		<div class="upload-books-step1 upload-books-step active">
+			<div class="step step1">
+				<div class="title">
+					步驟一：選擇學校
+				</div>
+				<div class="inner">
+					<select class="school-selection">
+				        <option value="" disabled selected>請選擇您的學校</option>
+				        <option value="台科大">台科大</option>
+				        <option value="台灣大學">台灣大學</option>
+				        <option value="清華大學">清華大學</option>
+				    </select>
+				</div>
+			</div>
+		</div>
+		<div class="upload-books-step2 upload-books-step">
+			<div class="step step2">
+				<div class="title">
+					步驟二：請選擇您的姓名
+				</div>
+				<div class="inner">
+					<form>
+						<div class="search-field" style="background-color: transparent; padding: 15px 0px !important;">
+							<div class="search-bar left">
+								<input type="text" name="search-bar" placeholder="請輸入您的名字" id="course-searcher">
+								<input type="submit" value="Submit">
+							</div>
+						</div>
+					</form>
+					<div id="lecturer-search-results" class="lecturer-search-results">
+						<div class="lecturer-item MrPung">
+							<div class="lecturer-name">
+								彭盛裕
+							</div>
+						</div>
+						<div class="lecturer-item MrTsai">
+							<div class="lecturer-name">
+								蔡聖域
+							</div>
+						</div>
+						<div class="lecturer-item MrLiu">
+							<div class="lecturer-name">
+								劉勝玉
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="upload-books-step3 upload-books-step">
+			<div class="step step3" style="background-color: transparent !important;">
+				<div class="title">
+					步驟三：請確認您的用書
+				</div>
+				<p>＃左側為您的課程，點擊進入書籍確認區</p>
+				<div class="inner">
+					<div class="col-md-3 courses-select-options">
+						<div class="title">
+							課程
+						</div>
+						<div class="inner courses-results">
+							<div class="course-option active" course-id="1">
+								電子學 (M3 M4 T6)
+							</div>
+							<div class="course-option" course-id="2">
+								電路學 (W3 W4 F8)
+							</div>
+							<div class="course-option" course-id="3">
+								微積分 (T2 T3 W6)
+							</div>
+						</div>
+					</div>
+					<div class="col-md-9 course-book-confirm-option-field">
+						<div class="title">
+							使用書籍
+						</div>
+						<div class="inner">
+							<div class="course-book-confirm-option active" course-id="1">
+								<div class="book-info">
+									<div class="book-img">
+										<%= image_tag ('book-sample1.jpg') %>
+									</div>
+									<div class="book-info-inner">
+										<p class="book-name">書名： Microelectronic Circuits</p>
+										<p class="book-isbn">ISBN： 876123456</p>
+										<p class="book-author">作者： Sedra Smith</p>
+										<p class="book-publisher">出版社： Oxford</p>
+									</div>
+									<hr>
+									<div class="confirm">
+										<p>您這學期是否沿用這本書呢？</p>
+										<a href="#"><button class="btn">是</button></a>
+										<a href="#"><button class="btn">不是</button></a>
+									</div>
+								</div>
+								<div class="change-book-search-field" style="display: none;">
+									<form>
+										<div class="search-field" style="background-color: transparent; padding: 15px 0px !important;">
+											<div class="search-bar left">
+												<input type="text" name="search-bar" placeholder="輸入書名、isbn、作者查詢" id="course-searcher">
+												<input type="submit" value="Submit">
+											</div>
+										</div>
+									</form>
+									<div id="books-search-results" class="books-search-results">
+										<div class="book-item MicroelectronicCircuits">
+											<div class="book-img">
+												<%= image_tag ('book-sample1.jpg') %>
+											</div>
+											<div class="book-info">
+												<span>書名: Microelectronic Circuits 5/e</span>
+												<span>isbn: 123456789</span>
+												<span>作者: Sedra Smith</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course-book-confirm-option" course-id="2">
+								<div class="book-info">
+									<div class="book-img">
+										<%= image_tag ('book-sample1.jpg') %>
+									</div>
+									<div class="book-info-inner">
+										<p class="book-name">書名： Microelectronic Circuits2</p>
+										<p class="book-isbn">ISBN： 876123456</p>
+										<p class="book-author">作者： Sedra Smith2</p>
+										<p class="book-publisher">出版社： Oxford2</p>
+									</div>
+									<hr>
+									<div class="confirm">
+										<p>您這學期是否沿用這本書呢？</p>
+										<a href="#"><button class="btn">是</button></a>
+										<a href="#"><button class="btn">不是</button></a>
+									</div>
+								</div>
+								<div class="change-book-search-field" style="display: none;">
+									<form>
+										<div class="search-field" style="background-color: transparent; padding: 15px 0px !important;">
+											<div class="search-bar left">
+												<input type="text" name="search-bar" placeholder="輸入書名、isbn、作者查詢" id="course-searcher">
+												<input type="submit" value="Submit">
+											</div>
+										</div>
+									</form>
+									<div id="books-search-results" class="books-search-results">
+										<div class="book-item MicroelectronicCircuits">
+											<div class="book-img">
+												<%= image_tag ('book-sample1.jpg') %>
+											</div>
+											<div class="book-info">
+												<span>書名: Microelectronic Circuits 5/e</span>
+												<span>isbn: 123456789</span>
+												<span>作者: Sedra Smith</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function() {
+    $('select').material_select();
+});
+
+$('.school-selection').change(function(){
+	$('.upload-books-step1').removeClass('active');
+	$('.upload-books-step2').addClass('active');
+})
+
+$('.lecturer-item').click(function(){
+	$('.upload-books-step2').removeClass('active');
+	$('.upload-books-step3').addClass('active');
+})
+
+$('.course-option').click(function(){
+	var courseID = $(this).attr('course-id');
+	$(this).addClass('active');
+	$(this).siblings('.course-option').removeClass('active');
+	$('.course-book-confirm-option').removeClass('active');
+	$('.course-book-confirm-option[course-id="' + courseID +'"]').addClass('active');
+})
+</script>

@@ -81,7 +81,7 @@
 				color: $white;
 				border-bottom: 0 !important;
 				margin-left: 0px;
-				border-radius: 15px;
+				border-radius: 8px;
 			}
 		}
 		.has-group-field{
@@ -95,6 +95,17 @@
 		}
 		.groups-select-field{
 			padding: 20px;
+			.not-group-yet-course-item{
+				p{
+					display: inline-block;
+					margin-right: 12px;
+				}
+				a{
+					display: inline-block;
+					margin: 0 12px;
+				}
+
+			}
 		}
 	}
 

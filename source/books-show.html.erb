@@ -20,7 +20,7 @@
 						<div class="book-info">
 							<div class="book-info-inner">
 								<div class="book-name">
-									The Management of Strategy: Concepts & Cases 10/e
+									Microelectronic Circuits
 								</div>
 								<hr>
 								<div class="book-from">
@@ -33,7 +33,7 @@
 									ISBN：202004829194002934020104
 								</div>
 								<div class="book-author">
-									作者：Ireland/Hoskisson/Hitt
+									作者：Sedra Smith
 								</div>
 							</div>
 							<div class="book-price">
@@ -46,9 +46,11 @@
 			</div>
 		</div>
 		<div class="col-md-12">
+			<p>＃請勾擇您要跟的團或是自行購買，確定數量之後按底下的 "放入購物車"。</p>
+			<p>＃您也可以把此頁面用FB分享或傳送的方式放到系板或是傳給朋友讓他們來跟團。<a href="#">(不知道怎麼做嗎？)</a></p>
 			<div class="share-field">
-				<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-layout="button_count"></div>
-				<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend"></div>
+				<span>＃FB分享：</span><div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
+				<span>＃FB傳送：</span><div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
 			</div>
 			<div class="group-field">
 				<div class="has-group-field">
@@ -58,23 +60,22 @@
 					<div class="groups-select-field">
 						<p>
 							<input type="checkbox" class="filled-in" id="checkbox1" />
-							<label for="checkbox1">設計史/王大明老師 --- 大魟魚揪團（1/30截止繳費)</label>
-						</p>
-						<p>
-							<input type="checkbox" class="filled-in" id="checkbox2" />
-							<label for="checkbox2">設計史/王大明老師 --- 小魟魚揪團（1/30截止繳費）</label>
+							<label for="checkbox1">
+							電子學/彭盛裕老師 (W3 W4 F7) --- 劉政軒揪團（1/30截止繳費)
+							</label>
 						</p>
 					</div>
 				</div>
 				<div class="not-group-yet-field">
 					<div class="title">
-						<h3><span>未開團</span><span><a href="#">邀請班代跟團</a>或<a href="#">開團成功通知我</a></span></h3>
+						<h3><span>未開團的課</span></h3>
 					</div>
 					<div class="groups-select-field">
-						<p>
-							<input type="checkbox" class="filled-in" id="checkbox3" />
-							<label for="checkbox3">設計史/王大明老師 --- 小魟魚揪團（1/30截止繳費）</label>
-						</p>
+						<div class="not-group-yet-course-item">
+							<p>電子學 / 馬英九老師 (M6 M7 T4)</p>
+							<a href="#"><button class="btn">邀請班代開團</button></a>
+							<a href="#"><button class="btn">開團成功通知我</button></a>
+						</div>
 					</div>
 				</div>
 				<div class="buy-my-self-field">
@@ -84,7 +85,7 @@
 					<div class="groups-select-field">
 						<p>
 							<input type="checkbox" class="filled-in" id="checkbox4" />
-							<label for="checkbox4">我不跟團 ( 單次購買需買五本以上，滿10本免運費 )</label>
+							<label for="checkbox4">我不跟團 ( 未滿3本需負擔 150 元運費。 )</label>
 						</p>
 					</div>
 				</div>
@@ -129,8 +130,9 @@
 		}
 	})
 	$('#add-to-cart').click(function(){
-		alert('已經成功加入購物車囉 :D');
-		$('#cart-item-counts').html('1');
+		popupNotice('系統通知','已經成功加入購物車囉 :D');
+		$('.go-checkout').addClass('active');
+		$('.cart-item-counts').html('1');
 	})
 	var $comments = null;
 	var $fbComments = null;

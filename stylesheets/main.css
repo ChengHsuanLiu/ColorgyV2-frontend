@@ -33,122 +33,135 @@ footer {
     footer .footer-inner .company-rights p a {
       color: #33C7AB; }
 
-/* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 44, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.drop-down .drop-down-list {
+  position: absolute;
+  background-color: #222;
+  display: none; }
+  /* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  .drop-down .drop-down-list li {
+    float: none;
+    border: 0 !important; }
+/* line 54, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.drop-down:hover .drop-down-list {
+  display: block; }
+
+/* line 59, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .wrapper {
   min-height: 100vh; }
 
-/* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 62, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .service-introduction {
   padding: 36px 0; }
-  /* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .service-introduction.odd {
     background-color: #E8EFEF; }
-  /* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 67, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .service-introduction .icon {
     text-align: center; }
     @media screen and (min-width: 992px) {
-      /* line 53, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 69, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .service-introduction .icon.odd {
         text-align: right !important; } }
     @media screen and (min-width: 992px) {
-      /* line 58, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 74, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .service-introduction .icon.even {
         text-align: left !important; } }
-    /* line 63, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 79, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .service-introduction .icon img {
       max-width: 250px; }
-  /* line 67, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 83, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .service-introduction .text-content {
     padding-top: 16px;
     padding-left: 24px;
     padding-right: 24px; }
     @media screen and (min-width: 992px) {
-      /* line 67, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 83, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .service-introduction .text-content {
         max-width: 450px;
         padding-left: 12px;
         padding-right: 12px; }
-        /* line 75, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+        /* line 91, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
         .service-introduction .text-content.even {
           margin-left: auto; } }
-    /* line 79, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 95, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .service-introduction .text-content h3 {
       color: black;
       font-size: 2em; }
-    /* line 83, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 99, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .service-introduction .text-content p {
       color: #717071; }
 
-/* line 88, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 104, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .row.service-introduction {
   margin-bottom: 0; }
 
-/* line 91, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 107, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .go-login {
   background: #00d0ad;
   padding-top: 80px;
   padding-bottom: 150px;
   text-align: center;
   margin-top: 36px; }
-  /* line 97, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 113, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .go-login h4 {
     color: #fff;
     margin-bottom: 40px;
     font-size: 1.6em; }
 
-/* line 103, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 119, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .list-icon {
   display: inline-block !important;
   margin-right: 5px; }
 
-/* line 108, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 124, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .notice {
   margin: 24px 0 48px 0; }
-  /* line 110, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 126, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .notice h5 {
     text-align: center; }
-  /* line 113, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 129, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .notice i {
     margin-right: 12px;
     font-size: 5em;
     display: inline-block; }
-/* line 120, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 136, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .payment .title {
   font-size: 1.6em;
   text-align: center; }
-/* line 124, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 140, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .payment .description {
   font-size: 1.2em;
   color: #F5A623;
   text-align: center;
   margin-bottom: 24px; }
-/* line 133, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 149, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .payment .payment-info {
   background-color: #f9f9f9;
   padding: 24px 36px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
-  /* line 142, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 158, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .payment .payment-info .inner .payment-notice {
     background-color: #F5A623;
     padding: 12px 24px;
     text-align: center;
     margin: 24px 0; }
-    /* line 147, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 163, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .order-complete .payment .payment-info .inner .payment-notice i {
       font-size: 1.8em; }
-    /* line 150, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 166, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .order-complete .payment .payment-info .inner .payment-notice p {
       color: #fff;
       font-size: 1em; }
-/* line 158, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 174, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .order-info {
   padding: 24px 24px; }
-  /* line 160, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 176, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .order-info .title {
     font-size: 1.6em;
     text-align: center; }
 
-/* line 166, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 182, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-not-send {
   background-color: #F5A623;
   color: #fff;
@@ -158,7 +171,7 @@ footer {
   width: 100px;
   margin: 0 auto; }
 
-/* line 175, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 191, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-send {
   background-color: #717071;
   color: #fff;
@@ -168,7 +181,7 @@ footer {
   width: 100px;
   margin: 0 auto; }
 
-/* line 184, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 200, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-got {
   background-color: #33C7AB;
   color: #fff;
@@ -178,7 +191,7 @@ footer {
   width: 100px;
   margin: 0 auto; }
 
-/* line 193, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 209, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-paid {
   background-color: #33C7AB;
   color: #fff;
@@ -188,12 +201,12 @@ footer {
   width: 100px;
   margin: 0 auto; }
 
-/* line 202, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 218, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .leader-name {
   display: inline-block;
   font-weight: 600; }
 
-/* line 206, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 222, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .leader-avatar {
   display: inline-block;
   border-radius: 1000px;
@@ -203,31 +216,31 @@ footer {
   vertical-align: middle;
   width: 35px; }
 
-/* line 217, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 233, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .orders .orders-inner .order-item {
   border: 1.5px solid gray;
   border-radius: 8px; }
-  /* line 220, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 236, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .order-title {
     background-color: #33C7AB;
     color: #fff;
     font-size: 1.2em;
     padding: 8px 12px; }
-  /* line 230, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 246, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .groups table thead tr {
     background-color: #BDBDBD; }
-    /* line 232, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 248, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .groups table thead tr th {
       padding: 8px 0;
       border-radius: 0; }
-  /* line 241, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 257, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .groups table tbody tr td a {
     color: #33C7AB;
     display: block; }
-  /* line 245, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 261, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .groups table tbody tr td p {
     margin: 0; }
-  /* line 252, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 268, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .groups .group-item {
     width: 25%;
     max-width: 150px;
@@ -237,7 +250,7 @@ footer {
     text-align: center;
     border: 1px solid #717071;
     border-radius: 8px; }
-    /* line 262, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 278, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .groups .group-item .leader-avatar {
       position: absolute;
       border-radius: 1000px;
@@ -245,34 +258,34 @@ footer {
       border: 2px solid;
       height: 150px;
       top: -150px; }
-      /* line 269, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 285, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .orders .orders-inner .order-item .groups .group-item .leader-avatar a {
         display: block; }
-        /* line 274, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+        /* line 290, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
         .orders .orders-inner .order-item .groups .group-item .leader-avatar a .group-situation {
           background-color: #33C7AB;
           color: #fff; }
-    /* line 280, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 296, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .groups .group-item .leader-name {
       background-color: #33C7AB;
       color: #fff; }
-    /* line 284, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 300, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .groups .group-item .lecturer-name {
       display: inline-block; }
-    /* line 287, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 303, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .groups .group-item .course-name {
       display: inline-block; }
-  /* line 295, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 311, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .order-info {
     display: none;
     padding: 12px 24px 48px 24px; }
-  /* line 299, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 315, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .orders .orders-inner .order-item .payment-counter {
     position: relative; }
-    /* line 301, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 317, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .payment-counter.trigger-active {
       border-bottom: 1px solid; }
-    /* line 304, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 320, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .orders .orders-inner .order-item .payment-counter .order-info-trigger {
       cursor: pointer;
       position: absolute;
@@ -287,22 +300,22 @@ footer {
       -ms-transform: translateX(-50%);
       -webkit-transform: translateX(-50%);
       -o-transform: translateX(-50%); }
-      /* line 319, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 335, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .orders .orders-inner .order-item .payment-counter .order-info-trigger:hover {
         background-color: #33C7AB !important; }
-      /* line 322, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 338, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .orders .orders-inner .order-item .payment-counter .order-info-trigger p {
         display: inline; }
 
 @media screen and (max-width: 992px) {
-  /* line 330, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 346, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
     position: fixed;
     top: 14px;
     right: 18px;
     z-index: 99999999999;
     display: none; }
-    /* line 338, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 354, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .login-mobile-btn a {
       padding: 6px 12px;
       background-color: #33C7AB;
@@ -311,32 +324,32 @@ footer {
       color: #fff;
       border-radius: 4px; } }
 @media screen and (min-width: 992px) {
-  /* line 330, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 346, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
     display: none; } }
 
 @media screen and (max-width: 992px) {
-  /* line 351, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 367, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .shopping-cart-mobile-btn {
     position: fixed;
     top: 10px;
     right: 18px;
     z-index: 99999999999; }
-    /* line 359, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 375, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .shopping-cart-mobile-btn a {
       display: block;
       font-size: 20px;
       color: black; }
-      /* line 363, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 379, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .shopping-cart-mobile-btn a i {
         color: black;
         font-size: 24px; } }
 @media screen and (min-width: 992px) {
-  /* line 351, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 367, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .shopping-cart-mobile-btn {
     display: none; } }
 
-/* line 373, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 389, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .garbage-can-delete {
   background-image: url("../images/garbage-can.png");
   background-repeat: no-repeat;
@@ -347,38 +360,38 @@ footer {
   background-color: transparent;
   border: 0 !important; }
 
-/* line 383, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 399, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .user-guide {
   padding: 36px 0; }
-  /* line 385, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 401, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .user-guide.even {
     background-color: #f7f7f7; }
-  /* line 391, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 407, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .user-guide .icon-title {
     font-size: 2em;
     text-align: center; }
-  /* line 395, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 411, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .user-guide .icon-description {
     text-align: center;
     font-size: 1.2em;
     color: #33C7AB; }
-  /* line 400, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 416, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .user-guide .info {
     padding: 12px 24px; }
-    /* line 403, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 419, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .user-guide .info h5 {
       font-size: 1.6em;
       color: #33C7AB; }
-    /* line 407, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 423, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .user-guide .info p {
       color: #717071; }
-  /* line 411, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 427, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .user-guide .steps {
     padding: 12px 24px; }
-    /* line 414, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 430, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .user-guide .steps .step {
       padding: 12px 0; }
-      /* line 416, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 432, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .user-guide .steps .step .step-title {
         font-size: 1.2em;
         background-color: #3B3A3B;
@@ -387,124 +400,124 @@ footer {
         max-width: 200px;
         text-align: center;
         padding: 8px 0; }
-      /* line 425, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 441, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .user-guide .steps .step .step-description {
         font-size: 1.1em;
         color: #717071;
         padding: 0px 16px 24px 16px;
         letter-spacing: 1px; }
 
-/* line 434, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 450, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .pin-menu.fixed-menu {
   position: fixed;
   top: 120px; }
 
-/* line 439, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 455, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .table-of-contents a {
   height: 1.8em;
   line-height: 1.8em;
   font-size: 1.4em; }
-  /* line 444, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 460, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .table-of-contents a.active {
     border-left: 2px solid #33C7AB; }
-  /* line 447, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 463, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .table-of-contents a:hover {
     border-left: 1px solid #33C7AB; }
 
-/* line 453, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 469, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .supermarket-payment-info-item a {
   display: block;
   text-align: center; }
-  /* line 456, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 472, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .supermarket-payment-info-item a img {
     max-width: 150px;
     display: block;
     margin: 0 auto; }
-  /* line 461, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 477, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .supermarket-payment-info-item a button {
     margin-top: 16px;
     margin: 16px auto; }
 
-/* line 467, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 483, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 button.look-btn {
   background: transparent;
   border: 0;
   font-size: 2em;
   color: black; }
 
-/* line 474, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 490, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .title {
   font-size: 2em; }
-/* line 477, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 493, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-pic {
   width: 30px;
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 483, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 499, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-name {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 488, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 504, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-author {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 493, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 509, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-edition {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
 
-/* line 499, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 515, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-members {
   margin-top: 36px; }
-  /* line 502, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 518, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .group-show-members .title {
     font-size: 2em; }
 
-/* line 506, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 522, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .books-counter {
   margin-bottom: 24px; }
-  /* line 507, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 523, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .books-counter .total-left {
     color: #33C7AB;
     font-size: 1.6em; }
 
-/* line 513, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 529, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 #typeform-wrapper {
   z-index: 999999999999 !important;
   width: 100% !important; }
-  /* line 517, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 533, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   #typeform-wrapper > img {
     width: 40px !important;
     background-color: black !important;
     right: 12px !important; }
 
-/* line 523, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 539, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .issue-response-btn {
   position: fixed;
   left: 12px;
   bottom: 12px;
   background-color: #33c7ab;
   border-radius: 8px; }
-  /* line 530, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 546, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .issue-response-btn a {
     color: #fff; }
 
-/* line 535, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 551, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .step {
   background-color: #fff;
   padding: 36px 12px; }
-  /* line 538, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 554, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .step .title {
     font-size: 1.6em;
     text-align: center; }
-  /* line 542, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 558, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .step .inner {
     padding: 12px 24px; }
-/* line 546, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 562, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step {
   width: 100%;
   height: 100%;
@@ -519,55 +532,55 @@ button.look-btn {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s; }
-  /* line 558, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 574, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step.active {
     opacity: 1;
     visibility: visible; }
-/* line 563, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 579, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step1 {
   z-index: 3; }
-/* line 566, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 582, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step2 {
   z-index: 2; }
-  /* line 568, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 584, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step2 .lecturer-search-results {
     height: 300px;
     overflow-y: auto;
     border: 1px solid #f0f0f0; }
-    /* line 573, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 589, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item {
       padding: 12px 24px;
       cursor: pointer; }
-      /* line 577, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 593, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item:hover {
         background-color: #33C7AB !important;
         color: #fff; }
-      /* line 582, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 598, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item:nth-child(2n-1) {
         background-color: #eee; }
-/* line 588, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 604, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step3 {
   z-index: 1; }
-  /* line 590, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 606, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .courses-results {
     height: 300px;
     overflow-y: auto;
     padding: 0; }
-    /* line 595, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 611, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .courses-results .course-option {
       padding: 16px 12px;
       text-align: center;
       background-color: #3B3A3B;
       color: #fff;
       cursor: pointer; }
-      /* line 602, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 618, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .courses-results .course-option:hover {
         opacity: 0.8; }
-      /* line 606, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 622, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .courses-results .course-option.active {
         background-color: #fff !important;
         color: #3B3A3B !important; }
-  /* line 612, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 628, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .course-book-confirm-option {
     background-color: #fff;
     opacity: 0;
@@ -581,55 +594,55 @@ button.look-btn {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     -moz-transition: all 0.3s; }
-    /* line 622, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 638, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option.active {
       opacity: 1;
       visibility: visible; }
-    /* line 628, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 644, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-img {
       width: 50%;
       float: left;
       text-align: center; }
-      /* line 632, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 648, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-img img {
         max-width: 100px;
         width: 100%; }
-    /* line 637, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 653, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-info-inner {
       display: inline-block;
       vertical-align: middle;
       width: 50%; }
-    /* line 642, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 658, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .confirm {
       text-align: center;
       color: #26A69A;
       padding: 12px; }
-    /* line 649, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 665, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .change-book-search-field .books-search-results {
       height: 300px;
       overflow-y: auto;
       border: 1px solid #f0f0f0; }
-      /* line 655, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 671, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option .change-book-search-field .books-search-results .book-item .book-img {
         width: 60px; }
-  /* line 665, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 681, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .course-book-confirm-option-field {
     padding: 0; }
-    /* line 668, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 684, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option-field .title {
       background-color: #33C7AB;
       color: #fff;
       padding: 6px 0; }
-    /* line 673, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 689, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option-field .inner {
       padding: 0 !important; }
-      /* line 676, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 692, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option-field .inner .course-book-confirm-option {
         padding: 36px 24px; }
-  /* line 681, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 697, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .courses-select-options {
     padding: 0 !important; }
-    /* line 684, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 700, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .courses-select-options .title {
       background-color: #33C7AB;
       color: #fff;

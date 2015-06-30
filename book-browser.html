@@ -22,33 +22,9 @@
             <div class="top-bar">
                 <ul>
                     <li>
-                      <a href="/ColorgyV2-frontend/leader-group-index.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="你是已經開團的主揪或是班代嗎？這裏可以幫助你管理所有已跟團的同學的購書情況及聯絡方式！">
-                        <i class="mdi-social-mood list-icon"></i>
-                        主揪介面
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/ColorgyV2-frontend/upload-books.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="這裏可以協助我們核對課程與正確的書籍">
-                        <i class="mdi-file-file-upload list-icon"></i>
-                        我要上書！
-                      </a>
-                    </li>
-                    <li>
                       <a href="/ColorgyV2-frontend/QA.html">
                         <i class="mdi-action-info-outline list-icon"></i>
                         常見問題
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/ColorgyV2-frontend/user-guide.html">
-                        <i class="mdi-action-view-carousel list-icon"></i>
-                        使用流程
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/ColorgyV2-frontend/orders.html">
-                        <i class="mdi-action-receipt list-icon"></i>
-                        訂單查詢
                       </a>
                     </li>
                     <li class="go-checkout">
@@ -57,7 +33,44 @@
                         前往結帳 (<span class="cart-item-counts">0</span>)
                       </a>
                     </li>
-                    <li><a href="">Hi, 劉政軒 :D</a></li>
+                    <li class="drop-down">
+                      <a href="">Hi, 劉政軒 :D</a>
+                      <ul class="drop-down-list">
+                        <li>
+                          <a href="/ColorgyV2-frontend/orders.html">
+                            <i class="mdi-action-receipt list-icon"></i>
+                            訂單查詢
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/ColorgyV2-frontend/leader-group-index.html">
+                            <i class="mdi-social-mood list-icon"></i>
+                            主揪介面
+                          </a>
+                        </li>
+                        <li>
+                          <a href="/ColorgyV2-frontend/upload-books.html">
+                            <i class="mdi-file-file-upload list-icon"></i>
+                            我要上書
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a href="/ColorgyV2-frontend/user-guide.html">
+                            <i class="mdi-action-view-carousel list-icon"></i>
+                            使用流程
+                          </a>
+                        </li>
+                        <li style="display: none;">
+                          <a href="mobile.html">
+                            <i class="mdi-action-book list-icon"></i>
+                            建議書單
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">登出</a>
+                        </li>
+                      </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -81,12 +94,6 @@
               <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
                 <i class="mdi-social-group-add list-icon"></i>
                 即時跟團 (<span id="group-counter">0</span>)
-              </a>
-            </li>
-            <li>
-              <a href="mobile.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="針對您的系別推薦可能會用的到的書！">
-                <i class="mdi-action-book list-icon"></i>
-                建議書單
               </a>
             </li>
           </ul>
@@ -221,7 +228,13 @@
 </div>
 <div class="container-fluid" style="padding: 0;">
 	<div class="row">
-		<div class="col-md-12" style="padding: 0;">
+		<div class="content-strip primary">
+			<div class="content-strip-inner">
+				<h4 class="strip-title">書庫瀏覽！</h4>
+				<p class="strip-description">輸入關鍵字，老師名、課名、書名、作者去搜尋書籍吧！</p>
+			</div>
+		</div>
+		<div class="col-md-12" style="padding: 0; display:none;">
 			<div class="slideshow">
 				<div class="slideshow-inner">
 					<img src="images/slideshow3.jpg" />

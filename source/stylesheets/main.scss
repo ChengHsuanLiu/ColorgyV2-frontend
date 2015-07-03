@@ -1,3 +1,21 @@
+@import "materialize/core/prefixer";
+@import "materialize/core/mixins";
+@import "materialize/core/colors";
+@import "materialize/core/helpers";
+
+// Variables;
+@import "materialize/core/variables";
+
+// materialize/components
+@import "materialize/core/global";
+@import "materialize/core/icons-material-design";
+@import "materialize/core/grid";
+@import "materialize/core/preloader";
+@import "materialize/core/roboto";
+@import "materialize/core/typography";
+@import "materialize/core/waves";
+@import "materialize/core/materialbox";
+
 //-----------------
 //-----------------
 /*

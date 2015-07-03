@@ -13,7 +13,7 @@
 				<div class="book-show-box">
 					<div class="col m6 s12">
 						<div class="book-pic">
-							<%= image_tag ('book-sample1.jpg') %>
+							<%= image_tag ('book-sample1.jpg'), :class=>"materialboxed responsive-img" , width: '250' %>
 						</div>
 					</div>
 					<div class="col m6 s12">
@@ -154,6 +154,7 @@
 	}
 	$(document).ready(function() {
 	  resizeComments();
+	  $('.materialboxed').materialbox();
 
 	  $(window).resize(function() {
 	    resizeComments();

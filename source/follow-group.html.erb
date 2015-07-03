@@ -6,11 +6,13 @@
 				<p class="strip-description">看看你的同學揪了哪些團～看到自己的課，還不快跟！</p>
 			</div>
 		</div>
-		<div class="col m12">
+		<div class="col m12 s12">
 			<div class="search-field">
-				<div class="search-bar left">
-					<input type="text" name="search-bar" placeholder="搜尋書名、課名、老師名">
-					<input type="submit" value="Submit">
+				<div class="search-bar search-bar--center">
+					<form>
+						<input type="text" name="search-bar" placeholder="搜尋書名、課名、老師名">
+						<input type="submit" value="Submit">
+					</form>
 				</div>
 				<div class="clear" style="clear:both;"></div>
 			</div>
@@ -49,3 +51,23 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	$(window).scroll(function(){
+		if($(window).scrollTop() > ($('.content-strip').offset().top + $('.content-strip').outerHeight() - $('nav').outerHeight()) ){
+		  $('.search-field').css({
+		    'position':'fixed',
+		    'top': $('nav').outerHeight() + 'px',
+		    'width': '100%'
+		  });
+		  console.log('yes');
+		}else{
+		  $('.search-field').css({
+		    'position':'',
+		    'top' : '',
+		    'width' : ''
+		  });
+		  console.log('back');
+		}
+	})
+</script>

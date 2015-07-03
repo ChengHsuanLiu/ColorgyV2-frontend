@@ -1,31 +1,9 @@
-@import "normalize";
-@import "materialize";
-
-
-@import "foundations/colors";
-@import "foundations/typography";
-@import "foundations/base";
-
-
-@import "helpers/mixins";
-@import "helpers/functions";
-@import "helpers/animations";
-
-@import "components/buttons";
-@import "components/product-box";
-@import "components/search-bar";
-@import "components/popup-notification";
-@import "components/slideshow";
-@import "components/book-show";
-@import "components/content-strip";
-@import "components/follow-group-card";
-@import "components/rwd-table";
-@import "components/checkout-options-field";
-@import "components/slide-field";
-@import "components/groupon-field";
-@import "components/collapse-field-with-title";
-
-@import "partials/navbar";
-
-
+@import "materialize/materialize-all";
 @import "main";
+
+
+
+
+
+
+

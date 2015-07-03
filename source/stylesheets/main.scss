@@ -1,64 +1,30 @@
-@import "foundations/colors";
-@import "helpers/mixins";
-i{
-	vertical-align: middle;
-}
-nav .button-collapse i {
-  font-size: 2.7rem !important;
-  height: 56px !important;
-  line-height: 56px !important;
-}
-footer{
-	width: 100%;
-	min-height: 150px;
-	background-color: $darker-gray;
-	padding: 24px 12px;
-	text-align: center;
-	.footer-inner{
-		.footer-menu{
-			ul{
-				li{
-					display: inline-block;
-					margin: 8px 12px;
-					a{
-						color: #fff;
-						padding: 8px 12px;
-						&:hover{
-							color: #fff;
-						}
-					}
-				}
-			}
-		}
-		.company-rights{
-			p{
-				color: #fff;
-				a{
-					color: $green;
-				}
-			}
-		}
-	}
-}
-.drop-down {
-	.drop-down-list{
-		position: absolute;
-		background-color: #222;
-		display: none;
-		li{
-			float: none;
-			border: 0 !important;
-		}
-	}
-	&:hover{
-		.drop-down-list{
-			display: block;
-		}
-	}
-}
-.wrapper{
-	min-height: 100vh;
-}
+//-----------------
+//-----------------
+/*
+
+1. Landing Page
+2. 完成訂購
+3. 訂單狀態
+4. 主揪
+5. 手機版固定 Btn
+6. Pin Menu 側邊固定 menu
+7. 超商付款教學
+8. Type Form
+9. 上傳書籍
+10. Others
+
+
+*/
+//-----------------
+//-----------------
+
+
+
+
+// --------
+// 1. Landing Page
+// --------
+
 .service-introduction{
 	padding: 36px 0;
 	&.odd{
@@ -106,8 +72,8 @@ footer{
 }
 .go-login{
   background: rgb(0, 208, 173);
-  padding-top: 80px;
-  padding-bottom: 150px;
+  padding-top: 80px !important;
+  padding-bottom: 150px !important;
   text-align: center;
   margin-top: 36px;
   h4{
@@ -116,10 +82,15 @@ footer{
   	font-size: 1.6em;
   }
 }
-.list-icon{
-  display: inline-block !important;
-  margin-right: 5px;
-}
+
+// End
+
+
+
+// ---------
+// 2. 完成訂購
+// --------
+
 .order-complete{
 	.notice{
 		margin: 24px 0 48px 0;
@@ -179,10 +150,19 @@ footer{
 		}
 	}
 }
+
+// End
+
+
+
+// --------
+// 3. 訂單狀態
+// --------
+
 .situation-not-send{
 	background-color: $orange;
 	color: #fff;
-	border-radius: 8px;
+	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
 	width: 100px;
@@ -191,30 +171,37 @@ footer{
 .situation-has-send{
 	background-color: $dark-gray;
 	color: #fff;
-	border-radius: 8px;
+	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
 	width: 100px;
 	margin: 0 auto;
 }
 .situation-has-got{
-	background-color: $green;
+	background-color: $primary-color;
 	color: #fff;
-	border-radius: 8px;
+	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
 	width: 100px;
 	margin: 0 auto;
 }
 .situation-has-paid{
-	background-color: $green;
+	background-color: $primary-color;
 	color: #fff;
-	border-radius: 8px;
+	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
 	width: 100px;
 	margin: 0 auto;
 }
+
+// End
+
+// --------
+// 4. 主揪
+// --------
+
 .leader-name{
 	display: inline-block;
 	font-weight: 600;
@@ -228,121 +215,13 @@ footer{
 	vertical-align: middle;
 	width: 35px;
 }
-.orders{
-	.orders-inner{
-		.order-item{
-			border: 1.5px solid gray;
-			border-radius: 8px;
-			.order-title{
-				background-color: $green;
-				color: #fff;
-				font-size: 1.2em;
-				padding: 8px 12px;
-			}
-			.groups{
 
-				table{
-					thead{
-						tr{
-							background-color: #BDBDBD;
-							th{
-								padding: 8px 0;
-								border-radius: 0;
-							}
-						}
-					}
-					tbody{
-						tr{
-							td{
-								a{
-									color: $green;
-									display: block;
-								}
-								p{
-									margin: 0;
-								}
-							}
-						}
-					}
-				}
-				.group-item{
-					width: 25%;
-					max-width: 150px;
-					height: auto;
-					position: relative;
-					margin-top: 150px;
-					text-align: center;
-					border: 1px solid $dark-gray;
-					border-radius: 8px;
+// End
 
-					.leader-avatar{
-						position: absolute;
-						border-radius: 1000px;
-						overflow: hidden;
-						border: 2px solid;
-						height: 150px;
-						top: -150px;
-						a{
-							display: block;
-							img{
+// --------
+// 5. 手機版固定 Btn
+// --------
 
-							}
-							.group-situation{
-								background-color: $green;
-								color: #fff;
-							}
-						}
-					}
-					.leader-name{
-						background-color: $green;
-						color: #fff;
-					}
-					.lecturer-name{
-						display: inline-block;
-					}
-					.course-name{
-						display: inline-block;
-					}
-					.pickup-location{
-
-					}
-				}
-			}
-			.order-info{
-				display: none;
-				padding: 12px 24px 48px 24px;
-			}
-			.payment-counter{
-				position: relative;
-				&.trigger-active{
-					border-bottom: 1px solid;
-				}
-				.order-info-trigger{
-					cursor: pointer;
-					position: absolute;
-					background-color: $dark-gray;
-					padding: 8px 16px;
-					height: 44px;
-					border-radius: 0 0 8px 8px;
-					color: #fff;
-					left: 50%;
-					transform: translateX(-50%);
-					-moz-transform: translateX(-50%);
-					-ms-transform: translateX(-50%);
-					-webkit-transform: translateX(-50%);
-					-o-transform: translateX(-50%);
-
-					&:hover{
-						background-color: $green !important;
-					}
-					p{
-						display: inline;
-					}
-				}
-			}
-		}
-	}
-}
 .login-mobile-btn{
 	@media screen and (max-width: 992px){
 		position: fixed;
@@ -353,11 +232,11 @@ footer{
 
 		a{
 			padding: 6px 12px;
-			background-color: $green;
+			background-color: $primary-color;
 			display: block;
 			font-size: 12px;
 			color: #fff;
-			border-radius: 4px;
+			border-radius: $border-radius;
 		}
 	}
 	@media screen and (min-width: 992px){
@@ -367,18 +246,18 @@ footer{
 .shopping-cart-mobile-btn{
 	@media screen and (max-width: 992px){
 		position: fixed;
-		top: 10px;
+		top: 8px;
 		right: 18px;
 		z-index: 99999999999;
 
 
 		a{
 			display: block;
-			font-size: 20px;
-			color: black;
+			font-size: 24px;
+			color: $darker-gray;
 			i{
-				color: black;
-				font-size: 24px;
+				color: $darker-gray;
+				font-size: 24px !important;
 			}
 		}
 	}
@@ -386,71 +265,18 @@ footer{
 		display: none;
 	}
 }
-.garbage-can-delete{
-	background-image: image-url('garbage-can.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
-	width: 19px;
-	height: 24px;
-	background-color: transparent;
-	border: 0 !important;
-}
-.user-guide{
-	padding: 36px 0;
-	&.even{
-		background-color: rgb(247, 247, 247);
-	}
-	.icon{
 
-	}
-	.icon-title{
-		font-size: 2em;
-		text-align: center;
-	}
-	.icon-description{
-		text-align: center;
-		font-size: 1.2em;
-		color: $green;
-	}
-	.info{
-		padding: 12px 24px;
+// End
 
-		h5{
-			font-size: 1.6em;
-			color: $green;
-		}
-		p{
-			color: $dark-gray;
-		}
-	}
-	.steps{
-		padding: 12px 24px;
+// --------
+// 6. Pin Menu 側邊固定 menu
+// --------
 
-		.step{
-			padding: 12px 0;
-			.step-title{
-				font-size: 1.2em;
-				background-color: $darker-gray;
-				color: #fff;
-				border-radius: 24px;
-				max-width: 200px;
-				text-align: center;
-				padding: 8px 0;
-			}
-			.step-description{
-				font-size: 1.1em;
-				color: $dark-gray;
-				padding: 0px 16px 24px 16px;
-				letter-spacing: 1px;
-			}
-		}
-	}
-}
 .pin-menu.fixed-menu{
 	position: fixed;
 	top: 120px;
 }
+
 .table-of-contents{
 	a{
 		height: 1.8em;
@@ -458,13 +284,20 @@ footer{
 		font-size: 1.4em;
 
 		&.active{
-			border-left: 2px solid $green;
+			border-left: 2px solid $primary-color;
 		}
 		&:hover{
-			border-left: 1px solid $green;
+			border-left: 1px solid $primary-color;
 		}
 	}
 }
+
+// End
+
+// --------
+// 7. 超商付款教學
+// --------
+
 .supermarket-payment-info-item{
 	a{
 		display: block;
@@ -486,6 +319,11 @@ button.look-btn {
 	font-size: 2em;
 	color: black;
 }
+
+// --------
+// 8. 主揪介面 - 訂單
+// --------
+
 .group-show-book-info{
 	.title{
 		font-size: 2em;
@@ -521,11 +359,19 @@ button.look-btn {
 }
 .books-counter{
 	.total-left{
-		color: $green;
+		color: $primary-color;
 		font-size: 1.6em;
 	}
 	margin-bottom: 24px;
 }
+
+// End
+
+
+// --------
+// 9. Type Form
+// --------
+
 #typeform-wrapper{
 	z-index: 999999999999 !important;
 	width: 100% !important;
@@ -536,17 +382,15 @@ button.look-btn {
 		right: 12px !important;
 	}
 }
-.issue-response-btn{
-	position: fixed;
-	left: 12px;
-	bottom: 12px;
-	background-color: rgb(51, 199, 171);
-	border-radius: 8px;
 
-	a{
-		color: #fff;
-	}
-}
+
+// End
+
+
+// --------
+// 10. 上傳書籍
+// --------
+
 .upload-books{
 	.step{
 		background-color: #fff;
@@ -591,7 +435,7 @@ button.look-btn {
 				cursor: pointer;
 
 				&:hover{
-					background-color: $green !important;
+					background-color: $primary-color !important;
 					color: #fff;
 				}
 
@@ -682,7 +526,7 @@ button.look-btn {
 			padding: 0;
 
 			.title{
-				background-color: $green;
+				background-color: $primary-color;
 				color: #fff;
 				padding: 6px 0;
 			}
@@ -698,10 +542,28 @@ button.look-btn {
 			padding: 0 !important;
 
 			.title{
-				background-color: $green;
+				background-color: $primary-color;
 				color: #fff;
 				padding: 6px 0;
 			}
 		}
 	}
+}
+
+
+
+// --------
+// Others
+// --------
+
+
+i{
+	vertical-align: middle;
+}
+.wrapper{
+	min-height: 100vh;
+}
+.list-icon{
+  display: inline-block !important;
+  margin-right: 5px;
 }

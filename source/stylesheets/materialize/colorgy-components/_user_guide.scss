@@ -1,0 +1,56 @@
+
+// --------
+// 使用流程
+// --------
+
+.user-guide{
+	padding: 36px 0;
+	&.even{
+		background-color: rgb(247, 247, 247);
+	}
+	.icon{
+
+	}
+	.icon-title{
+		font-size: 2em;
+		text-align: center;
+	}
+	.icon-description{
+		text-align: center;
+		font-size: 1.2em;
+		color: $primary-color;
+	}
+	.info{
+		padding: 12px 24px;
+
+		h5{
+			font-size: 1.6em;
+			color: $primary-color;
+		}
+		p{
+			color: $dark-gray;
+		}
+	}
+	.steps{
+		padding: 12px 24px;
+
+		.step{
+			padding: 12px 0;
+			.step-title{
+				font-size: 1.2em;
+				background-color: $darker-gray;
+				color: #fff;
+				border-radius: $border-radius;
+				max-width: 200px;
+				text-align: center;
+				padding: 8px 0;
+			}
+			.step-description{
+				font-size: 1.1em;
+				color: $dark-gray;
+				padding: 0px 16px 24px 16px;
+				letter-spacing: 1px;
+			}
+		}
+	}
+}

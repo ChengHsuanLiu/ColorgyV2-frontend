@@ -12,7 +12,7 @@
 			<div class="groupon-field">
 				<div class="groupon-field-inner">
 					<div class="groupleader-form">
-						<span class="green-bg-title">揪團課程</span>
+						<span class="under-line-title">揪團課程</span>
 						<p>＃請搜尋並選擇您想要揪團的課程</p>
 						<form>
 							<div class="search-field" style="background-color: transparent; padding: 15px 0px !important;">
@@ -23,24 +23,23 @@
 							</div>
 						</form>
 						<div id="course-search-results" class="course-search-results">
-							<div class="course-item MicroelectronicCircuits">
+							<label class="course-item MicroelectronicCircuits" for="test3">
 								<div class="book-img">
 									<%= image_tag ('book-sample1.jpg') %>
 								</div>
 								<div class="course-info">
 									<span>電子學</span> / <span>彭盛裕 老師</span><br>
 									<span>書名: Microelectronic Circuits 5/e</span>
-									<span>isbn: 123456789</span>
 								</div>
 								<div class="course-item-checkbox">
-									<p>
-										<input type="checkbox" class="filled-in" id="filled-in-box" />
-										<label for="filled-in-box"></label>
-									</p>
+								    <p>
+								      <input class="with-gap" name="group1" type="radio" id="test3"  />
+								      <label for="test3">確認</label>
+								    </p>
 								</div>
-							</div>
+							</label>
 						</div>
-						<span class="green-bg-title">揪團細節</span>
+						<span class="under-line-title">揪團細節</span>
 						<p>＃請填寫開團的基本資料並送出</p>
 						<form>
 							<div class="input-field">
@@ -68,7 +67,7 @@
 							</div>
 						</form>
 							<a href="/ColorgyV2-frontend/groupon-confirm.html">
-								<button class="large-btn process-btn">發起揪團</button>
+								<button class="waves-effect waves-teal btn">發起揪團</button>
 							</a>
 					</div>
 				</div>

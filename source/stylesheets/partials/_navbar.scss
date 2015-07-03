@@ -47,10 +47,10 @@ nav{
 		.brand-logo{
 			max-width: 130px;
 			@media screen and (min-width: 992px){
-				padding: 8px 0;
+				padding: 16px 0;
 			}
 			@media screen and (max-width: 992px){
-				margin-top: -2px;
+				padding: 8px 0;
 			}
 		}
 		ul.main-nav{

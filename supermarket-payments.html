@@ -12,12 +12,14 @@
 
     <link href="stylesheets/application.css" rel="stylesheet" type="text/css" />
     <script src="javascripts/application.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
 
   <body>
     <div class="black-mask"></div>
     <div class="navbar-fixed">
-    <nav>
+    <nav class="colorgy-nav">
         <div class="top">
             <div class="top-bar">
                 <ul>
@@ -28,13 +30,13 @@
                     </li>
                     <li class="go-checkout">
                       <a href="/ColorgyV2-frontend/cart.html">
-                        <i class="mdi-action-shopping-cart list-icon"></i>
+                        <i class="material-icons list-icon">shopping_cart</i>
                         前往結帳 (<span class="cart-item-counts">0</span>)
                       </a>
                     </li>
-                    <li class="drop-down">
+                    <li class="nav-bar-drop-down">
                       <a href="">
-                        Hi, 劉政軒 :D
+                        Hi, 劉政軒 :D <i class="material-icons list-icon">expand_more</i>
 
                       </a>
                       <ul class="drop-down-list">
@@ -73,64 +75,54 @@
         </div>
         <div class="nav-wrapper">
           <a href="/ColorgyV2-frontend" class="brand-logo"><img src="images/colorgy-books-logo.png" /></a>
-          <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+          <a href="/" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">dehaze</i></a>
           <ul class="right hide-on-med-and-down main-nav">
             <li class="group-up">
               <a href="/ColorgyV2-frontend/groupon.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="主揪或是班代可以在這邊選擇課程&書籍開團讓同學們跟團喲！">
-                <i class="mdi-content-send list-icon"></i>
+                <i class="material-icons list-icon">send</i>
                 開始揪團
               </a>
             </li>
             <li>
               <a href="/ColorgyV2-frontend/book-browser.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
-                <i class="mdi-av-my-library-books list-icon"></i>
+                <i class="material-icons list-icon">view_list</i>
                 書庫瀏覽
               </a>
             </li>
             <li>
               <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
-                <i class="mdi-social-group-add list-icon"></i>
+                <i class="material-icons list-icon">group_add</i>
                 即時跟團 (<span id="group-counter">0</span>)
               </a>
             </li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
-            <li id="personal-menu"><div class="personal-avatar"><img src="images/avatar.jpg" /></div><a href="#personal-menu">個人工具列<i class="mdi-hardware-keyboard-arrow-up personal-menu-trigger" style="display: inline-block;"></i></a></li>
-            <ul class="personal-menu-collapse">
+            <li id="personal-menu"><div class="personal-avatar"><img src="images/avatar.jpg" /></div><a href="#personal-menu">個人工具列<i class="material-icons personal-menu-trigger" style="display: inline-block;">keyboard_arrow_down</i></a></li>
+            <ul class="personal-menu-collapse" style="display: none;">
                 <li>
                   <a href="/ColorgyV2-frontend/cart.html">
-                    <i class="mdi-action-shopping-cart list-icon"></i>
+                    <i class="material-icons list-icon">shopping_cart</i>
                     前往結帳 (<span class="cart-item-counts">0</span>)
                   </a>
                 </li>
                 <li>
                   <a href="/ColorgyV2-frontend/orders.html">
-                    <i class="mdi-action-receipt list-icon"></i>
                     訂單查詢
                   </a>
                 </li>
                 <li>
                   <a href="/ColorgyV2-frontend/leader-group-index.html">
-                    <i class="mdi-social-mood list-icon"></i>
                     主揪介面
                   </a>
                 </li>
                 <li>
                   <a href="/ColorgyV2-frontend/user-guide.html">
-                    <i class="mdi-action-view-carousel list-icon"></i>
                     使用流程
                   </a>
                 </li>
                 <li>
                   <a href="/ColorgyV2-frontend/QA.html">
-                    <i class="mdi-action-info-outline list-icon"></i>
                     常見問題
-                  </a>
-                </li>
-                <li>
-                  <a href="/ColorgyV2-frontend/upload-books.html">
-                    <i class="mdi-file-file-upload list-icon"></i>
-                    我要上書！
                   </a>
                 </li>
             </ul>
@@ -150,19 +142,17 @@
 </div>
 <div class="shopping-cart-mobile-btn">
   <a href="/ColorgyV2-frontend/cart.html">
-    <i class="mdi-action-shopping-cart"></i>
-    (<span class="cart-item-counts">0</span>)
-  </a>
+    <i class="material-icons list-icon">shopping_cart</i>(<span class="cart-item-counts">0</span>)</a>
 </div>
 <script>
   $(".button-collapse").sideNav();
   $('#personal-menu').click(function(){
     $('.personal-menu-collapse').slideToggle(500);
-    if($('.personal-menu-trigger').hasClass('mdi-hardware-keyboard-arrow-down')){
-      $('.personal-menu-trigger').removeClass('mdi-hardware-keyboard-arrow-down').addClass('mdi-hardware-keyboard-arrow-up');
+    if($('.personal-menu-trigger').html() == 'keyboard_arrow_down'){
+      $('.personal-menu-trigger').html('keyboard_arrow_up');
     }
     else{
-      $('.personal-menu-trigger').removeClass('mdi-hardware-keyboard-arrow-up').addClass('mdi-hardware-keyboard-arrow-down');
+      $('.personal-menu-trigger').html('keyboard_arrow_down');
     }
   })
 </script>
@@ -217,6 +207,17 @@
     <div class="issue-response-btn">
       <a class="typeform-share link" href="https://lucas51.typeform.com/to/ZO427w" data-mode="2" target="_blank"><button style="background-color: transparent;border: 0;font-size: 16px !important;"><i class="mdi-action-help"></i>有問題嗎？回報給我們！</button></a>
           <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    </div>
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+      <a class="btn-floating btn-large red">
+        <i class="material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">attach_file</i></a></li>
+      </ul>
     </div>
     <footer>
       <div class="footer-inner">

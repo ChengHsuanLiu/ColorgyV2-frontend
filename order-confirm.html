@@ -24,7 +24,7 @@
             <div class="top-bar">
                 <ul>
                     <li>
-                      <a href="/ColorgyV2-frontend/QA.html">
+                      <a href="/ColorgyV2-frontend/user-guide.html">
                         常見問題
                       </a>
                     </li>
@@ -80,19 +80,24 @@
             <li class="group-up">
               <a href="/ColorgyV2-frontend/groupon.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="主揪或是班代可以在這邊選擇課程&書籍開團讓同學們跟團喲！">
                 <i class="material-icons list-icon">send</i>
-                開始揪團
+                班代 / 助教開團
               </a>
             </li>
             <li>
               <a href="/ColorgyV2-frontend/book-browser.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="書籍總覽！可以利用課程、老師、isbn等關鍵字搜尋書籍！">
                 <i class="material-icons list-icon">view_list</i>
-                書庫瀏覽
+                我要找書
               </a>
             </li>
             <li>
               <a href="/ColorgyV2-frontend/follow-group.html" class="tooltipped" data-position="bottom" data-delay="0" data-tooltip="所有團購總覽！同學們可以從這邊找到已開的團！">
                 <i class="material-icons list-icon">group_add</i>
                 即時跟團 (<span id="group-counter">0</span>)
+              </a>
+            </li>
+            <li class="nav-bar-drop-down">
+              <a href="#">
+                <i class="material-icons list-icon">more_vert</i>
               </a>
             </li>
           </ul>
@@ -117,11 +122,6 @@
                 </li>
                 <li>
                   <a href="/ColorgyV2-frontend/user-guide.html">
-                    使用流程
-                  </a>
-                </li>
-                <li>
-                  <a href="/ColorgyV2-frontend/QA.html">
                     常見問題
                   </a>
                 </li>
@@ -268,10 +268,7 @@
 </div>
 
     </div>
-    <div class="issue-response-btn">
-      <a class="typeform-share link" href="https://lucas51.typeform.com/to/ZO427w" data-mode="2" target="_blank"><button style="background-color: transparent;border: 0;font-size: 16px !important;"><i class="mdi-action-help"></i>有問題嗎？回報給我們！</button></a>
-          <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-    </div>
+    <!--
     <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
       <a class="btn-floating btn-large red">
         <i class="material-icons">mode_edit</i>
@@ -282,7 +279,7 @@
         <li><a class="btn-floating green" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">publish</i></a></li>
         <li><a class="btn-floating blue" style="transform: scaleY(0.4) scaleX(0.4) translateY(40px); opacity: 0;"><i class="material-icons">attach_file</i></a></li>
       </ul>
-    </div>
+    </div>-->
     <footer>
       <div class="footer-inner">
         <div class="footer-menu">
@@ -297,6 +294,13 @@
         </div>
       </div>
     </footer>
+    <div class="fixed-action-btn" style="bottom: 45px; left: 24px; display:none;">
+        <a class="btn-floating btn-large red typeform-share link" href="https://lucas51.typeform.com/to/ZO427w" data-mode="2" target="_blank">
+          <button style="background-color: transparent;border: 0;font-size: 2em !important;"><i class="help-btn"></i>
+          </button>
+        </a>
+        <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+    </div>
     <script src="javascripts/main.js" type="text/javascript"></script>
     <script>
       function responsiveTableHeightFix(){

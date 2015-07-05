@@ -11,18 +11,22 @@
 		<div class="col m12 s12">
 			<div class="row">
 				<div class="book-show-box">
-					<div class="col m6 s12">
+					<div class="col m4 s12">
 						<div class="book-pic">
 							<%= image_tag ('book-sample1.jpg'), :class=>"materialboxed responsive-img" , width: '250' %>
 						</div>
 					</div>
-					<div class="col m6 s12">
+					<div class="col m8 s12">
 						<div class="book-info">
 							<div class="book-info-inner">
 								<div class="book-name">
 									Microelectronic Circuits
 								</div>
 								<hr>
+			<div class="share-field">
+				<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
+				<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
+			</div>
 								<div class="book-from">
 									出版社：滄海書局
 								</div>
@@ -46,46 +50,38 @@
 			</div>
 		</div>
 		<div class="col m12 s12">
-			<p>＃請勾擇您要跟的團或是自行購買，確定數量之後按底下的 "放入購物車"。</p>
-			<p>＃您也可以把此頁面用FB分享或傳送的方式放到系板或是傳給朋友讓他們來跟團。<a href="#">(不知道怎麼做嗎？)</a></p>
-			<div class="share-field">
-				<span>＃FB分享：</span><div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
-				<span>＃FB傳送：</span><div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
-			</div>
+			<!--<p>＃請勾擇您要跟的團或是自行購買，確定數量之後按底下的 "放入購物車"。</p>
+			<p>＃您也可以把此頁面用FB分享或傳送的方式放到系板或是傳給朋友讓他們來跟團。<a href="#">(不知道怎麼做嗎？)</a></p>-->
 			<div class="group-field">
-				<div class="has-group-field">
-					<div class="title">
-						<h3><span>已開團</span><span>選擇跟團</span></h3>
+					<div class="under-line-title">
+						<span>選擇跟團</span>
 					</div>
 					<div class="groups-select-field">
 						<p>
-							<input type="checkbox" class="filled-in" id="checkbox1" />
+							<input class="with-gap" name="group" type="radio" id="checkbox1" />
 							<label for="checkbox1">
 							電子學/彭盛裕老師 (W3 W4 F7) --- 劉政軒揪團（1/30截止繳費)
 							</label>
 						</p>
+						<p>
+							<input class="with-gap" name="group" type="radio" id="checkbox2" disabled="disabled" />
+							<label for="checkbox2">
+							電子學 / 馬英九老師 (M6 M7 T4)
+							<a href="#">邀請班代開團</a>
+							<a href="#">開團成功通知我</a>
+							</label>
+						</p>
 					</div>
-				</div>
-				<div class="not-group-yet-field">
-					<div class="title">
-						<h3><span>未開團的課</span></h3>
-					</div>
-					<div class="groups-select-field">
-						<div class="not-group-yet-course-item">
-							<p>電子學 / 馬英九老師 (M6 M7 T4)</p>
-							<a href="#"><button class="btn">邀請班代開團</button></a>
-							<a href="#"><button class="btn">開團成功通知我</button></a>
-						</div>
-					</div>
-				</div>
 				<div class="buy-my-self-field">
-					<div class="title">
-						<h3><span>自行購買</span><span>供應商直接把書送到您手上</span></h3>
+					<div class="under-line-title">
+						<span>直接購買</span>
 					</div>
 					<div class="groups-select-field">
 						<p>
-							<input type="checkbox" class="filled-in" id="checkbox4" />
-							<label for="checkbox4">我不跟團 ( 未滿3本需負擔 150 元運費。 )</label>
+							<input class="with-gap" name="group" type="radio" id="checkbox4" />
+							<label for="checkbox4">
+							我不跟團 直接購買到指定配送地點 ( 未滿3本需負擔 150 元運費。 )
+							</label>
 						</p>
 					</div>
 				</div>
@@ -94,7 +90,7 @@
 						<span style="font-size: 20px;">數量：</span>
 						<input type="number" value="1" style="width:60px; font-size: 20px;">
 					</label>
-					<button id="add-to-cart" class="large-btn">放入購物書包</button>
+					<button id="add-to-cart" class="btn">放入購物書包</button>
 				</div>
 				<div class="social-comments">
 					<div class="fb-comments" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-numposts="5" data-colorscheme="light"></div>
@@ -124,11 +120,6 @@
 			$('.book-info').css({'height' : 'auto'});
 		}
 	})
-	$('input[type=checkbox]').change(function(){
-		if(this.checked){
-			$('input[type="checkbox"]').not(this).prop( "checked", false );
-		}
-	})
 	$('#add-to-cart').click(function(){
 		popupNotice('系統通知','已經成功加入購物車囉 :D');
 		$('.go-checkout').addClass('active');
@@ -155,7 +146,6 @@
 	$(document).ready(function() {
 	  resizeComments();
 	  $('.materialboxed').materialbox();
-
 	  $(window).resize(function() {
 	    resizeComments();
 	  });

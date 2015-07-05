@@ -178,8 +178,8 @@
 // --------
 
 .situation-not-send{
-	background-color: $orange;
-	color: #fff;
+	border: 1px solid $orange;
+	color: $orange;
 	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
@@ -187,8 +187,8 @@
 	margin: 0 auto;
 }
 .situation-has-send{
-	background-color: $dark-gray;
-	color: #fff;
+	border: 1px solid $dark-gray;
+	color: $dark-gray;
 	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
@@ -196,8 +196,8 @@
 	margin: 0 auto;
 }
 .situation-has-got{
-	background-color: $primary-color;
-	color: #fff;
+	border: 1px solid $primary-color;
+	color: $primary-color;
 	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
@@ -205,8 +205,8 @@
 	margin: 0 auto;
 }
 .situation-has-paid{
-	background-color: $primary-color;
-	color: #fff;
+	border: 1px solid $primary-color;
+	color: $primary-color;
 	border-radius: $border-radius;
 	padding: 3px 0;
 	text-align: center;
@@ -299,13 +299,14 @@
 	a{
 		height: 1.8em;
 		line-height: 1.8em;
-		font-size: 1.4em;
+		font-size: 1.2em;
 
 		&.active{
 			border-left: 2px solid $primary-color;
 		}
 		&:hover{
-			border-left: 1px solid $primary-color;
+			border-left: 2px solid $primary-color;
+			opacity: 0.5;
 		}
 	}
 }
@@ -577,6 +578,14 @@ button.look-btn {
 
 i{
 	vertical-align: middle;
+}
+.help-btn{
+  background-image: url("/images/help.png");
+  background-size: 80%;
+  background-position: 4px 2px;
+  width: 40px !important;
+  height: 40px;
+  background-repeat: no-repeat;
 }
 .wrapper{
 	min-height: 100vh;

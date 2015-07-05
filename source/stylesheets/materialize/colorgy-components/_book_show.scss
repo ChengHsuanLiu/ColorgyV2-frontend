@@ -4,16 +4,18 @@
 	.book-show-box{
 		.book-pic{
 			border-radius: $border-radius;
-			background-color: $dark-gray;
+			text-align: center;
+			max-width: 250px;
+			margin: 0 auto;
 		}
 		.book-info{
 			border-radius: $border-radius;
-			background-color: $dark-gray;
+
 			> .book-info-inner{
-				color: $products-info-font;
-				padding: 20px 20px;
+				color: $dark-gray;
+				padding: 16px 16px;
 				hr{
-					margin: 15px 0 !important;
+					margin: 16px 0 !important;
 				}
 				> .book-name{
 					font-size: $third-size;
@@ -39,7 +41,7 @@
 
 			}
 			> .book-price{
-				padding: 10px 20px;
+				padding: 8px 16px;
 				background-color: $black;
 				span{
 					display: block;
@@ -57,7 +59,7 @@
 		}
 	}
 	.group-field{
-		padding: 20px;
+		padding: 16px;
 		.title{
 			width: 100%;
 			h3{
@@ -68,7 +70,7 @@
 			span{
 				color: $font;
 				display: inline-block;
-				margin-left: 12px;
+				margin-left: 16px;
 				font-size: $normal-size;
 				a{
 					color: $primary-color;
@@ -76,7 +78,7 @@
 			}
 			span:nth-child(1){
 				background-color: $primary-color;
-				padding: 5px 20px;
+				padding: 8px 16px;
 				color: $white;
 				border-bottom: 0 !important;
 				margin-left: 0px;
@@ -93,19 +95,22 @@
 
 		}
 		.groups-select-field{
-			padding: 20px;
+			padding: 16px;
 			.not-group-yet-course-item{
 				p{
 					display: inline-block;
-					margin-right: 12px;
+					margin-right: 8px;
 				}
 				a{
 					display: inline-block;
-					margin: 0 12px;
+					margin: 0 8px;
 				}
 
 			}
 		}
 	}
 
+}
+.share-field{
+	padding: 0px 0px 16px 0;
 }

@@ -231,6 +231,7 @@ ul {
 
 a {
 	color: $link-color;
+  display: inline-block;
 	text-decoration: none;
 
   // Gets rid of tap active state
@@ -571,7 +572,6 @@ td, th{
   display: table-cell;
   text-align: left;
   vertical-align: middle;
-  border-radius: 2px;
 }
 
 // Responsive Table

@@ -9,7 +9,10 @@
 		background-color: rgb(247, 247, 247);
 	}
 	.icon{
-
+		text-align: center;
+		img{
+			max-width: 160px;
+		}
 	}
 	.icon-title{
 		font-size: 2em;
@@ -48,9 +51,13 @@
 			.step-description{
 				font-size: 1.1em;
 				color: $dark-gray;
-				padding: 0px 16px 24px 16px;
+				padding: 16px 16px 24px 16px;
 				letter-spacing: 1px;
 			}
 		}
 	}
+}
+
+.pin-menu-container{
+	min-height: 100px;
 }

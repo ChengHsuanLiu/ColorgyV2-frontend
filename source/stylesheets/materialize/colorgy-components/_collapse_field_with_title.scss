@@ -3,10 +3,10 @@
 
 	.title{
 		position: relative;
-		padding: 8px 8px 8px 24px;
-		font-size: $third-size;
+		padding: 8px 8px 8px 0;
+		font-size: $fourth-size;
 		cursor: pointer;
-		border-bottom: $primary-color solid 3px;
+		border-bottom: #eee solid 1px;
 		color: $darker-gray;
 
 		.trigger{

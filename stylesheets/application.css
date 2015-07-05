@@ -11136,9 +11136,10 @@ footer {
   /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_groupon_field.scss */
   .course-item .course-item-checkbox {
     display: inline-block;
-    margin-left: 24px; }
+    margin-left: 24px;
+    vertical-align: top; }
 
-/* line 39, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_groupon_field.scss */
+/* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_groupon_field.scss */
 .course-search-results {
   margin-bottom: 36px;
   border: 1px solid #e2e2e2;

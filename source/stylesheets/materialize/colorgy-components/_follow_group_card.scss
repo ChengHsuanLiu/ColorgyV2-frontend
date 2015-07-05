@@ -16,7 +16,9 @@
 		.book-info{
 			padding: 15px 0;
 			border-bottom: 2px solid $gray;
+
 			img{
+				vertical-align: middle;
 				width: 50px;
 			}
 			.book-name{
@@ -66,10 +68,6 @@
 	.follow-btn{
 		margin: 20px 0 40px 0;
 		text-align: center;
-
-		button{
-			width: 100%;
-		}
 	}
 	.edit-btn-field{
 		position: absolute;

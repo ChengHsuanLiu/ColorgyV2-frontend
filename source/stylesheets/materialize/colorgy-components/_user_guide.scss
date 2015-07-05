@@ -60,4 +60,10 @@
 
 .pin-menu-container{
 	min-height: 100px;
+
+	ul{
+		@media screen and (min-width: 876px) {
+			padding-left: 16px;
+		}
+	}
 }

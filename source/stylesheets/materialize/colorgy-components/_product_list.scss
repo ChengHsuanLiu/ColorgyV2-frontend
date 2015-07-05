@@ -7,6 +7,7 @@
 }
 .product-list-info{
 	> .name{
+		font-size: 1.2em;
 		color: $primary-color;
 		@media screen and (max-width: 600px){
 			margin: 0 0 8px 0;
@@ -30,10 +31,13 @@
 .product-list-price{
 	> .discount-price{
 		color: $darker-gray;
+		font-size: 1.6em;
+		margin-top: 0;
 	}
 	> .origin-price{
 		display: block;
 		margin: 8px 0;
 		color: $darker-gray;
+		font-size: 1em;
 	}
 }

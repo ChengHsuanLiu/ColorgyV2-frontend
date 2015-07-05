@@ -34,7 +34,7 @@ $('.collapse-field-with-title .title').click(function(){
 	$(this).siblings('.content').slideToggle(300);
 });
 
-function popupNotice(title,content){
+function popupNotice(title, content){
 	$('.black-mask').addClass('active');
 
 	$('<div class="popup-notification"><div class="popup-title">'

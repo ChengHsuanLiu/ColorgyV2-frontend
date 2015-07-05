@@ -9,9 +9,15 @@ html.lock, body.lock { overflow: hidden; height: 100% }
 	background-color: $white;
 	opacity: 1;
 	visibility: visible;
-	top: 120px;
 	left: 50%;
-    @include translateX(-50%);
+	@media screen and (max-width: 992px) {
+		@include translate(-50% , -50%);
+		top: 50%;
+	}
+	@media screen and (min-width: 992px) {
+	    @include translateX(-50%);
+		top: 120px;
+	}
     @include transition-all( 0.3s );
 
 	.popup-title{

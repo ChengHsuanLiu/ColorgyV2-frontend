@@ -2870,11 +2870,11 @@ ul {
   box-shadow: none !important; }
 
 /* line 270, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-extra-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 1.5px 2px 0 rgba(0, 0, 0, 0.12); }
 
 /* line 273, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
-.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-extra-large:hover, .btn-floating:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 8px 0 rgba(0, 0, 0, 0.15); }
 
 /* line 276, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
@@ -8296,7 +8296,7 @@ ul.personal-menu-collapse li {
   -webkit-justify-content: space-between;
   justify-content: space-between; }
   /* line 43, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_toast.scss */
-  .toast .btn, .toast .btn-large, .toast .btn-flat {
+  .toast .btn, .toast .btn-large, .toast .btn-extra-large, .toast .btn-flat {
     margin: 0;
     margin-left: 3rem; }
   /* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_toast.scss */
@@ -8403,39 +8403,39 @@ ul.personal-menu-collapse li {
   will-change: transform, opacity; }
 
 /* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-.btn, .btn-large, .btn-flat {
+.btn, .btn-large, .btn-extra-large, .btn-flat {
   border: none;
   border-radius: 2px;
   display: inline-block;
   height: auto;
   line-height: auto;
   outline: 0;
-  padding: 1rem 3.5rem;
+  padding: 0.4rem 2.4rem;
   text-transform: uppercase;
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent; }
 
 /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-.btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
+.btn.disabled, .disabled.btn-large, .disabled.btn-extra-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-extra-large:disabled, .btn-large:disabled, .btn-floating:disabled {
   background-color: #DFDFDF !important;
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
   /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-  .btn.disabled *, .disabled.btn-large *, .btn-floating.disabled *, .btn-large.disabled *, .btn:disabled *, .btn-large:disabled *, .btn-large:disabled *, .btn-floating:disabled * {
+  .btn.disabled *, .disabled.btn-large *, .disabled.btn-extra-large *, .btn-floating.disabled *, .btn-large.disabled *, .btn:disabled *, .btn-large:disabled *, .btn-extra-large:disabled *, .btn-large:disabled *, .btn-floating:disabled * {
     pointer-events: none; }
   /* line 26, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-  .btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
+  .btn.disabled:hover, .disabled.btn-large:hover, .disabled.btn-extra-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-extra-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
     background-color: #DFDFDF;
     color: #9F9F9F; }
 
 /* line 33, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+.btn i, .btn-large i, .btn-extra-large i, .btn-floating i, .btn-large i, .btn-flat i {
   font-size: 1.3rem;
   line-height: inherit; }
 
 /* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-.btn, .btn-large {
+.btn, .btn-large, .btn-extra-large {
   text-decoration: none;
   color: #fff;
   background-color: #33C7AB;
@@ -8448,7 +8448,7 @@ ul.personal-menu-collapse li {
   transition: 0.2s ease-out;
   cursor: pointer; }
   /* line 50, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
-  .btn:hover, .btn-large:hover {
+  .btn:hover, .btn-large:hover, .btn-extra-large:hover {
     background-color: #44cfb5; }
 
 /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
@@ -8526,13 +8526,19 @@ button.btn-floating {
 
 /* line 144, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
 .btn-large {
-  height: auto;
-  line-height: 56px; }
-  /* line 149, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
+  padding: 1rem 3.5rem; }
+  /* line 148, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
   .btn-large i {
     font-size: 1.6rem; }
 
 /* line 155, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
+.btn-extra-large {
+  padding: 1.2rem 6rem; }
+  /* line 159, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
+  .btn-extra-large i {
+    font-size: 1.6rem; }
+
+/* line 166, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_buttons.scss */
 .btn-block {
   display: block; }
 
@@ -8606,7 +8612,7 @@ button.btn-floating {
     height: 56px;
     width: 100%; }
     /* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_modal.scss */
-    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-flat {
+    .modal .modal-footer .btn, .modal .modal-footer .btn-large, .modal .modal-footer .btn-extra-large, .modal .modal-footer .btn-flat {
       float: right;
       margin: 6px 0; }
 
@@ -9581,7 +9587,7 @@ select:disabled {
   .file-field input.file-path {
     width: 100%; }
   /* line 691, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/components/_form.scss */
-  .file-field .btn, .file-field .btn-large {
+  .file-field .btn, .file-field .btn-large, .file-field .btn-extra-large {
     float: left;
     height: 3rem;
     line-height: 3rem; }
@@ -11013,58 +11019,56 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     .follow-group-card .inner .book-info {
       padding: 15px 0;
       border-bottom: 2px solid #D8D8D8; }
-      /* line 19, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 20, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .book-info img {
+        vertical-align: middle;
         width: 50px; }
-      /* line 22, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 24, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .book-info .book-name {
         color: #717071;
         display: inline-block;
         margin: 15px 0 0 0; }
-    /* line 28, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+    /* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
     .follow-group-card .inner .book-price {
       margin: 15px 0;
       text-align: right; }
-      /* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .book-price .dsic-price {
         color: #33C7AB; }
-      /* line 35, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 37, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .book-price .origin-price {
         color: #000000; }
-    /* line 39, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+    /* line 41, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
     .follow-group-card .inner .group-leader {
       background-color: #33C7AB;
       margin: 0 -20px;
       padding: 5px 20px;
       text-align: center; }
-      /* line 44, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .group-leader img {
         width: 50px;
         border-radius: 100px;
         border: 2px solid #D8D8D8;
         vertical-align: middle; }
-      /* line 50, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 52, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .group-leader .group-leader-name {
         color: #FFF;
         font-size: 1.4em;
         margin: 0 15px;
         display: inline-block; }
-    /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+    /* line 59, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
     .follow-group-card .inner .gorup-info {
       color: #717071; }
-      /* line 59, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+      /* line 61, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
       .follow-group-card .inner .gorup-info p {
         margin-top: 20px;
         margin-bottom: 0;
         text-align: center; }
-  /* line 66, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+  /* line 68, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
   .follow-group-card .follow-btn {
     margin: 20px 0 40px 0;
     text-align: center; }
-    /* line 70, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
-    .follow-group-card .follow-btn button {
-      width: 100%; }
-  /* line 74, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
+  /* line 72, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
   .follow-group-card .edit-btn-field {
     position: absolute;
     top: 12px;
@@ -11261,36 +11265,48 @@ html.lock, body.lock {
   background-color: #FFF;
   opacity: 1;
   visibility: visible;
-  top: 120px;
   left: 50%;
-  transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s; }
-  /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  @media screen and (max-width: 992px) {
+    /* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+    .popup-notification {
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      top: 50%; } }
+  @media screen and (min-width: 992px) {
+    /* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+    .popup-notification {
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      top: 120px; } }
+  /* line 23, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification .popup-title {
     background-color: #717071;
     color: #FFF;
     padding: 15px 30px;
     text-align: center;
     font-size: 2em; }
-  /* line 24, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification .popup-content {
     max-height: 300px;
     padding: 15px 30px;
     overflow: auto; }
-  /* line 29, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 35, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification .popup-footer {
     text-align: right;
     padding: 10px 30px;
     border-top: 1px solid #D8D8D8; }
-    /* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+    /* line 40, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
     .popup-notification .popup-footer .popup-btn {
       background-color: #000000;
       color: #F8E71C;
@@ -11300,11 +11316,11 @@ html.lock, body.lock {
       border-radius: 100px;
       border: 0;
       box-shadow: none; }
-  /* line 46, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 52, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification.teaching-steps .steps-icon {
     max-width: 100px;
     margin: 30px auto; }
-  /* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 57, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification.close {
     opacity: 0 !important;
     visibility: hidden !important;
@@ -11313,10 +11329,10 @@ html.lock, body.lock {
     -moz-transform: translateX(-100%);
     -o-transform: translateX(-100%);
     -ms-transform: translateX(-100%); }
-  /* line 56, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 62, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification.group-leader-notice {
     opacity: 0; }
-    /* line 58, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+    /* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
     .popup-notification.group-leader-notice:before {
       width: 80px;
       height: 80px;
@@ -11331,7 +11347,7 @@ html.lock, body.lock {
       background-size: 100%;
       background-position: center;
       z-index: -1; }
-  /* line 63, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
+  /* line 69, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_popup_notification.scss */
   .popup-notification.group-leader-notice.active {
     opacity: 1; }
 
@@ -11458,32 +11474,36 @@ html.lock, body.lock {
 
 /* line 9, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
 .product-list-info > .name {
+  font-size: 1.2em;
   color: #33C7AB; }
   @media screen and (max-width: 600px) {
     /* line 9, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
     .product-list-info > .name {
       margin: 0 0 8px 0; } }
-  /* line 15, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
+  /* line 16, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
   .product-list-info > .name > a {
     color: #33C7AB; }
-    /* line 17, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
+    /* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
     .product-list-info > .name > a:hover {
       color: #81dfcd; }
-/* line 23, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
+/* line 24, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
 .product-list-info > .details {
   display: block;
   margin: 8px 0;
   color: #3B3A3B;
   font-size: 1em; }
 
-/* line 31, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
+/* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
 .product-list-price > .discount-price {
-  color: #3B3A3B; }
-/* line 34, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
+  color: #3B3A3B;
+  font-size: 1.6em;
+  margin-top: 0; }
+/* line 37, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_product_list.scss */
 .product-list-price > .origin-price {
   display: block;
   margin: 8px 0;
-  color: #3B3A3B; }
+  color: #3B3A3B;
+  font-size: 1em; }
 
 /* line 2, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_rwd_table.scss */
 .responsive-table img {
@@ -11740,6 +11760,10 @@ html.lock, body.lock {
 /* line 61, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_user_guide.scss */
 .pin-menu-container {
   min-height: 100px; }
+  @media screen and (min-width: 876px) {
+    /* line 64, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_user_guide.scss */
+    .pin-menu-container ul {
+      padding-left: 16px; } }
 
 /*
 
@@ -11942,7 +11966,7 @@ html.lock, body.lock {
   /* line 264, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .shopping-cart-mobile-btn {
     position: fixed;
-    top: 8px;
+    top: 12px;
     right: 18px;
     z-index: 99999999999; }
     /* line 272, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */

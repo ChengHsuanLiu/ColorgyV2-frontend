@@ -166,12 +166,19 @@ input:-moz-placeholder { color: #717071 !important; }
   .content {
     color: $darker-gray;
     font-size: $fourth-size;
-    padding: 24px 0;
+    padding: 16px 0;
+
+    > p{
+      margin: 0;
+    }
   }
 }
 .order-confirm-submit{
   text-align: center;
   margin-top: 12px;
+  > a {
+    margin-top: 16px;
+  }
   button{
     padding-right: 100px !important;
     padding-left: 100px !important;
@@ -288,7 +295,7 @@ ul {
 
 .hoverable:hover {
   transition: box-shadow .25s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+  @extend .z-depth-1-half;
 }
 
 // Dividers

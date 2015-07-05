@@ -139,28 +139,43 @@ button.btn-floating {
     cursor: default;
   }
 }
+// Second-btn
 
-// Large button
-.btn-large {
+.btn-second{
   @extend .btn;
-  padding: 1rem 3.5rem;
-
+  background-color: $darker-gray;
   i {
     font-size: $button-large-icon-font-size;
   }
+  &:hover, &:focus {
+    background-color: lighten( $darker-gray, 5%);
+    @extend .z-depth-1-half;
+  }
+}
+//Highlight-btn{
+.btn-highlight{
+  @extend .btn;
+  background-color: $colorgy-books-highlight-color;
+  i {
+    font-size: $button-large-icon-font-size;
+  }
+  &:hover, &:focus {
+    background-color: lighten($colorgy-books-highlight-color, 5%);
+    @extend .z-depth-1-half;
+  }
+
+}
+
+// Large button
+.btn--large {
+  padding: 1rem 3.5rem;
 }
 
 // Extra large button
 
-.btn-extra-large{
-  @extend .btn;
+.btn--extralarge{
   padding: 1.2rem 6rem;
-
-  i {
-    font-size: $button-large-icon-font-size;
-  }
 }
-
 
 // Block button
 .btn-block {

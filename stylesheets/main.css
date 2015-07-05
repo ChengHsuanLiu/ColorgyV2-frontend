@@ -2327,7 +2327,8 @@ input:-moz-placeholder {
   color: #3B3A3B;
   display: block;
   border-bottom: 1px solid #ccc !important;
-  font-size: 1.6em; }
+  font-size: 1.6em;
+  margin-bottom: 16px; }
 
 /* line 111, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .submit-btn {
@@ -2385,31 +2386,37 @@ input:-moz-placeholder {
   .order-options-confirm .content {
     color: #3B3A3B;
     font-size: 1.2em;
-    padding: 24px 0; }
+    padding: 16px 0; }
+    /* line 171, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    .order-options-confirm .content > p {
+      margin: 0; }
 
-/* line 172, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 176, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .order-confirm-submit {
   text-align: center;
   margin-top: 12px; }
-  /* line 175, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 179, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  .order-confirm-submit > a {
+    margin-top: 16px; }
+  /* line 182, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .order-confirm-submit button {
     padding-right: 100px !important;
     padding-left: 100px !important; }
 
-/* line 180, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 187, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .process-action-card {
   background-color: #33C7AB;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
-  /* line 183, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 190, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .process-action-card .inner {
     padding: 24px 12px; }
-    /* line 185, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 192, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .process-action-card .inner .info {
       color: #FFF;
       font-size: 1.2em;
       margin-bottom: 12px; }
 
-/* line 192, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 199, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .inverse {
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
@@ -2417,30 +2424,30 @@ input:-moz-placeholder {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg); }
 
-/* line 199, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 206, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .clear-fix {
   clear: both; }
 
-/* line 211, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 218, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 html {
   box-sizing: border-box; }
 
-/* line 214, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 221, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 228, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 235, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 ul {
   list-style-type: none; }
 
-/* line 232, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 239, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 a {
   color: #039be5;
   display: inline-block;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 243, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 250, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .valign-wrapper {
   display: -webkit-box;
   display: -moz-box;
@@ -2451,97 +2458,96 @@ a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center; }
-  /* line 247, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 254, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .valign-wrapper .valign {
     display: block; }
 
-/* line 253, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 260, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 ul {
   padding: 0; }
-  /* line 255, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 262, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   ul li {
     list-style-type: none; }
 
-/* line 261, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 268, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .clearfix {
   clear: both; }
 
-/* line 267, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 274, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-0 {
   box-shadow: none !important; }
 
-/* line 270, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 277, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-1 {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 1.5px 2px 0 rgba(0, 0, 0, 0.12); }
 
-/* line 273, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
-.z-depth-1-half {
+/* line 280, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+.z-depth-1-half, .hoverable:hover {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.18), 0 3px 8px 0 rgba(0, 0, 0, 0.15); }
 
-/* line 276, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 283, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-2 {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19); }
 
-/* line 279, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 286, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 4px 16px 0 rgba(0, 0, 0, 0.19); }
 
-/* line 282, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 289, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-4 {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.22), 0 5px 20px 0 rgba(0, 0, 0, 0.21); }
 
-/* line 285, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 292, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .z-depth-5 {
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 24px 0 rgba(0, 0, 0, 0.22); }
 
-/* line 289, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
-.hoverable:hover {
-  transition: box-shadow .25s;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24), 0 4px 16px 0 rgba(0, 0, 0, 0.19); }
-
 /* line 296, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+.hoverable:hover {
+  transition: box-shadow .25s; }
+
+/* line 303, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .divider {
   height: 1px;
   overflow: hidden;
   background-color: #e0e0e0; }
 
-/* line 305, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 312, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #33C7AB; }
 
-/* line 313, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 320, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 i {
   line-height: inherit; }
-  /* line 316, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 323, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.left {
     float: left;
     margin-right: 15px; }
-  /* line 320, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 327, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.right {
     float: right;
     margin-left: 15px; }
-  /* line 324, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 331, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.tiny {
     font-size: 1rem; }
-  /* line 327, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 334, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.small {
     font-size: 2rem; }
-  /* line 330, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 337, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.medium {
     font-size: 4rem; }
-  /* line 333, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 340, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   i.large {
     font-size: 6rem; }
 
-/* line 339, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 346, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto; }
 
-/* line 350, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 357, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .pagination li {
   float: left;
   font-size: 1.2rem;
@@ -2549,47 +2555,47 @@ video.responsive-video {
   line-height: 30px;
   border-radius: 2px;
   text-align: center; }
-  /* line 358, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 365, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination li a {
     color: #444; }
-  /* line 360, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 367, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination li.active a {
     color: #fff; }
-  /* line 362, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 369, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination li.active {
     background-color: #33C7AB; }
-  /* line 364, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 371, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination li.disabled a {
     cursor: default;
     color: #999; }
-  /* line 369, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 376, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination li i {
     font-size: 2rem; }
-/* line 375, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 382, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .pagination li.pages ul li {
   display: inline-block;
   float: none; }
 
 @media only screen and (max-width: 992px) {
-  /* line 381, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 388, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .pagination {
     width: 100%; }
-    /* line 384, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 391, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .pagination li.prev,
     .pagination li.next {
       width: 10%; }
-    /* line 389, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 396, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .pagination li.pages {
       width: 80%;
       overflow: hidden;
       white-space: nowrap; } }
-/* line 399, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 406, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px; }
 
-/* line 405, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 412, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .parallax {
   position: absolute;
   top: 0;
@@ -2597,7 +2603,7 @@ video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1; }
-  /* line 413, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 420, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .parallax img {
     display: none;
     position: absolute;
@@ -2609,22 +2615,22 @@ video.responsive-video {
     transform: translate3d(0, 0, 0);
     transform: translateX(-50%); }
 
-/* line 427, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 434, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .pin-top, .pin-bottom {
   position: relative; }
 
-/* line 430, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 437, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .pinned {
   position: fixed !important; }
 
 /*********************
   Transition Classes
 **********************/
-/* line 438, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 445, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 ul.staggered-list li {
   opacity: 0; }
 
-/* line 442, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 449, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .fade-in {
   opacity: 0;
   transform-origin: 0 50%; }
@@ -2633,66 +2639,66 @@ ul.staggered-list li {
   Media Query Classes
 **********************/
 @media only screen and (max-width: 600px) {
-  /* line 451, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 458, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 456, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 463, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .hide-on-med-and-down {
     display: none !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 461, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 468, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .hide-on-med-and-up {
     display: none !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 466, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 473, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .hide-on-med-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 471, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 478, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .hide-on-large-only {
     display: none !important; } }
 
 @media only screen and (min-width: 993px) {
-  /* line 476, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 483, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .show-on-large {
     display: initial !important; } }
 
 @media only screen and (min-width: 600px) and (max-width: 992px) {
-  /* line 481, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 488, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .show-on-medium {
     display: initial !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 486, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 493, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .show-on-small {
     display: initial !important; } }
 
 @media only screen and (min-width: 601px) {
-  /* line 491, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 498, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .show-on-medium-and-up {
     display: initial !important; } }
 
 @media only screen and (max-width: 992px) {
-  /* line 496, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 503, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .show-on-medium-and-down {
     display: initial !important; } }
 
 @media only screen and (max-width: 600px) {
-  /* line 504, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 511, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .center-on-small-only {
     text-align: center; } }
 
-/* line 511, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 518, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   background-color: #33C7AB; }
-  /* line 516, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 523, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -2700,42 +2706,42 @@ footer.page-footer {
     color: rgba(255, 255, 255, 0.8);
     background-color: rgba(51, 51, 51, 0.08); }
 
-/* line 527, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 534, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 table, th, td {
   border: none; }
 
-/* line 531, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 538, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 table {
   width: 100%;
   display: table; }
-  /* line 535, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 542, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.bordered > thead > tr, table.bordered > tbody > tr {
     border-bottom: 1px solid #d0d0d0; }
-  /* line 541, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 548, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.striped > tbody > tr:nth-child(odd) {
     background-color: #f2f2f2; }
-  /* line 545, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 552, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.striped > tbody > tr > td {
     border-radius: 0px; }
-  /* line 550, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 557, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.hoverable > tbody > tr {
     -webkit-transition: background-color 0.25s ease;
     -moz-transition: background-color 0.25s ease;
     -o-transition: background-color 0.25s ease;
     -ms-transition: background-color 0.25s ease;
     transition: background-color 0.25s ease; }
-    /* line 552, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 559, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.hoverable > tbody > tr:hover {
       background-color: #f2f2f2; }
-  /* line 558, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 565, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.centered thead tr th, table.centered tbody tr td {
     text-align: center; }
 
-/* line 566, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 573, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 thead {
   border-bottom: 1px solid #d0d0d0; }
 
-/* line 570, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 577, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 td, th {
   padding: 15px 5px;
   display: table-cell;
@@ -2743,7 +2749,7 @@ td, th {
   vertical-align: middle; }
 
 @media only screen and (max-width: 992px) {
-  /* line 580, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 587, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -2751,87 +2757,87 @@ td, th {
     display: block;
     position: relative;
     /* sort out borders */ }
-    /* line 587, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 594, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table th,
     table.responsive-table td {
       margin: 0;
       vertical-align: top; }
-    /* line 593, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 600, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table th {
       text-align: left; }
-    /* line 594, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 601, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table thead {
       display: block;
       float: left; }
-      /* line 598, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 605, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       table.responsive-table thead tr {
         display: block;
         padding: 0 10px 0 0; }
-        /* line 602, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+        /* line 609, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
         table.responsive-table thead tr th::before {
           content: "\00a0"; }
-    /* line 607, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 614, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table tbody {
       display: block;
       width: auto;
       position: relative;
       overflow-x: auto;
       white-space: nowrap; }
-      /* line 614, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 621, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       table.responsive-table tbody tr {
         display: inline-block;
         vertical-align: top; }
-    /* line 619, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 626, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table th {
       display: block;
       text-align: right; }
-    /* line 623, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 630, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table td {
       display: block;
       min-height: 1.25em;
       text-align: left; }
-    /* line 628, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 635, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table tr {
       padding: 0 10px; }
-    /* line 631, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 638, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table thead {
       border: 0;
       border-right: 1px solid #d0d0d0; }
-    /* line 637, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 644, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table.bordered th {
       border-bottom: 0;
       border-left: 0; }
-    /* line 638, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 645, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table.bordered td {
       border-left: 0;
       border-right: 0;
       border-bottom: 0; }
-    /* line 639, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 646, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table.bordered tr {
       border: 0; }
-    /* line 640, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 647, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     table.responsive-table.bordered tbody tr {
       border-right: 1px solid #d0d0d0; } }
-/* line 649, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 656, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .collection {
   margin: 0.5rem 0 1rem 0;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   overflow: hidden;
   position: relative; }
-  /* line 656, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 663, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .collection .collection-item {
     background-color: #fff;
     line-height: 1.5rem;
     padding: 10px 20px;
     margin: 0;
     border-bottom: 1px solid #e0e0e0; }
-    /* line 664, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 671, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .collection .collection-item.avatar {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      /* line 669, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 676, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       .collection .collection-item.avatar .circle {
         position: absolute;
         width: 42px;
@@ -2840,32 +2846,32 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      /* line 678, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 685, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       .collection .collection-item.avatar i.circle {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
         background-color: #999;
         text-align: center; }
-      /* line 687, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 694, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       .collection .collection-item.avatar .title {
         font-size: 16px; }
-      /* line 691, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 698, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       .collection .collection-item.avatar p {
         margin: 0; }
-      /* line 695, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+      /* line 702, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
       .collection .collection-item.avatar .secondary-content {
         position: absolute;
         top: 16px;
         right: 16px; }
-    /* line 704, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 711, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .collection .collection-item:last-child {
       border-bottom: none; }
-    /* line 708, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 715, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .collection .collection-item.active {
       background-color: #26a69a;
       color: #eafaf9; }
-  /* line 713, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 720, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .collection a.collection-item {
     display: block;
     -webkit-transition: 0.25s;
@@ -2874,27 +2880,27 @@ td, th {
     -ms-transition: 0.25s;
     transition: 0.25s;
     color: #26a69a; }
-    /* line 718, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 725, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .collection a.collection-item:not(.active):hover {
       background-color: #ddd; }
-  /* line 725, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 732, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .collection.with-header .collection-header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 20px; }
-  /* line 730, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 737, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .collection.with-header .collection-item {
     padding-left: 30px; }
-  /* line 733, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 740, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .collection.with-header .collection-item.avatar {
     padding-left: 72px; }
 
-/* line 740, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 747, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .secondary-content {
   float: right;
   color: #26a69a; }
 
-/* line 747, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 754, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
@@ -2907,28 +2913,28 @@ span.badge {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 758, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 765, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   span.badge.new {
     font-weight: 300;
     font-size: 0.8rem;
     color: #fff;
     background-color: #26a69a;
     border-radius: 2px; }
-  /* line 765, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 772, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   span.badge.new:after {
     content: " new"; }
 
-/* line 771, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 778, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden; }
-  /* line 777, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 784, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .video-container.no-controls {
     padding-top: 0; }
-  /* line 781, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 788, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;
@@ -2936,7 +2942,7 @@ span.badge {
     width: 100%;
     height: 100%; }
 
-/* line 791, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 798, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .progress {
   position: relative;
   height: 4px;
@@ -2946,7 +2952,7 @@ span.badge {
   border-radius: 2px;
   margin: 0.5rem 0 1rem 0;
   overflow: hidden; }
-  /* line 800, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 807, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .progress .determinate {
     position: absolute;
     background-color: inherit;
@@ -2959,10 +2965,10 @@ span.badge {
     -o-transition: width 0.3s linear;
     -ms-transition: width 0.3s linear;
     transition: width 0.3s linear; }
-  /* line 809, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+  /* line 816, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
   .progress .indeterminate {
     background-color: #26a69a; }
-    /* line 811, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 818, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .progress .indeterminate:before {
       content: '';
       position: absolute;
@@ -2976,7 +2982,7 @@ span.badge {
       -ms-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
       -o-animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite;
       animation: indeterminate 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) infinite; }
-    /* line 823, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+    /* line 830, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
     .progress .indeterminate:after {
       content: '';
       position: absolute;
@@ -3059,31 +3065,31 @@ span.badge {
 /*******************
   Utility Classes
 *******************/
-/* line 872, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 879, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .hide {
   display: none !important; }
 
-/* line 877, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 884, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .left-align {
   text-align: left; }
 
-/* line 880, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 887, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .right-align {
   text-align: right; }
 
-/* line 883, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 890, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .center, .center-align {
   text-align: center; }
 
-/* line 887, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 894, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .left {
   float: left !important; }
 
-/* line 890, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 897, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .right {
   float: right !important; }
 
-/* line 895, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 902, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -3092,24 +3098,24 @@ span.badge {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 904, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 911, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .circle {
   border-radius: 50%; }
 
-/* line 908, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 915, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 914, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 921, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .truncate {
   display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
 
-/* line 921, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
+/* line 928, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
 .no-padding {
   padding: 0 !important; }
 
@@ -7460,7 +7466,7 @@ a.waves-effect .waves-ripple {
   padding: 36px 0; }
   /* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .service-introduction.odd {
-    background-color: #E8EFEF; }
+    background-color: #eee; }
   /* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .service-introduction .icon {
     text-align: center; }
@@ -7537,31 +7543,29 @@ a.waves-effect .waves-ripple {
   margin-bottom: 24px; }
 /* line 138, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .payment .payment-info {
-  background-color: #f9f9f9;
-  padding: 24px 36px;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
-  /* line 147, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  padding: 0 16px; }
+  /* line 145, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .payment .payment-info .inner .payment-notice {
     background-color: #F5A623;
     padding: 12px 24px;
     text-align: center;
     margin: 24px 0; }
-    /* line 152, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 150, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .order-complete .payment .payment-info .inner .payment-notice i {
       font-size: 1.8em; }
-    /* line 155, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 153, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .order-complete .payment .payment-info .inner .payment-notice p {
       color: #fff;
       font-size: 1em; }
-/* line 163, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 161, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .order-complete .order-info {
   padding: 24px 24px; }
-  /* line 165, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 163, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .order-complete .order-info .title {
     font-size: 1.6em;
     text-align: center; }
 
-/* line 180, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 178, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-not-send {
   border: 1px solid #F5A623;
   color: #F5A623;
@@ -7571,7 +7575,7 @@ a.waves-effect .waves-ripple {
   width: 100px;
   margin: 0 auto; }
 
-/* line 189, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 187, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-send {
   border: 1px solid #717071;
   color: #717071;
@@ -7581,7 +7585,7 @@ a.waves-effect .waves-ripple {
   width: 100px;
   margin: 0 auto; }
 
-/* line 198, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 196, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-got {
   border: 1px solid #33C7AB;
   color: #33C7AB;
@@ -7591,7 +7595,7 @@ a.waves-effect .waves-ripple {
   width: 100px;
   margin: 0 auto; }
 
-/* line 207, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 205, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .situation-has-paid {
   border: 1px solid #33C7AB;
   color: #33C7AB;
@@ -7601,12 +7605,12 @@ a.waves-effect .waves-ripple {
   width: 100px;
   margin: 0 auto; }
 
-/* line 223, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 221, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .leader-name {
   display: inline-block;
   font-weight: 600; }
 
-/* line 227, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 225, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .leader-avatar {
   display: inline-block;
   border-radius: 1000px;
@@ -7617,14 +7621,14 @@ a.waves-effect .waves-ripple {
   width: 35px; }
 
 @media screen and (max-width: 992px) {
-  /* line 243, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 241, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
     position: fixed;
     top: 14px;
     right: 18px;
     z-index: 99999999999;
     display: none; }
-    /* line 251, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 249, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .login-mobile-btn a {
       padding: 6px 12px;
       background-color: #33C7AB;
@@ -7633,132 +7637,132 @@ a.waves-effect .waves-ripple {
       color: #fff;
       border-radius: 8px; } }
 @media screen and (min-width: 992px) {
-  /* line 243, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 241, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
     display: none; } }
 
 @media screen and (max-width: 992px) {
-  /* line 264, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 262, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .shopping-cart-mobile-btn {
     position: fixed;
     top: 12px;
     right: 18px;
     z-index: 99999999999; }
-    /* line 272, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 270, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .shopping-cart-mobile-btn a {
       display: block;
       font-size: 24px;
       color: #3B3A3B; }
-      /* line 276, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 274, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .shopping-cart-mobile-btn a i {
         color: #3B3A3B;
         font-size: 24px !important; } }
 @media screen and (min-width: 992px) {
-  /* line 264, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 262, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .shopping-cart-mobile-btn {
     display: none; } }
 
-/* line 293, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 291, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .pin-menu.fixed-menu {
   position: fixed;
   top: 120px; }
 
-/* line 299, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 297, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .table-of-contents a {
   height: 1.8em;
   line-height: 1.8em;
   font-size: 1.2em; }
-  /* line 304, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 302, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .table-of-contents a.active {
     border-left: 2px solid #33C7AB; }
-  /* line 307, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 305, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .table-of-contents a:hover {
     border-left: 2px solid #33C7AB;
     opacity: 0.5; }
 
-/* line 321, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 319, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .supermarket-payment-info-item a {
   display: block;
   text-align: center; }
-  /* line 324, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 322, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .supermarket-payment-info-item a img {
     max-width: 150px;
     display: block;
     margin: 0 auto; }
-  /* line 329, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 327, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .supermarket-payment-info-item a button {
     margin-top: 16px;
     margin: 16px auto; }
 
-/* line 335, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 333, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 button.look-btn {
   background: transparent;
   border: 0;
   font-size: 2em;
   color: black; }
 
-/* line 347, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 345, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .title {
   font-size: 2em; }
-/* line 350, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 348, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-pic {
   width: 30px;
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 356, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 354, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-name {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 361, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 359, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-author {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
-/* line 366, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 364, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-book-info .book-edition {
   display: inline-block;
   font-size: 1.4em;
   margin: 0 12px; }
 
-/* line 372, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 370, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .group-show-members {
   margin-top: 36px; }
-  /* line 375, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 373, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .group-show-members .title {
     font-size: 2em; }
 
-/* line 379, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 377, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .books-counter {
   margin-bottom: 24px; }
-  /* line 380, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 378, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .books-counter .total-left {
     color: #33C7AB;
     font-size: 1.6em; }
 
-/* line 394, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 392, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 #typeform-wrapper {
   z-index: 999999999999 !important;
   width: 100% !important; }
-  /* line 398, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 396, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   #typeform-wrapper > img {
     width: 40px !important;
     background-color: black !important;
     right: 12px !important; }
 
-/* line 414, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 412, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .step {
   background-color: #fff;
   padding: 36px 12px; }
-  /* line 417, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 415, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .step .title {
     font-size: 1.6em;
     text-align: center; }
-  /* line 421, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 419, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .step .inner {
     padding: 12px 24px; }
-/* line 425, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 423, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step {
   width: 100%;
   height: 100%;
@@ -7773,55 +7777,55 @@ button.look-btn {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   -moz-transition: all 0.3s; }
-  /* line 437, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 435, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step.active {
     opacity: 1;
     visibility: visible; }
-/* line 442, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 440, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step1 {
   z-index: 3; }
-/* line 445, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 443, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step2 {
   z-index: 2; }
-  /* line 447, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 445, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step2 .lecturer-search-results {
     height: 300px;
     overflow-y: auto;
     border: 1px solid #f0f0f0; }
-    /* line 452, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 450, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item {
       padding: 12px 24px;
       cursor: pointer; }
-      /* line 456, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 454, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item:hover {
         background-color: #33C7AB !important;
         color: #fff; }
-      /* line 461, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 459, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step2 .lecturer-search-results .lecturer-item:nth-child(2n-1) {
         background-color: #eee; }
-/* line 467, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 465, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .upload-books .upload-books-step3 {
   z-index: 1; }
-  /* line 469, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 467, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .courses-results {
     height: 300px;
     overflow-y: auto;
     padding: 0; }
-    /* line 474, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 472, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .courses-results .course-option {
       padding: 16px 12px;
       text-align: center;
       background-color: #3B3A3B;
       color: #fff;
       cursor: pointer; }
-      /* line 481, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 479, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .courses-results .course-option:hover {
         opacity: 0.8; }
-      /* line 485, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 483, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .courses-results .course-option.active {
         background-color: #fff !important;
         color: #3B3A3B !important; }
-  /* line 491, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 489, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .course-book-confirm-option {
     background-color: #fff;
     opacity: 0;
@@ -7835,65 +7839,65 @@ button.look-btn {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     -moz-transition: all 0.3s; }
-    /* line 501, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 499, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option.active {
       opacity: 1;
       visibility: visible; }
-    /* line 507, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 505, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-img {
       width: 50%;
       float: left;
       text-align: center; }
-      /* line 511, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 509, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-img img {
         max-width: 100px;
         width: 100%; }
-    /* line 516, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 514, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .book-info-inner {
       display: inline-block;
       vertical-align: middle;
       width: 50%; }
-    /* line 521, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 519, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .book-info .confirm {
       text-align: center;
       color: #26A69A;
       padding: 12px; }
-    /* line 528, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 526, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option .change-book-search-field .books-search-results {
       height: 300px;
       overflow-y: auto;
       border: 1px solid #f0f0f0; }
-      /* line 534, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 532, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option .change-book-search-field .books-search-results .book-item .book-img {
         width: 60px; }
-  /* line 544, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 542, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .course-book-confirm-option-field {
     padding: 0; }
-    /* line 547, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 545, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option-field .title {
       background-color: #33C7AB;
       color: #fff;
       padding: 6px 0; }
-    /* line 552, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 550, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .course-book-confirm-option-field .inner {
       padding: 0 !important; }
-      /* line 555, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+      /* line 553, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
       .upload-books .upload-books-step3 .course-book-confirm-option-field .inner .course-book-confirm-option {
         padding: 36px 24px; }
-  /* line 560, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+  /* line 558, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .upload-books .upload-books-step3 .courses-select-options {
     padding: 0 !important; }
-    /* line 563, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+    /* line 561, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
     .upload-books .upload-books-step3 .courses-select-options .title {
       background-color: #33C7AB;
       color: #fff;
       padding: 6px 0; }
 
-/* line 579, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 577, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 i {
   vertical-align: middle; }
 
-/* line 582, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 580, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .help-btn {
   background-image: url("/images/help.png");
   background-size: 80%;
@@ -7902,11 +7906,11 @@ i {
   height: 40px;
   background-repeat: no-repeat; }
 
-/* line 590, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 588, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .wrapper {
   min-height: 100vh; }
 
-/* line 593, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 591, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .list-icon {
   display: inline-block !important;
   margin-right: 5px; }

@@ -17,6 +17,7 @@
   </head>
 
   <body>
+    <div id="toast-container" class="toast-top-center"></div>
     <div class="black-mask"></div>
     <div class="navbar-fixed">
     <nav class="colorgy-nav">
@@ -169,6 +170,13 @@
 	<div class="row row-inner-m book-show">
 		<div class="col m12 s12">
 			<div class="row">
+				<div class="message-bar-container">
+					<div class="message">
+						<div>
+
+						</div>
+					</div>
+				</div>
 				<div class="book-show-box">
 					<div class="col m4 s12">
 						<div class="book-pic">
@@ -182,10 +190,10 @@
 									Microelectronic Circuits
 								</div>
 								<hr>
-			<div class="share-field">
-				<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
-				<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
-			</div>
+								<div class="share-field">
+									<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
+									<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
+								</div>
 								<div class="book-from">
 									出版社：滄海書局
 								</div>
@@ -249,7 +257,7 @@
 						<span style="font-size: 20px;">數量：</span>
 						<input type="number" value="1" style="width:60px; font-size: 20px;">
 					</label>
-					<button id="add-to-cart" class="btn btn--large">放入購物書包</button>
+					<button id="add-to-cart" class="btn-highlight btn--large">放入購物書包</button>
 				</div>
 				<div class="social-comments">
 					<div class="fb-comments" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-numposts="5" data-colorscheme="light"></div>
@@ -280,7 +288,8 @@
 		}
 	})
 	$('#add-to-cart').click(function(){
-		popupNotice('系統通知','已經成功加入購物車囉 :D');
+		//popupNotice('系統通知','已經成功加入購物車囉 :D');
+		flash.success('已經成功加入購物車囉！ :D');
 		$('.go-checkout').addClass('active');
 		$('.cart-item-counts').html('1');
 	})

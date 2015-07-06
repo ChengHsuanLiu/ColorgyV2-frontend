@@ -1,3 +1,4 @@
+
 Materialize.toast = function (message, displayLength, className, completeCallback) {
     className = className || "";
 
@@ -82,7 +83,7 @@ Materialize.toast = function (message, displayLength, className, completeCallbac
         }
         else {
           // Insert as text;
-          toast.innerHTML = html; 
+          toast.innerHTML = html;
         }
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
@@ -134,3 +135,4 @@ Materialize.toast = function (message, displayLength, className, completeCallbac
         return toast;
     }
 };
+

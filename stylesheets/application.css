@@ -2877,7 +2877,7 @@ ul {
   box-shadow: none !important; }
 
 /* line 277, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
-.z-depth-1, nav, .card-panel, .card, .btn, .btn-second, .btn-highlight, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+.z-depth-1, nav, .card-panel, .card, .btn, .btn-second, .btn-highlight, .btn-floating, .dropdown-content, .collapsible, .side-nav, .message {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 1.5px 2px 0 rgba(0, 0, 0, 0.12); }
 
 /* line 280, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/core/_global.scss */
@@ -10743,13 +10743,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   max-width: 1300px; }
   /* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_book_show.scss */
   .book-show .book-show-box .book-pic {
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: center;
     max-width: 250px;
     margin: 0 auto; }
   /* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_book_show.scss */
   .book-show .book-show-box .book-info {
-    border-radius: 8px; }
+    border-radius: 4px; }
     /* line 14, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_book_show.scss */
     .book-show .book-show-box .book-info > .book-info-inner {
       color: #717071;
@@ -10821,7 +10821,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
         color: #FFF;
         border-bottom: 0 !important;
         margin-left: 0px;
-        border-radius: 8px; }
+        border-radius: 4px; }
     /* line 97, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_book_show.scss */
     .book-show .group-field .groups-select-field {
       padding: 0 16px 16px 16px; }
@@ -10843,7 +10843,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #3B3A3B;
   color: #FFF;
   padding: 15px 25px;
-  border-radius: 8px;
+  border-radius: 4px;
   border: 0;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -10863,7 +10863,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   background-color: #F5A623;
   color: #FFF;
   padding: 15px 50px;
-  border-radius: 8px;
+  border-radius: 4px;
   border: 0;
   margin-right: 24px;
   margin-left: 24px;
@@ -10997,24 +10997,26 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
 .content-strip {
-  padding: 15px 40px; }
-  /* line 5, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
+  padding: 24px 24px;
+  text-align: center; }
+  /* line 6, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
   .content-strip .content-strip-inner .strip-title {
     color: #FFF; }
-  /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
+  /* line 9, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
   .content-strip .content-strip-inner .strip-description {
     color: #FFF; }
-  /* line 12, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
+  /* line 13, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
   .content-strip.primary {
     background-color: #3B3A3B; }
-    /* line 14, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
+    /* line 15, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
     .content-strip.primary .strip-title {
       color: #FFF;
       display: inline-block; }
-    /* line 18, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
+    /* line 19, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_content_strip.scss */
     .content-strip.primary .strip-description {
       color: #FFF;
-      display: inline-block; }
+      display: inline-block;
+      margin: 0 0 0 16px; }
 
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
 .follow-group-card {
@@ -11023,7 +11025,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .follow-group-card .inner {
     padding: 20px;
     border: 2px solid #717071;
-    border-radius: 8px; }
+    border-radius: 4px; }
     /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_follow_group_card.scss */
     .follow-group-card .inner .prof-name {
       color: #717071;
@@ -11171,7 +11173,7 @@ footer {
   left: 12px;
   bottom: 12px;
   background-color: #33c7ab;
-  border-radius: 8px; }
+  border-radius: 4px; }
   /* line 10, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_issue_response_btn.scss */
   .issue-response-btn a {
     color: #fff; }
@@ -11179,7 +11181,7 @@ footer {
 /* line 8, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_orders.scss */
 .orders .orders-inner .order-item {
   border: 1.5px solid gray;
-  border-radius: 8px; }
+  border-radius: 4px; }
   /* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_orders.scss */
   .orders .orders-inner .order-item .order-title {
     background-color: #33C7AB;
@@ -11209,7 +11211,7 @@ footer {
     margin-top: 150px;
     text-align: center;
     border: 1px solid #717071;
-    border-radius: 8px; }
+    border-radius: 4px; }
     /* line 53, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_orders.scss */
     .orders .orders-inner .order-item .groups .group-item .leader-avatar {
       position: absolute;
@@ -11252,7 +11254,7 @@ footer {
       background-color: #717071;
       padding: 8px 16px;
       height: 44px;
-      border-radius: 0 0 8px 8px;
+      border-radius: 0 0 4px 4px;
       color: #fff;
       left: 50%;
       transform: translateX(-50%);
@@ -11278,7 +11280,7 @@ html.lock, body.lock {
   width: 100%;
   max-width: 800px;
   min-width: 250px;
-  border-radius: 8px;
+  border-radius: 4px;
   z-index: 1000;
   background-color: #FFF;
   opacity: 1;
@@ -11543,11 +11545,10 @@ html.lock, body.lock {
 /* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
 .search-field {
   background-color: #D8D8D8;
-  height: 64px;
-  padding: 12px 20px;
+  height: auto;
+  padding: 16px;
   text-align: right;
-  width: 100%;
-  z-index: 998; }
+  width: 100%; }
   /* line 9, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
   .search-field .search-bar {
     font-size: 1em;
@@ -11561,39 +11562,40 @@ html.lock, body.lock {
       width: 100%;
       box-sizing: inherit;
       height: 40px;
-      font-size: 1.2em;
+      font-size: 1em;
       line-height: 1.2em;
       padding-left: 50px !important;
+      margin-bottom: 0;
       border: solid 1px #D8D8D8 !important;
-      border-radius: 8px;
+      border-radius: 4px;
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2) !important; }
-    /* line 28, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
+    /* line 29, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
     .search-field .search-bar input[type="submit"] {
       display: none; }
-    /* line 31, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
+    /* line 32, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
     .search-field .search-bar:before {
       content: '';
-      width: 24px;
-      height: 24px;
+      width: 20px;
+      height: 20px;
       background-image: url("../images/search-icon.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: 100%;
       position: absolute;
-      top: 8px;
-      left: 8px; }
+      top: 10px;
+      left: 16px; }
 
-/* line 47, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
+/* line 48, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
 .search-bar--right {
   float: right;
   margin: 0 20px; }
 
-/* line 51, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
+/* line 52, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
 .search-bar--left {
   float: left;
   margin: 0 20px; }
 
-/* line 55, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
+/* line 56, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_search_bar.scss */
 .search-bar--center {
   float: none;
   margin: 0 auto; }
@@ -11765,7 +11767,7 @@ html.lock, body.lock {
         font-size: 1.2em;
         background-color: #3B3A3B;
         color: #fff;
-        border-radius: 8px;
+        border-radius: 4px;
         max-width: 200px;
         text-align: center;
         padding: 8px 0; }
@@ -12047,6 +12049,45 @@ button.toast-close-button {
   .toast.warning .toast-content {
     padding-left: 50px; }
 
+/* line 1, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+.message-bar-container {
+  margin: 8px 0 24px 0; }
+
+/* line 4, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+.message {
+  position: relative;
+  background-color: #33C7AB;
+  padding: 8px;
+  border-radius: 2px; }
+  /* line 11, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+  .message > .row {
+    margin-bottom: 0; }
+
+/* line 15, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+.message-icon {
+  background-image: url("../images/colorgy-icon.png");
+  background-position: center;
+  background-size: 100%;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto; }
+
+/* line 24, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+.message-content > p {
+  font-size: 1em;
+  color: #fff;
+  margin: 0; }
+
+/* line 30, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+.message-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer; }
+  /* line 36, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/materialize/colorgy-components/_message_bar.scss */
+  .message-close-btn > i {
+    color: #fff; }
+
 /*
 
 1. Landing Page
@@ -12170,7 +12211,7 @@ button.toast-close-button {
 .situation-not-send {
   border: 1px solid #F5A623;
   color: #F5A623;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -12180,7 +12221,7 @@ button.toast-close-button {
 .situation-has-send {
   border: 1px solid #717071;
   color: #717071;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -12190,7 +12231,7 @@ button.toast-close-button {
 .situation-has-got {
   border: 1px solid #33C7AB;
   color: #33C7AB;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -12200,7 +12241,7 @@ button.toast-close-button {
 .situation-has-paid {
   border: 1px solid #33C7AB;
   color: #33C7AB;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -12237,7 +12278,7 @@ button.toast-close-button {
       display: block;
       font-size: 12px;
       color: #fff;
-      border-radius: 8px; } }
+      border-radius: 4px; } }
 @media screen and (min-width: 992px) {
   /* line 242, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
@@ -12500,6 +12541,11 @@ i {
   vertical-align: middle; }
 
 /* line 581, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.list-icon {
+  display: inline-block !important;
+  margin-right: 5px; }
+
+/* line 585, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .help-btn {
   background-image: url("/images/help.png");
   background-size: 80%;
@@ -12508,11 +12554,6 @@ i {
   height: 40px;
   background-repeat: no-repeat; }
 
-/* line 589, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 593, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .wrapper {
   min-height: 100vh; }
-
-/* line 592, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
-.list-icon {
-  display: inline-block !important;
-  margin-right: 5px; }

@@ -7573,7 +7573,7 @@ a.waves-effect .waves-ripple {
 .situation-not-send {
   border: 1px solid #F5A623;
   color: #F5A623;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -7583,7 +7583,7 @@ a.waves-effect .waves-ripple {
 .situation-has-send {
   border: 1px solid #717071;
   color: #717071;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -7593,7 +7593,7 @@ a.waves-effect .waves-ripple {
 .situation-has-got {
   border: 1px solid #33C7AB;
   color: #33C7AB;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -7603,7 +7603,7 @@ a.waves-effect .waves-ripple {
 .situation-has-paid {
   border: 1px solid #33C7AB;
   color: #33C7AB;
-  border-radius: 8px;
+  border-radius: 4px;
   padding: 3px 0;
   text-align: center;
   width: 100px;
@@ -7640,7 +7640,7 @@ a.waves-effect .waves-ripple {
       display: block;
       font-size: 12px;
       color: #fff;
-      border-radius: 8px; } }
+      border-radius: 4px; } }
 @media screen and (min-width: 992px) {
   /* line 242, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
   .login-mobile-btn {
@@ -7903,6 +7903,11 @@ i {
   vertical-align: middle; }
 
 /* line 581, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+.list-icon {
+  display: inline-block !important;
+  margin-right: 5px; }
+
+/* line 585, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .help-btn {
   background-image: url("/images/help.png");
   background-size: 80%;
@@ -7911,11 +7916,6 @@ i {
   height: 40px;
   background-repeat: no-repeat; }
 
-/* line 589, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
+/* line 593, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
 .wrapper {
   min-height: 100vh; }
-
-/* line 592, /Users/Lucas/Desktop/Colorgy_v2/source/stylesheets/main.scss */
-.list-icon {
-  display: inline-block !important;
-  margin-right: 5px; }

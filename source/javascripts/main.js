@@ -1,3 +1,6 @@
+//= require ./colorgy/components/toast.js
+//= require ./colorgy/components/message_bar.js
+
 $(document).on('click', '.popup-btn', function(){
 	$(this).parent().parent('.popup-notification').addClass('close');
 })

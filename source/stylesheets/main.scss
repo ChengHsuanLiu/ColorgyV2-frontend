@@ -230,6 +230,7 @@
 	margin: 0 8px;
 	vertical-align: middle;
 	width: 35px;
+	height: 35px;
 }
 
 // End
@@ -577,6 +578,10 @@ button.look-btn {
 i{
 	vertical-align: middle;
 }
+.list-icon{
+  display: inline-block !important;
+  margin-right: 5px;
+}
 .help-btn{
   background-image: url("/images/help.png");
   background-size: 80%;
@@ -587,9 +592,5 @@ i{
 }
 .wrapper{
 	min-height: 100vh;
-}
-.list-icon{
-  display: inline-block !important;
-  margin-right: 5px;
 }
 

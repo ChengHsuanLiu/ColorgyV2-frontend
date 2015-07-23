@@ -52,3 +52,4 @@
 //= require materialize/date_picker/picker.js
 //= require materialize/date_picker/picker.date.js
 //= require materialize/character_counter.js
+

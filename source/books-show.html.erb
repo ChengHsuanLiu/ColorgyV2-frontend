@@ -10,6 +10,24 @@
 	<div class="row row-inner-m book-show">
 		<div class="col m12 s12">
 			<div class="row">
+				<div class="message-bar-container">
+					<div class="message">
+						<div class="message-close-btn"><i class="material-icons">close</i></div>
+						<div class="row">
+							<div class="col m2 s12">
+								<div class="message-icon">
+
+								</div>
+							</div>
+							<div class="col m10 s12">
+								<div class="message-content">
+									<p>請勾擇您要跟的團或是自行購買，確定數量之後按底下的 "放入購物車"。<br>
+									您也可以用FB分享或傳送轉貼至系版或朋友讓他們來跟團。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="book-show-box">
 					<div class="col m4 s12">
 						<div class="book-pic">
@@ -23,10 +41,10 @@
 									Microelectronic Circuits
 								</div>
 								<hr>
-			<div class="share-field">
-				<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
-				<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
-			</div>
+								<div class="share-field">
+									<div class="fb-share-button" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html" data-layout="button_count"></div>
+									<div class="fb-send" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend/books-show.html"></div>
+								</div>
 								<div class="book-from">
 									出版社：滄海書局
 								</div>
@@ -50,8 +68,6 @@
 			</div>
 		</div>
 		<div class="col m12 s12">
-			<!--<p>＃請勾擇您要跟的團或是自行購買，確定數量之後按底下的 "放入購物車"。</p>
-			<p>＃您也可以把此頁面用FB分享或傳送的方式放到系板或是傳給朋友讓他們來跟團。<a href="#">(不知道怎麼做嗎？)</a></p>-->
 			<div class="group-field">
 					<div class="under-line-title">
 						<span>選擇跟團</span>
@@ -90,7 +106,7 @@
 						<span style="font-size: 20px;">數量：</span>
 						<input type="number" value="1" style="width:60px; font-size: 20px;">
 					</label>
-					<button id="add-to-cart" class="btn btn--large">放入購物書包</button>
+					<button id="add-to-cart" class="btn-highlight btn--large">放入購物書包</button>
 				</div>
 				<div class="social-comments">
 					<div class="fb-comments" data-href="http://chenghsuanliu.github.io/ColorgyV2-frontend" data-numposts="5" data-colorscheme="light"></div>
@@ -121,7 +137,8 @@
 		}
 	})
 	$('#add-to-cart').click(function(){
-		popupNotice('系統通知','已經成功加入購物車囉 :D');
+		//popupNotice('系統通知','已經成功加入購物車囉 :D');
+		flash.success('已經成功加入購物車囉！ :D');
 		$('.go-checkout').addClass('active');
 		$('.cart-item-counts').html('1');
 	})
